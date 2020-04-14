@@ -1,0 +1,112 @@
+PODS:
+  - AFNetworking (4.0.0):
+    - AFNetworking/NSURLSession (= 4.0.0)
+    - AFNetworking/Reachability (= 4.0.0)
+    - AFNetworking/Security (= 4.0.0)
+    - AFNetworking/Serialization (= 4.0.0)
+    - AFNetworking/UIKit (= 4.0.0)
+  - AFNetworking/NSURLSession (4.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.0)
+  - AFNetworking/Security (4.0.0)
+  - AFNetworking/Serialization (4.0.0)
+  - AFNetworking/UIKit (4.0.0):
+    - AFNetworking/NSURLSession
+  - HBDNavigationBar (1.7.5)
+  - IQKeyboardManager (6.5.5)
+  - JJFontFit (1.0.1)
+  - JXCategoryView (1.5.5)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.1)
+  - NHHUDExtend (1.0.2):
+    - MBProgressHUD
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
+  - TYCyclePagerView (1.2.0)
+  - UMCCommon (2.1.4)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.8):
+    - UMCCommon
+  - UMCShare/Social/ReducedWeChat (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - WechatOpenSDK (1.8.5)
+  - WMZDropDownMenu (1.0.6)
+  - YYCache (1.0.4)
+  - YYModel (1.0.4)
+  - zhPopupController (2.0.0)
+  - ZLCollectionViewFlowLayout (1.3.0)
+  - ZLPhotoBrowser (3.1.4):
+    - SDWebImage
+
+DEPENDENCIES:
+  - AFNetworking
+  - HBDNavigationBar
+  - IQKeyboardManager
+  - JJFontFit
+  - JXCategoryView
+  - MJRefresh
+  - NHHUDExtend
+  - TYCyclePagerView
+  - UMCCommon
+  - UMCSecurityPlugins
+  - UMCShare/Social/ReducedWeChat
+  - WechatOpenSDK (< 1.8.6)
+  - WMZDropDownMenu
+  - YYCache
+  - YYModel
+  - zhPopupController
+  - ZLCollectionViewFlowLayout
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - HBDNavigationBar
+    - IQKeyboardManager
+    - JJFontFit
+    - JXCategoryView
+    - MBProgressHUD
+    - MJRefresh
+    - NHHUDExtend
+    - SDWebImage
+    - TYCyclePagerView
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+    - WechatOpenSDK
+    - WMZDropDownMenu
+    - YYCache
+    - YYModel
+    - zhPopupController
+    - ZLCollectionViewFlowLayout
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
+  HBDNavigationBar: e802e7abf53c835abe7325aca9e6cff73ebe931d
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JJFontFit: 1332e4bf5b5d55d335ec1d6dd585d7f4da21c348
+  JXCategoryView: 0293fcb356f10a5c2e679dac0a1a5f1899ee0c87
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  NHHUDExtend: 1fd914b12b93ac61c1cfdb04485c25db59f27627
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
+  WechatOpenSDK: 9b15110aba1d502456d8e83677357e6437f2e751
+  WMZDropDownMenu: 9fa426c0935a94fdd8152ace60956fac0abca812
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  zhPopupController: 600aee950c86442c5cca0b078d94c71fe0e1c51e
+  ZLCollectionViewFlowLayout: be1c74853577964cb806572807dd9b983945b825
+  ZLPhotoBrowser: 638189d99c51f78013c9a0369e385db4a4b9673f
+
+PODFILE CHECKSUM: ffe0e65c084584ef9527abfc65601daea403a1da
+
+COCOAPODS: 1.9.1

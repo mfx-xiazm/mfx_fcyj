@@ -1,0 +1,23 @@
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+target 'FC' do
+    pod "AFNetworking"
+    pod "ZLPhotoBrowser"
+    pod "MJRefresh"
+    pod "zhPopupController"
+    pod "IQKeyboardManager"
+    pod "NHHUDExtend"
+    pod "JJFontFit"
+    pod "YYCache"
+    pod "YYModel"
+    pod "JXCategoryView"
+    pod "TYCyclePagerView"
+    pod "ZLCollectionViewFlowLayout"
+    pod "WechatOpenSDK","<1.8.6"
+    pod 'HBDNavigationBar'
+    pod 'UMCCommon'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCShare/Social/ReducedWeChat'
+    pod 'WMZDropDownMenu'
+end
