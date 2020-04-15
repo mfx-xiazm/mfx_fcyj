@@ -37,7 +37,7 @@
         
         UILabel *nameLabel = [[UILabel alloc] init];
         nameLabel.textColor = [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1];
-        nameLabel.font = [UIFont systemFontOfSize:18];
+        nameLabel.font = [UIFont systemFontOfSize:13];
         
         nameLabel.textAlignment = NSTextAlignmentCenter;
         

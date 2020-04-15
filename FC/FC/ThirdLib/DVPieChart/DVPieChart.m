@@ -19,7 +19,7 @@
 [UIColor colorWithRed:16/255.0 green:149/255.0 blue:224/255.0 alpha:1]\
 ]
 
-#define CHART_MARGIN 50
+#define CHART_MARGIN 40
 
 @interface DVPieChart ()
 
@@ -136,7 +136,7 @@
     
     // 在中心添加label
     DVPieCenterView *centerView = [[DVPieCenterView alloc] init];
-    centerView.frame = CGRectMake(0, 0, 80, 80);
+    centerView.frame = CGRectMake(0, 0, 60, 60);
     
     CGRect frame = centerView.frame;
     frame.origin = CGPointMake(self.frame.size.width * 0.5 - frame.size.width * 0.5, self.frame.size.height * 0.5 - frame.size.width * 0.5);

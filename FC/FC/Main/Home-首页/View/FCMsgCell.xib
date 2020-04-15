@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="78" id="KGk-i7-Jjw" customClass="FCMsgCell">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="78"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="78"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIG-xN-Xvw">
+                        <rect key="frame" x="12" y="6" width="297" height="66"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="系统消息" translatesAutoresizingMaskIntoConstraints="NO" id="RBe-5z-hRQ">
+                                <rect key="frame" x="10" y="16" width="34" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="S9w-k5-Jwi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dq7-CK-TOU">
+                                <rect key="frame" x="54" y="15" width="58" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <color key="textColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这里是系统消息标题" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWu-Yb-Ied">
+                                <rect key="frame" x="54" y="36" width="233" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="RBe-5z-hRQ" firstAttribute="centerY" secondItem="ZIG-xN-Xvw" secondAttribute="centerY" id="4hw-tV-QaW"/>
+                            <constraint firstItem="dq7-CK-TOU" firstAttribute="leading" secondItem="RBe-5z-hRQ" secondAttribute="trailing" constant="10" id="Bev-Ih-aUT"/>
+                            <constraint firstItem="dq7-CK-TOU" firstAttribute="top" secondItem="ZIG-xN-Xvw" secondAttribute="top" constant="15" id="JDZ-wl-ppC"/>
+                            <constraint firstItem="RBe-5z-hRQ" firstAttribute="leading" secondItem="ZIG-xN-Xvw" secondAttribute="leading" constant="10" id="OyS-Dk-8na"/>
+                            <constraint firstAttribute="trailing" secondItem="UWu-Yb-Ied" secondAttribute="trailing" constant="10" id="aCG-Kn-miY"/>
+                            <constraint firstItem="UWu-Yb-Ied" firstAttribute="leading" secondItem="RBe-5z-hRQ" secondAttribute="trailing" constant="10" id="omB-Vj-hxR"/>
+                            <constraint firstAttribute="bottom" secondItem="UWu-Yb-Ied" secondAttribute="bottom" constant="15" id="sJR-GV-n77"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="boderColor">
+                                <color key="value" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.10000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ZIG-xN-Xvw" secondAttribute="bottom" constant="6" id="6bF-Tm-b6y"/>
+                    <constraint firstAttribute="trailing" secondItem="ZIG-xN-Xvw" secondAttribute="trailing" constant="12" id="hws-Yq-0x8"/>
+                    <constraint firstItem="ZIG-xN-Xvw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="qsZ-FO-hFB"/>
+                    <constraint firstItem="ZIG-xN-Xvw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="tG7-fP-kIc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="138.40579710144928" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="系统消息" width="34" height="34"/>
+    </resources>
+</document>
