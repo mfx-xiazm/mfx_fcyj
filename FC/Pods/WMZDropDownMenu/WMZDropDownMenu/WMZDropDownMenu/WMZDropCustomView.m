@@ -112,8 +112,8 @@
         self.highText.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, 8)];
         self.lowText.leftView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, 8)];
         self.lowText.delegate = self;
-        self.lowText.font = [UIFont systemFontOfSize:15.0];
-        self.highText.font = [UIFont systemFontOfSize:15.0];
+        self.lowText.font = [UIFont systemFontOfSize:13.0];
+        self.highText.font = [UIFont systemFontOfSize:13.0];
         self.highText.delegate = self;
         self.highText.textAlignment = NSTextAlignmentCenter;
         self.lowText.textAlignment = NSTextAlignmentCenter;
@@ -140,11 +140,11 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     self.lowText.frame = CGRectMake(0, 0, self.frame.size.width*0.45, self.frame.size.height);
-    self.lowText.layer.cornerRadius = 8;
+    self.lowText.layer.cornerRadius = self.frame.size.height/2.0;
     self.lineLa.frame = CGRectMake(0, 0, self.frame.size.width*0.1, self.frame.size.height);
     self.lineLa.center = self.contentView.center;
     self.highText.frame = CGRectMake(self.frame.size.width*0.55, 0, self.frame.size.width*0.45, self.frame.size.height);
-    self.highText.layer.cornerRadius = 8;
+    self.highText.layer.cornerRadius = self.frame.size.height/2.0;
 }
 - (UITextField *)lowText{
     if (!_lowText) {

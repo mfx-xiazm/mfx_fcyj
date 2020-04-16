@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="82" id="KGk-i7-Jjw" customClass="FCStoreClientCell">
+            <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vr4-sd-Yxt">
+                        <rect key="frame" x="0.0" y="0.0" width="341" height="55"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="分店" translatesAutoresizingMaskIntoConstraints="NO" id="ALu-fG-dkd">
+                                <rect key="frame" x="12" y="12.5" width="30" height="30"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="武昌店-刘三杨 15832652789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y60-2T-4No">
+                                <rect key="frame" x="52" y="10" width="190" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  未租  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFg-kl-4Vc">
+                                <rect key="frame" x="252" y="10.5" width="26.5" height="16"/>
+                                <color key="backgroundColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="xSZ-vK-YTs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所属销售：王五" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAW-3i-kLa">
+                                <rect key="frame" x="52" y="31.5" width="79" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jFg-kl-4Vc" firstAttribute="centerY" secondItem="Y60-2T-4No" secondAttribute="centerY" id="0bD-C6-3NK"/>
+                            <constraint firstAttribute="bottom" secondItem="CAW-3i-kLa" secondAttribute="bottom" constant="10" id="HfF-Ll-CS8"/>
+                            <constraint firstItem="CAW-3i-kLa" firstAttribute="leading" secondItem="ALu-fG-dkd" secondAttribute="trailing" constant="10" id="Wak-kt-xhR"/>
+                            <constraint firstItem="ALu-fG-dkd" firstAttribute="centerY" secondItem="Vr4-sd-Yxt" secondAttribute="centerY" id="ZxC-9C-nOO"/>
+                            <constraint firstItem="jFg-kl-4Vc" firstAttribute="leading" secondItem="Y60-2T-4No" secondAttribute="trailing" constant="10" id="gvg-p7-egE"/>
+                            <constraint firstItem="Y60-2T-4No" firstAttribute="top" secondItem="Vr4-sd-Yxt" secondAttribute="top" constant="10" id="j1G-AN-ZJ2"/>
+                            <constraint firstItem="Y60-2T-4No" firstAttribute="leading" secondItem="ALu-fG-dkd" secondAttribute="trailing" constant="10" id="qc1-g8-GRe"/>
+                            <constraint firstItem="ALu-fG-dkd" firstAttribute="leading" secondItem="Vr4-sd-Yxt" secondAttribute="leading" constant="12" id="wqt-DZ-GLz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Vr4-sd-Yxt" secondAttribute="trailing" id="Cyv-IX-5Ya"/>
+                    <constraint firstItem="Vr4-sd-Yxt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="T7W-iF-Llw"/>
+                    <constraint firstAttribute="bottom" secondItem="Vr4-sd-Yxt" secondAttribute="bottom" id="gq6-PI-dtO"/>
+                    <constraint firstItem="Vr4-sd-Yxt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xpP-1Y-McW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="152.89855072463769" y="127.23214285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="分店" width="30" height="30"/>
+    </resources>
+</document>

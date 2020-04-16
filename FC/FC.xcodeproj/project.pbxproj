@@ -94,6 +94,46 @@
 		49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA62444572D00ED3284 /* DVPieCenterView.m */; };
 		49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA72444572D00ED3284 /* DVFoodPieModel.m */; };
 		49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BAB2444572D00ED3284 /* DVPieChart.m */; };
+		49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A0B2447EF8800191C66 /* FCDropMenuCollectionHeader.m */; };
+		49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A0E2447F15B00191C66 /* FCDropMenuCollectionCell.m */; };
+		49812A132447F58400191C66 /* FCSearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A112447F58400191C66 /* FCSearchResultVC.m */; };
+		49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A122447F58400191C66 /* FCSearchResultVC.xib */; };
+		49812A192447F95600191C66 /* FCStoreHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A172447F95600191C66 /* FCStoreHouseVC.m */; };
+		49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A182447F95600191C66 /* FCStoreHouseVC.xib */; };
+		49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A1D2447F98A00191C66 /* FCStoreHouseCell.m */; };
+		49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A1E2447F98A00191C66 /* FCStoreHouseCell.xib */; };
+		49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A222447F9A200191C66 /* FCStoreHouseHeader.m */; };
+		49812A262447F9B000191C66 /* FCStoreHouseFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A252447F9B000191C66 /* FCStoreHouseFooter.m */; };
+		49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A272447F9BF00191C66 /* FCStoreHouseHeader.xib */; };
+		49812A2A2447F9C800191C66 /* FCStoreHouseFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A292447F9C800191C66 /* FCStoreHouseFooter.xib */; };
+		49812A2E2448288E00191C66 /* FCDropMenuRangeCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A2C2448288E00191C66 /* FCDropMenuRangeCollectionCell.m */; };
+		49812A2F2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A2D2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib */; };
+		49812A34244839EE00191C66 /* FCStoreClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A32244839EE00191C66 /* FCStoreClientVC.m */; };
+		49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A33244839EE00191C66 /* FCStoreClientVC.xib */; };
+		49812A3A24483A1A00191C66 /* FCStoreClientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A3824483A1A00191C66 /* FCStoreClientCell.m */; };
+		49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A3924483A1A00191C66 /* FCStoreClientCell.xib */; };
+		49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A3E244848AC00191C66 /* FCContractManageVC.m */; };
+		49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A3F244848AC00191C66 /* FCContractManageVC.xib */; };
+		49812A47244848F000191C66 /* FCContractManageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A45244848F000191C66 /* FCContractManageCell.m */; };
+		49812A48244848F000191C66 /* FCContractManageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A46244848F000191C66 /* FCContractManageCell.xib */; };
+		49812A51244854D500191C66 /* FCAddOutContractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A4F244854D500191C66 /* FCAddOutContractVC.m */; };
+		49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A50244854D500191C66 /* FCAddOutContractVC.xib */; };
+		49812A56244854E600191C66 /* FCAddInContractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A54244854E600191C66 /* FCAddInContractVC.m */; };
+		49812A57244854E600191C66 /* FCAddInContractVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A55244854E600191C66 /* FCAddInContractVC.xib */; };
+		49812A5B24485E9900191C66 /* FCContractTemplateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A5924485E9900191C66 /* FCContractTemplateVC.m */; };
+		49812A5C24485E9900191C66 /* FCContractTemplateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A5A24485E9900191C66 /* FCContractTemplateVC.xib */; };
+		49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A5E24485EBC00191C66 /* FCContractTemplateCell.m */; };
+		49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A5F24485EBC00191C66 /* FCContractTemplateCell.xib */; };
+		49812A652448619B00191C66 /* FCChooseHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A632448619B00191C66 /* FCChooseHouseVC.m */; };
+		49812A662448619B00191C66 /* FCChooseHouseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A642448619B00191C66 /* FCChooseHouseVC.xib */; };
+		49812A6A2448628D00191C66 /* FCChooseClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A682448628D00191C66 /* FCChooseClientVC.m */; };
+		49812A6B2448628D00191C66 /* FCChooseClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A692448628D00191C66 /* FCChooseClientVC.xib */; };
+		49812A6F244867E400191C66 /* FCFreeRuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A6D244867E400191C66 /* FCFreeRuleVC.m */; };
+		49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A6E244867E400191C66 /* FCFreeRuleVC.xib */; };
+		49812A742448690400191C66 /* FCFreeRuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A722448690400191C66 /* FCFreeRuleCell.m */; };
+		49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A732448690400191C66 /* FCFreeRuleCell.xib */; };
+		49812A7824486D7A00191C66 /* FCFreeRuleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A7724486D7A00191C66 /* FCFreeRuleHeader.m */; };
+		49812A7A24486D8500191C66 /* FCFreeRuleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49812A7924486D8500191C66 /* FCFreeRuleHeader.xib */; };
 		49A01FAA2440169300FDE60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A01FA92440169300FDE60E /* AppDelegate.m */; };
 		49A01FB52440169700FDE60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49A01FB42440169700FDE60E /* Assets.xcassets */; };
 		49A01FB82440169700FDE60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49A01FB62440169700FDE60E /* LaunchScreen.storyboard */; };
@@ -311,6 +351,67 @@
 		49608BA92444572D00ED3284 /* DVPieCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPieCenterView.h; sourceTree = "<group>"; };
 		49608BAA2444572D00ED3284 /* DVFoodPieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVFoodPieModel.h; sourceTree = "<group>"; };
 		49608BAB2444572D00ED3284 /* DVPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPieChart.m; sourceTree = "<group>"; };
+		49812A0A2447EF8800191C66 /* FCDropMenuCollectionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDropMenuCollectionHeader.h; sourceTree = "<group>"; };
+		49812A0B2447EF8800191C66 /* FCDropMenuCollectionHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDropMenuCollectionHeader.m; sourceTree = "<group>"; };
+		49812A0D2447F15B00191C66 /* FCDropMenuCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDropMenuCollectionCell.h; sourceTree = "<group>"; };
+		49812A0E2447F15B00191C66 /* FCDropMenuCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDropMenuCollectionCell.m; sourceTree = "<group>"; };
+		49812A102447F58400191C66 /* FCSearchResultVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSearchResultVC.h; sourceTree = "<group>"; };
+		49812A112447F58400191C66 /* FCSearchResultVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSearchResultVC.m; sourceTree = "<group>"; };
+		49812A122447F58400191C66 /* FCSearchResultVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSearchResultVC.xib; sourceTree = "<group>"; };
+		49812A162447F95600191C66 /* FCStoreHouseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreHouseVC.h; sourceTree = "<group>"; };
+		49812A172447F95600191C66 /* FCStoreHouseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreHouseVC.m; sourceTree = "<group>"; };
+		49812A182447F95600191C66 /* FCStoreHouseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreHouseVC.xib; sourceTree = "<group>"; };
+		49812A1C2447F98A00191C66 /* FCStoreHouseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreHouseCell.h; sourceTree = "<group>"; };
+		49812A1D2447F98A00191C66 /* FCStoreHouseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreHouseCell.m; sourceTree = "<group>"; };
+		49812A1E2447F98A00191C66 /* FCStoreHouseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreHouseCell.xib; sourceTree = "<group>"; };
+		49812A212447F9A200191C66 /* FCStoreHouseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreHouseHeader.h; sourceTree = "<group>"; };
+		49812A222447F9A200191C66 /* FCStoreHouseHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreHouseHeader.m; sourceTree = "<group>"; };
+		49812A242447F9B000191C66 /* FCStoreHouseFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreHouseFooter.h; sourceTree = "<group>"; };
+		49812A252447F9B000191C66 /* FCStoreHouseFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreHouseFooter.m; sourceTree = "<group>"; };
+		49812A272447F9BF00191C66 /* FCStoreHouseHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreHouseHeader.xib; sourceTree = "<group>"; };
+		49812A292447F9C800191C66 /* FCStoreHouseFooter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreHouseFooter.xib; sourceTree = "<group>"; };
+		49812A2B2448288E00191C66 /* FCDropMenuRangeCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDropMenuRangeCollectionCell.h; sourceTree = "<group>"; };
+		49812A2C2448288E00191C66 /* FCDropMenuRangeCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDropMenuRangeCollectionCell.m; sourceTree = "<group>"; };
+		49812A2D2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCDropMenuRangeCollectionCell.xib; sourceTree = "<group>"; };
+		49812A31244839EE00191C66 /* FCStoreClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreClientVC.h; sourceTree = "<group>"; };
+		49812A32244839EE00191C66 /* FCStoreClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreClientVC.m; sourceTree = "<group>"; };
+		49812A33244839EE00191C66 /* FCStoreClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreClientVC.xib; sourceTree = "<group>"; };
+		49812A3724483A1A00191C66 /* FCStoreClientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreClientCell.h; sourceTree = "<group>"; };
+		49812A3824483A1A00191C66 /* FCStoreClientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreClientCell.m; sourceTree = "<group>"; };
+		49812A3924483A1A00191C66 /* FCStoreClientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreClientCell.xib; sourceTree = "<group>"; };
+		49812A3D244848AC00191C66 /* FCContractManageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContractManageVC.h; sourceTree = "<group>"; };
+		49812A3E244848AC00191C66 /* FCContractManageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContractManageVC.m; sourceTree = "<group>"; };
+		49812A3F244848AC00191C66 /* FCContractManageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContractManageVC.xib; sourceTree = "<group>"; };
+		49812A44244848F000191C66 /* FCContractManageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContractManageCell.h; sourceTree = "<group>"; };
+		49812A45244848F000191C66 /* FCContractManageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContractManageCell.m; sourceTree = "<group>"; };
+		49812A46244848F000191C66 /* FCContractManageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContractManageCell.xib; sourceTree = "<group>"; };
+		49812A4E244854D500191C66 /* FCAddOutContractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddOutContractVC.h; sourceTree = "<group>"; };
+		49812A4F244854D500191C66 /* FCAddOutContractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddOutContractVC.m; sourceTree = "<group>"; };
+		49812A50244854D500191C66 /* FCAddOutContractVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddOutContractVC.xib; sourceTree = "<group>"; };
+		49812A53244854E600191C66 /* FCAddInContractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddInContractVC.h; sourceTree = "<group>"; };
+		49812A54244854E600191C66 /* FCAddInContractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddInContractVC.m; sourceTree = "<group>"; };
+		49812A55244854E600191C66 /* FCAddInContractVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddInContractVC.xib; sourceTree = "<group>"; };
+		49812A5824485E9900191C66 /* FCContractTemplateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContractTemplateVC.h; sourceTree = "<group>"; };
+		49812A5924485E9900191C66 /* FCContractTemplateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContractTemplateVC.m; sourceTree = "<group>"; };
+		49812A5A24485E9900191C66 /* FCContractTemplateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContractTemplateVC.xib; sourceTree = "<group>"; };
+		49812A5D24485EBC00191C66 /* FCContractTemplateCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContractTemplateCell.h; sourceTree = "<group>"; };
+		49812A5E24485EBC00191C66 /* FCContractTemplateCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContractTemplateCell.m; sourceTree = "<group>"; };
+		49812A5F24485EBC00191C66 /* FCContractTemplateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContractTemplateCell.xib; sourceTree = "<group>"; };
+		49812A622448619B00191C66 /* FCChooseHouseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChooseHouseVC.h; sourceTree = "<group>"; };
+		49812A632448619B00191C66 /* FCChooseHouseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChooseHouseVC.m; sourceTree = "<group>"; };
+		49812A642448619B00191C66 /* FCChooseHouseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChooseHouseVC.xib; sourceTree = "<group>"; };
+		49812A672448628D00191C66 /* FCChooseClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChooseClientVC.h; sourceTree = "<group>"; };
+		49812A682448628D00191C66 /* FCChooseClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChooseClientVC.m; sourceTree = "<group>"; };
+		49812A692448628D00191C66 /* FCChooseClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChooseClientVC.xib; sourceTree = "<group>"; };
+		49812A6C244867E400191C66 /* FCFreeRuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFreeRuleVC.h; sourceTree = "<group>"; };
+		49812A6D244867E400191C66 /* FCFreeRuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFreeRuleVC.m; sourceTree = "<group>"; };
+		49812A6E244867E400191C66 /* FCFreeRuleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFreeRuleVC.xib; sourceTree = "<group>"; };
+		49812A712448690400191C66 /* FCFreeRuleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFreeRuleCell.h; sourceTree = "<group>"; };
+		49812A722448690400191C66 /* FCFreeRuleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFreeRuleCell.m; sourceTree = "<group>"; };
+		49812A732448690400191C66 /* FCFreeRuleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFreeRuleCell.xib; sourceTree = "<group>"; };
+		49812A7624486D7A00191C66 /* FCFreeRuleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFreeRuleHeader.h; sourceTree = "<group>"; };
+		49812A7724486D7A00191C66 /* FCFreeRuleHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFreeRuleHeader.m; sourceTree = "<group>"; };
+		49812A7924486D8500191C66 /* FCFreeRuleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFreeRuleHeader.xib; sourceTree = "<group>"; };
 		49A01FA52440169300FDE60E /* 枫巢蚁家.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "枫巢蚁家.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A01FA82440169300FDE60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		49A01FA92440169300FDE60E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -709,6 +810,9 @@
 				49CD6B882446DE7700DD72DB /* 公告 */,
 				49CD6B992446E1CD00DD72DB /* 搜索 */,
 				49CD6BAB2446E9D900DD72DB /* 整租房源 */,
+				49812A152447F93200191C66 /* 储备房源 */,
+				49812A302448398C00191C66 /* 储备客源 */,
+				49812A3C2448487F00191C66 /* 合同管理 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -729,6 +833,9 @@
 				49CD6B8E2446DE9C00DD72DB /* 公告 */,
 				49CD6B9F2446E1E900DD72DB /* 搜索 */,
 				49CD6BB12446EA5400DD72DB /* 整租房源 */,
+				49812A1B2447F96200191C66 /* 储备房源 */,
+				49812A36244839FF00191C66 /* 储备客源 */,
+				49812A43244848C400191C66 /* 合同管理 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -997,6 +1104,99 @@
 			path = DVPieChart;
 			sourceTree = "<group>";
 		};
+		49812A152447F93200191C66 /* 储备房源 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A162447F95600191C66 /* FCStoreHouseVC.h */,
+				49812A172447F95600191C66 /* FCStoreHouseVC.m */,
+				49812A182447F95600191C66 /* FCStoreHouseVC.xib */,
+			);
+			name = "储备房源";
+			sourceTree = "<group>";
+		};
+		49812A1B2447F96200191C66 /* 储备房源 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A212447F9A200191C66 /* FCStoreHouseHeader.h */,
+				49812A222447F9A200191C66 /* FCStoreHouseHeader.m */,
+				49812A272447F9BF00191C66 /* FCStoreHouseHeader.xib */,
+				49812A1C2447F98A00191C66 /* FCStoreHouseCell.h */,
+				49812A1D2447F98A00191C66 /* FCStoreHouseCell.m */,
+				49812A1E2447F98A00191C66 /* FCStoreHouseCell.xib */,
+				49812A242447F9B000191C66 /* FCStoreHouseFooter.h */,
+				49812A252447F9B000191C66 /* FCStoreHouseFooter.m */,
+				49812A292447F9C800191C66 /* FCStoreHouseFooter.xib */,
+			);
+			name = "储备房源";
+			sourceTree = "<group>";
+		};
+		49812A302448398C00191C66 /* 储备客源 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A31244839EE00191C66 /* FCStoreClientVC.h */,
+				49812A32244839EE00191C66 /* FCStoreClientVC.m */,
+				49812A33244839EE00191C66 /* FCStoreClientVC.xib */,
+			);
+			name = "储备客源";
+			sourceTree = "<group>";
+		};
+		49812A36244839FF00191C66 /* 储备客源 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A3724483A1A00191C66 /* FCStoreClientCell.h */,
+				49812A3824483A1A00191C66 /* FCStoreClientCell.m */,
+				49812A3924483A1A00191C66 /* FCStoreClientCell.xib */,
+			);
+			name = "储备客源";
+			sourceTree = "<group>";
+		};
+		49812A3C2448487F00191C66 /* 合同管理 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A3D244848AC00191C66 /* FCContractManageVC.h */,
+				49812A3E244848AC00191C66 /* FCContractManageVC.m */,
+				49812A3F244848AC00191C66 /* FCContractManageVC.xib */,
+				49812A4E244854D500191C66 /* FCAddOutContractVC.h */,
+				49812A4F244854D500191C66 /* FCAddOutContractVC.m */,
+				49812A50244854D500191C66 /* FCAddOutContractVC.xib */,
+				49812A53244854E600191C66 /* FCAddInContractVC.h */,
+				49812A54244854E600191C66 /* FCAddInContractVC.m */,
+				49812A55244854E600191C66 /* FCAddInContractVC.xib */,
+				49812A5824485E9900191C66 /* FCContractTemplateVC.h */,
+				49812A5924485E9900191C66 /* FCContractTemplateVC.m */,
+				49812A5A24485E9900191C66 /* FCContractTemplateVC.xib */,
+				49812A622448619B00191C66 /* FCChooseHouseVC.h */,
+				49812A632448619B00191C66 /* FCChooseHouseVC.m */,
+				49812A642448619B00191C66 /* FCChooseHouseVC.xib */,
+				49812A672448628D00191C66 /* FCChooseClientVC.h */,
+				49812A682448628D00191C66 /* FCChooseClientVC.m */,
+				49812A692448628D00191C66 /* FCChooseClientVC.xib */,
+				49812A6C244867E400191C66 /* FCFreeRuleVC.h */,
+				49812A6D244867E400191C66 /* FCFreeRuleVC.m */,
+				49812A6E244867E400191C66 /* FCFreeRuleVC.xib */,
+			);
+			name = "合同管理";
+			sourceTree = "<group>";
+		};
+		49812A43244848C400191C66 /* 合同管理 */ = {
+			isa = PBXGroup;
+			children = (
+				49812A44244848F000191C66 /* FCContractManageCell.h */,
+				49812A45244848F000191C66 /* FCContractManageCell.m */,
+				49812A46244848F000191C66 /* FCContractManageCell.xib */,
+				49812A5D24485EBC00191C66 /* FCContractTemplateCell.h */,
+				49812A5E24485EBC00191C66 /* FCContractTemplateCell.m */,
+				49812A5F24485EBC00191C66 /* FCContractTemplateCell.xib */,
+				49812A7624486D7A00191C66 /* FCFreeRuleHeader.h */,
+				49812A7724486D7A00191C66 /* FCFreeRuleHeader.m */,
+				49812A7924486D8500191C66 /* FCFreeRuleHeader.xib */,
+				49812A712448690400191C66 /* FCFreeRuleCell.h */,
+				49812A722448690400191C66 /* FCFreeRuleCell.m */,
+				49812A732448690400191C66 /* FCFreeRuleCell.xib */,
+			);
+			name = "合同管理";
+			sourceTree = "<group>";
+		};
 		49A01F9C2440169200FDE60E = {
 			isa = PBXGroup;
 			children = (
@@ -1143,6 +1343,9 @@
 				49CD6B9A2446E1E200DD72DB /* FCSearchVC.h */,
 				49CD6B9B2446E1E200DD72DB /* FCSearchVC.m */,
 				49CD6B9C2446E1E200DD72DB /* FCSearchVC.xib */,
+				49812A102447F58400191C66 /* FCSearchResultVC.h */,
+				49812A112447F58400191C66 /* FCSearchResultVC.m */,
+				49812A122447F58400191C66 /* FCSearchResultVC.xib */,
 			);
 			name = "搜索";
 			sourceTree = "<group>";
@@ -1176,6 +1379,13 @@
 				49CD6BB22446EA6F00DD72DB /* FCEntireRentHouseCell.h */,
 				49CD6BB32446EA6F00DD72DB /* FCEntireRentHouseCell.m */,
 				49CD6BB42446EA6F00DD72DB /* FCEntireRentHouseCell.xib */,
+				49812A0A2447EF8800191C66 /* FCDropMenuCollectionHeader.h */,
+				49812A0B2447EF8800191C66 /* FCDropMenuCollectionHeader.m */,
+				49812A0D2447F15B00191C66 /* FCDropMenuCollectionCell.h */,
+				49812A0E2447F15B00191C66 /* FCDropMenuCollectionCell.m */,
+				49812A2B2448288E00191C66 /* FCDropMenuRangeCollectionCell.h */,
+				49812A2C2448288E00191C66 /* FCDropMenuRangeCollectionCell.m */,
+				49812A2D2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib */,
 			);
 			name = "整租房源";
 			sourceTree = "<group>";
@@ -1308,19 +1518,29 @@
 				49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */,
 				49CD6BA42446E20300DD72DB /* FCSearchTagCell.xib in Resources */,
 				49608B9624443B3600ED3284 /* FCApproveVC.xib in Resources */,
+				49812A6B2448628D00191C66 /* FCChooseClientVC.xib in Resources */,
 				49CD6B932446DEB300DD72DB /* FCNoticeCell.xib in Resources */,
+				49812A57244854E600191C66 /* FCAddInContractVC.xib in Resources */,
 				491AD0D124458AE6003D9749 /* FCContactHeaderView.xib in Resources */,
 				49608B42244434A500ED3284 /* AlipaySDK.bundle in Resources */,
+				49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */,
 				49608B39244434A500ED3284 /* RCFilterCell.xib in Resources */,
 				49608B46244434A500ED3284 /* FSActionSheet_cancel@2x.png in Resources */,
+				49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */,
 				49A01FB82440169700FDE60E /* LaunchScreen.storyboard in Resources */,
 				49608B9124443B2300ED3284 /* FCContactVC.xib in Resources */,
+				49812A48244848F000191C66 /* FCContractManageCell.xib in Resources */,
+				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
+				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
 				491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */,
+				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
 				49608B3B244434A500ED3284 /* WSDatePickerView.xib in Resources */,
+				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
+				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
 				49608BA424443C0600ED3284 /* FCLoginVC.xib in Resources */,
 				49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */,
 				49CD6BA92446E2A900DD72DB /* FCSearchTagHeader.xib in Resources */,
@@ -1331,9 +1551,18 @@
 				49A01FB52440169700FDE60E /* Assets.xcassets in Resources */,
 				49CD6B822446D7C400DD72DB /* FCMsgCell.xib in Resources */,
 				49AF5250244696A900598AAD /* FCBannerCell.xib in Resources */,
+				49812A2F2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib in Resources */,
+				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
+				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
+				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
+				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
+				49812A2A2447F9C800191C66 /* FCStoreHouseFooter.xib in Resources */,
 				49608B8C24443B1300ED3284 /* FCHomeVC.xib in Resources */,
+				49812A5C24485E9900191C66 /* FCContractTemplateVC.xib in Resources */,
 				49CD6BB02446EA4300DD72DB /* FCEntireRentHouseVC.xib in Resources */,
 				49608B4B244434A500ED3284 /* SGQRCode.bundle in Resources */,
+				49812A662448619B00191C66 /* FCChooseHouseVC.xib in Resources */,
+				49812A7A24486D8500191C66 /* FCFreeRuleHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,10 +1631,15 @@
 			files = (
 				49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */,
 				49608BA324443C0600ED3284 /* FCLoginVC.m in Sources */,
+				49812A5B24485E9900191C66 /* FCContractTemplateVC.m in Sources */,
 				49608B50244434A500ED3284 /* UIScrollView+Empty.m in Sources */,
 				49608B3E244434A500ED3284 /* UIView+Extension.m in Sources */,
 				49608B67244434A500ED3284 /* UIColor+DSGradient.m in Sources */,
+				49812A652448619B00191C66 /* FCChooseHouseVC.m in Sources */,
+				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
+				49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */,
 				49608B57244434A500ED3284 /* UILabel+ForLMJVerticalScrollText.m in Sources */,
+				49812A262447F9B000191C66 /* FCStoreHouseFooter.m in Sources */,
 				49CD6B862446D98400DD72DB /* FCMsgDetailVC.m in Sources */,
 				49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */,
 				49608B52244434A500ED3284 /* LYEmptyView.m in Sources */,
@@ -1417,6 +1651,7 @@
 				49608B64244434A500ED3284 /* UIButton+HXCode.m in Sources */,
 				49608B65244434A500ED3284 /* NSURL+Expand.m in Sources */,
 				49A01FAA2440169300FDE60E /* AppDelegate.m in Sources */,
+				49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */,
 				49A01FBB2440169700FDE60E /* main.m in Sources */,
 				49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */,
 				49AF525C2446BA8A00598AAD /* FCCityCell.m in Sources */,
@@ -1426,29 +1661,38 @@
 				49608B9A24443B4300ED3284 /* FCMyVC.m in Sources */,
 				49CD6B9D2446E1E200DD72DB /* FCSearchVC.m in Sources */,
 				49608B56244434A500ED3284 /* LMJVerticalScrollText.m in Sources */,
+				49812A7824486D7A00191C66 /* FCFreeRuleHeader.m in Sources */,
 				49608B9524443B3600ED3284 /* FCApproveVC.m in Sources */,
 				49CD6BA32446E20300DD72DB /* FCSearchTagCell.m in Sources */,
+				49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */,
 				49608B4E244434A500ED3284 /* SGQRCodeScanView.m in Sources */,
 				49608B74244434A500ED3284 /* HXNetworkTool.m in Sources */,
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
 				49AF52552446BA1E00598AAD /* FCCityVC.m in Sources */,
 				49608B6A244434A500ED3284 /* Foundation+Log.m in Sources */,
 				49CD6B7B2446D75400DD72DB /* FCMsgVC.m in Sources */,
+				49812A56244854E600191C66 /* FCAddInContractVC.m in Sources */,
 				49608B7E244434A500ED3284 /* MSUserManager.m in Sources */,
+				49812A2E2448288E00191C66 /* FCDropMenuRangeCollectionCell.m in Sources */,
 				49608B69244434A500ED3284 /* NSString+HXNExtension.m in Sources */,
 				49608B80244434A500ED3284 /* GXSaveImageToPHAsset.m in Sources */,
 				49608B9024443B2300ED3284 /* FCContactVC.m in Sources */,
 				49608B40244434A500ED3284 /* FBShimmeringLayer.m in Sources */,
 				49608B4C244434A500ED3284 /* SGQRCodeObtainConfigure.m in Sources */,
 				49608B63244434A500ED3284 /* HXNavigationController.m in Sources */,
+				49812A742448690400191C66 /* FCFreeRuleCell.m in Sources */,
 				49CD6B812446D7C400DD72DB /* FCMsgCell.m in Sources */,
 				49608B71244434A500ED3284 /* UIView+HXNExtension.m in Sources */,
 				49608B41244434A500ED3284 /* FBShimmeringView.m in Sources */,
 				49608B5A244434A500ED3284 /* UIView+WZLBadge.m in Sources */,
 				49608B60244434A500ED3284 /* HXBaseViewController.m in Sources */,
+				49812A51244854D500191C66 /* FCAddOutContractVC.m in Sources */,
+				49812A132447F58400191C66 /* FCSearchResultVC.m in Sources */,
+				49812A3A24483A1A00191C66 /* FCStoreClientCell.m in Sources */,
 				49608B4F244434A500ED3284 /* LYEmptyBaseView.m in Sources */,
 				49608B49244434A500ED3284 /* FSActionSheetCell.m in Sources */,
 				49608B51244434A500ED3284 /* UIView+LYExtension.m in Sources */,
+				49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */,
 				49608B58244434A500ED3284 /* LMJHorizontalScrollText.m in Sources */,
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
 				49608B75244434A500ED3284 /* HXNetworkCache.m in Sources */,
@@ -1463,24 +1707,30 @@
 				49AF524F244696A900598AAD /* FCBannerCell.m in Sources */,
 				491AD0C6244589D2003D9749 /* FCContactChildVC.m in Sources */,
 				49608B6C244434A500ED3284 /* HXConst.m in Sources */,
+				49812A34244839EE00191C66 /* FCStoreClientVC.m in Sources */,
+				49812A192447F95600191C66 /* FCStoreHouseVC.m in Sources */,
+				49812A47244848F000191C66 /* FCContractManageCell.m in Sources */,
 				49608B4D244434A500ED3284 /* SGQRCodeObtain.m in Sources */,
 				49608B48244434A500ED3284 /* FSActionSheet.m in Sources */,
 				49608B872444372200ED3284 /* AppDelegate+MSAppService.m in Sources */,
 				49608B8B24443B1300ED3284 /* FCHomeVC.m in Sources */,
 				49CD6BA82446E2A900DD72DB /* FCSearchTagHeader.m in Sources */,
 				49608B5D244434A500ED3284 /* ZJPickerView.m in Sources */,
+				49812A6A2448628D00191C66 /* FCChooseClientVC.m in Sources */,
 				49608B59244434A500ED3284 /* CAAnimation+WAnimation.m in Sources */,
 				49608B37244434A500ED3284 /* SDWeiXinPhotoContainerView.m in Sources */,
 				49CD6B972446DFD900DD72DB /* FCNoticeDetailVC.m in Sources */,
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
+				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,
 				49608B47244434A500ED3284 /* FSActionSheetConfig.m in Sources */,
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,
 				49608B3D244434A500ED3284 /* NSDate+Extension.m in Sources */,
 				49608B7C244434A500ED3284 /* HXTopWindow.m in Sources */,
 				49CD6B922446DEB300DD72DB /* FCNoticeCell.m in Sources */,
 				49608B6E244434A500ED3284 /* UILabel+HXNExtension.m in Sources */,
+				49812A6F244867E400191C66 /* FCFreeRuleVC.m in Sources */,
 				491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */,
 				49608B70244434A500ED3284 /* UIBarButtonItem+HXNExtension.m in Sources */,
 				49608B5F244434A500ED3284 /* UINavigation+SXFixSpace.m in Sources */,

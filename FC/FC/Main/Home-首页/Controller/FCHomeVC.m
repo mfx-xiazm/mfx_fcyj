@@ -19,6 +19,9 @@
 #import "FCNoticeVC.h"
 #import "FCSearchVC.h"
 #import "FCEntireRentHouseVC.h"
+#import "FCStoreHouseVC.h"
+#import "FCStoreClientVC.h"
+#import "FCContractManageVC.h"
 
 @interface FCHomeVC ()<TYCyclePagerViewDataSource, TYCyclePagerViewDelegate, UITextFieldDelegate>
 /* 轮播图 */
@@ -165,6 +168,17 @@
     if (sender.tag == 1) {
         FCEntireRentHouseVC *rvc = [FCEntireRentHouseVC new];
         [self.navigationController pushViewController:rvc animated:YES];
+    }else if (sender.tag == 2) {
+        if (arc4random_uniform(2)%2) {
+            FCStoreClientVC *cvc = [FCStoreClientVC new];
+            [self.navigationController pushViewController:cvc animated:YES];
+        }else{
+            FCStoreHouseVC *hvc = [FCStoreHouseVC new];
+            [self.navigationController pushViewController:hvc animated:YES];
+        }
+    }else if (sender.tag == 3) {
+        FCContractManageVC *mvc = [FCContractManageVC new];
+        [self.navigationController pushViewController:mvc animated:YES];
     }
 }
 

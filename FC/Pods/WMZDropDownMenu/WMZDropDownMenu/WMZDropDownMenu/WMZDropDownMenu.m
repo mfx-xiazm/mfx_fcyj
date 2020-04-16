@@ -119,6 +119,15 @@ static NSString* const notificationRemove = @"notificationRemove";
         [self addBoder];
     }
 }
+-(void)selectDefaltExpand
+{
+    if (self.selectTitleBtn) {
+        [self titleAction:self.selectTitleBtn];
+    }else{
+        WMZDropMenuBtn *btn = self.titleBtnArr.firstObject;
+        [self titleAction:btn];
+    }
+}
 #pragma -mark 添加边框
 - (void)addBoder{
     [self.titleBtnArr enumerateObjectsUsingBlock:^(WMZDropMenuBtn *btn, NSUInteger idx, BOOL * _Nonnull stop) {

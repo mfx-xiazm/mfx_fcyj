@@ -10,13 +10,14 @@
 #import "FCEntireRentHouseCell.h"
 #import "HXSearchBar.h"
 #import <WMZDropDownMenu.h>
+#import "FCDropMenuCollectionHeader.h"
+#import "FCDropMenuCollectionCell.h"
 
 static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
 @interface FCEntireRentHouseVC ()<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate,WMZDropMenuDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIView *menuView;
 @property (nonatomic, strong) WMZDropDownMenu *menu;
-@property (nonatomic, strong) NSDictionary *dataDic;
 @end
 
 @implementation FCEntireRentHouseVC
@@ -34,20 +35,7 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
     [super viewDidLayoutSubviews];
 }
 #pragma mark -- 懒加载
-- (NSDictionary*)dataDic{
-    if (!_dataDic) {
-        _dataDic = @{
-                  @"全部品类":@[@"全部",@"水果",@"蔬菜",@"冷冻速食",@"肉禽奶蛋",@"肉饼加墨"],
-                  @"美食":@[@"全部",@"水果1",@"蔬菜1",@"冷冻速食1",@"肉禽奶蛋1",@"肉饼加墨1"],
-                  @"甜点饮品":@[@"全部",@"水果2",@"蔬菜2",@"肉禽奶蛋2",@"肉饼加墨2"],
-                  @"超市便利":@[@"全部",@"水果3",@"蔬菜3",@"肉饼加墨3"],
-                  @"生鲜果蔬":@[@"全部",@"水果4",@"冷冻速食4",@"肉禽奶蛋4",@"肉饼加墨4"],
-                  @"送药上门":@[@"全部",@"冷冻速食5",@"肉禽奶蛋5",@"肉饼加墨5"],
-                  @"鲜花绿植":@[@"全部",@"冷冻速食6",@"肉禽奶蛋6",@"肉饼加墨6",@"蔬6"],
-        };
-    }
-    return _dataDic;
-}
+
 #pragma mark -- 视图
 -(void)setUpNavBar
 {
@@ -74,18 +62,11 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
     .wCollectionViewCellSelectTitleColorSet(HXControlBg)
     .wCollectionViewCellTitleColorSet([UIColor blackColor])
     .wCollectionViewSectionRecycleCountSet(8)
-    .wMaxHeightScaleSet(0.5);
-//
-//    //colletionCell的间距  default 10
-//    WMZMenuStatementAndPropSetFuncStatement(assign,   WMZDropMenuParam, CGFloat,         wCollectionViewCellSpace)
-//    //colletionCell背景颜色  default 0x666666
-//    WMZMenuStatementAndPropSetFuncStatement(strong,   WMZDropMenuParam, UIColor*,        wCollectionViewCellBgColor)
-//    //colletionCell文字颜色  default 0xf2f2f2
-//    WMZMenuStatementAndPropSetFuncStatement(strong,   WMZDropMenuParam, UIColor*,        wCollectionViewCellTitleColor)
-//    //colletionCell选中背景颜色  default 0xffeceb
-//    WMZMenuStatementAndPropSetFuncStatement(strong,   WMZDropMenuParam, UIColor*,        wCollectionViewCellSelectBgColor)
-//    //colletionCell选中文字颜色  default red
-//    WMZMenuStatementAndPropSetFuncStatement(strong,   WMZDropMenuParam, UIColor*,        wCollectionViewCellSelectTitleColor)
+    .wMaxHeightScaleSet(0.5)
+    //注册自定义的collectionViewHeadView  如果使用了自定义collectionViewHeadView 必填否则会崩溃
+    .wReginerCollectionHeadViewsSet(@[@"FCDropMenuCollectionHeader"])
+    //注册自定义collectionViewCell 类名 如果使用了自定义collectionView 必填否则会崩溃
+    .wReginerCollectionCellsSet(@[@"FCDropMenuCollectionCell"]);
     
     WMZDropDownMenu *menu = [[WMZDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, HX_SCREEN_WIDTH, 44.f) withParam:param];
     menu.delegate = self;
@@ -311,30 +292,15 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
 - (BOOL)menu:(WMZDropDownMenu *)menu showExpandAtDropIndexPath:(WMZDropIndexPath *)dropIndexPath{
     return NO;
 }
-///*
-//*返回WMZDropIndexPath每行 每列 显示的个数
-// 注:
-//    样式MenuUITableView         默认4个
-//    样式MenuUICollectionView    默认1个 传值无效
-//*/
-//- (NSInteger)menu:(WMZDropDownMenu *)menu countForRowAtDropIndexPath:(WMZDropIndexPath*)dropIndexPath;
-///*
-//*互斥的标题数组 即互斥不能同时选中 返回标题对应的section (配合关联代理使用更加)
-//*/
-//- (NSArray*)mutuallyExclusiveSectionsWithMenu:(WMZDropDownMenu *)menu;
-/*
-*查看更多的数据
-*/
-//- (NSArray*)menu:(WMZDropDownMenu *)menu moreDataForRowAtDropIndexPath:(WMZDropIndexPath*)dropIndexPath;
 /*
 *headView标题
 */
-- (NSString *)menu:(WMZDropDownMenu *)menu titleForHeadViewAtDropIndexPath:(WMZDropIndexPath *)dropIndexPath{
-    if (dropIndexPath.section == 3){
-        return @[@"户型选择",@"装修类型",@"即将到期",@"空置时间"][dropIndexPath.row];
-    }
-    return nil;
-}
+//- (NSString *)menu:(WMZDropDownMenu *)menu titleForHeadViewAtDropIndexPath:(WMZDropIndexPath *)dropIndexPath{
+//    if (dropIndexPath.section == 3){
+//        return @[@"户型选择",@"装修类型",@"即将到期",@"空置时间"][dropIndexPath.row];
+//    }
+//    return nil;
+//}
 /*
 *自定义headView高度 collectionView默认35
 */
@@ -343,6 +309,26 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
         return 40;
     }
     return 0;
+}
+/*
+*自定义collectionView headView
+*/
+- (UICollectionReusableView*)menu:(WMZDropDownMenu *)menu headViewForUICollectionView:(WMZDropCollectionView*)collectionView AtDropIndexPath:(WMZDropIndexPath*)dropIndexPath AtIndexPath:(NSIndexPath*)indexpath
+{
+    FCDropMenuCollectionHeader *header = [collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"FCDropMenuCollectionHeader" forIndexPath:indexpath];
+    
+    header.textLa.text = @[@"户型选择",@"装修类型",@"即将到期",@"空置时间"][dropIndexPath.row];
+    return header;
+}
+/*
+ *自定义collectionViewCell内容
+ */
+- (UICollectionViewCell*)menu:(WMZDropDownMenu *)menu cellForUICollectionView:(WMZDropCollectionView*)collectionView AtDropIndexPath:(WMZDropIndexPath*)dropIndexPath AtIndexPath:(NSIndexPath*)indexpath dataForIndexPath:(WMZDropTree*)model{
+    FCDropMenuCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([FCDropMenuCollectionCell class]) forIndexPath:indexpath];
+    cell.textLa.text = model.name;
+    cell.textLa.textColor = model.isSelected?[UIColor whiteColor]:[UIColor blackColor];
+    cell.textLa.backgroundColor = model.isSelected?HXControlBg:HXGlobalBg;
+    return cell;
 }
 /*
 *自定义每行全局尾部视图 多用于交互事件
@@ -363,7 +349,7 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
         [btn setBackgroundColor:[UIColor whiteColor]];
         [btn setTitle:@"重置" forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor colorWithHexString:@"#1A1A1A"] forState:UIControlStateNormal];
-        //[btn addTarget:<#(nullable id)#> action:<#(nonnull SEL)#> forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:menu action:@selector(reSetAction) forControlEvents:UIControlEventTouchUpInside];
         [userInteractionFootView addSubview:btn];
         
         UIButton *btn1 = [UIButton new];
@@ -374,15 +360,18 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
         btn1.clipsToBounds = YES;
         btn1.layer.cornerRadius = 2;
         [btn1 setBackgroundColor:[UIColor colorWithHexString:@"#845D32"]];
-        [btn1 setTitle:@"重置" forState:UIControlStateNormal];
+        [btn1 setTitle:@"确定" forState:UIControlStateNormal];
         [btn1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        //[btn1 addTarget:<#(nullable id)#> action:<#(nonnull SEL)#> forControlEvents:UIControlEventTouchUpInside];
+        [btn1 addTarget:menu action:@selector(confirmAction:) forControlEvents:UIControlEventTouchUpInside];
         [userInteractionFootView addSubview:btn1];
 
         return userInteractionFootView;
     }
     return nil;
 }
+/*
+*获取所有选中的数据
+*/
 -(void)menu:(WMZDropDownMenu *)menu getAllSelectData:(NSArray *)selectData
 {
     NSLog(@"%@",selectData);

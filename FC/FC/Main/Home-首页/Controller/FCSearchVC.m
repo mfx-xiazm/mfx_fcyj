@@ -11,7 +11,7 @@
 #import "FCSearchTagHeader.h"
 #import <ZLCollectionViewVerticalLayout.h>
 #import "HXSearchBar.h"
-#import "FCEntireRentHouseVC.h"
+#import "FCSearchResultVC.h"
 
 #define KFilePath [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES)[0] stringByAppendingPathComponent:@"kSearchHistory.plist"]
 static NSString *const SearchTagCell = @"SearchTagCell";
@@ -151,7 +151,7 @@ static NSString *const SearchTagHeader = @"SearchTagHeader";
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self checkHistoryData:self.historys[indexPath.item]];
-    FCEntireRentHouseVC *hvc = [FCEntireRentHouseVC new];
+    FCSearchResultVC *hvc = [FCSearchResultVC new];
     [self.navigationController pushViewController:hvc animated:YES];
 }
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {

@@ -259,7 +259,7 @@
 
 
 - (void)closeView{}
-- (void)confirmAction{}
+- (void)confirmAction:(UIButton*)sender{}
 - (void)reSetAction{}
 - (void)updateSubView:(WMZDropIndexPath*)dropPath more:(BOOL)more{}
 

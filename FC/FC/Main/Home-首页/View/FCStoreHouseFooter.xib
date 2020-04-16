@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FCStoreHouseFooter">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwV-8P-9s6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7qI-cn-UFj" userLabel="分割线">
+                            <rect key="frame" x="12" y="0.0" width="390" height="1"/>
+                            <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="7qW-lB-8Bo"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVf-Ye-Fvn">
+                            <rect key="frame" x="302" y="10" width="100" height="30"/>
+                            <color key="backgroundColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="1Me-J7-Jks"/>
+                                <constraint firstAttribute="height" constant="30" id="XNK-lU-t0g"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <state key="normal" title="添加到我的列表"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                    <color key="value" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                    <real key="value" value="0.10000000000000001"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                    <size key="value" width="0.0" height="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="lVf-Ye-Fvn" secondAttribute="trailing" constant="12" id="61A-2O-pDK"/>
+                        <constraint firstItem="7qI-cn-UFj" firstAttribute="top" secondItem="dwV-8P-9s6" secondAttribute="top" id="AzN-ik-eh8"/>
+                        <constraint firstItem="7qI-cn-UFj" firstAttribute="leading" secondItem="dwV-8P-9s6" secondAttribute="leading" constant="12" id="aHr-bU-fHK"/>
+                        <constraint firstAttribute="trailing" secondItem="7qI-cn-UFj" secondAttribute="trailing" constant="12" id="nIK-FO-kOe"/>
+                        <constraint firstItem="lVf-Ye-Fvn" firstAttribute="centerY" secondItem="dwV-8P-9s6" secondAttribute="centerY" id="zQl-yY-xYS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="dwV-8P-9s6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JJt-A9-8Aq"/>
+                <constraint firstItem="dwV-8P-9s6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MB7-uV-3fs"/>
+                <constraint firstAttribute="bottom" secondItem="dwV-8P-9s6" secondAttribute="bottom" id="OyC-Gz-Htz"/>
+                <constraint firstAttribute="trailing" secondItem="dwV-8P-9s6" secondAttribute="trailing" id="guB-gC-gq0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="388.05803571428572"/>
+        </view>
+    </objects>
+</document>

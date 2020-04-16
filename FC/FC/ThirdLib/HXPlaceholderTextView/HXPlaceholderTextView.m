@@ -37,7 +37,7 @@
         // 垂直方向上永远有弹簧效果
         self.alwaysBounceVertical = YES;
         // 默认字体
-        self.font = [UIFont systemFontOfSize:14];
+        self.font = [UIFont systemFontOfSize:13];
         
         // 默认的占位文字颜色
         self.placeholderColor = [UIColor lightGrayColor];
@@ -54,7 +54,7 @@
     // 垂直方向上永远有弹簧效果
     self.alwaysBounceVertical = YES;
     // 默认字体
-    self.font = [UIFont systemFontOfSize:14];
+    self.font = [UIFont systemFontOfSize:13];
     
     // 默认的占位文字颜色
     self.placeholderColor = [UIColor lightGrayColor];
