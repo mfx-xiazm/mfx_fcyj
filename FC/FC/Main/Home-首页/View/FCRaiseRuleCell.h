@@ -1,8 +1,8 @@
 //
-//  FCFreeRuleCell.h
+//  FCRaiseRuleCell.h
 //  FC
 //
-//  Created by huaxin-01 on 2020/4/16.
+//  Created by huaxin-01 on 2020/4/17.
 //  Copyright © 2020 huaxin-01. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FCFreeRuleCell : UITableViewCell
+@interface FCRaiseRuleCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (weak, nonatomic) IBOutlet UIView *bgView1;
 

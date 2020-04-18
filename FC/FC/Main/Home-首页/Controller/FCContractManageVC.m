@@ -16,6 +16,8 @@
 #import "FCDropMenuCollectionCell.h"
 #import "FCAddOutContractVC.h"
 #import "FCAddInContractVC.h"
+#import "FCOutContractDetailVC.h"
+#import "FCInContractDetailVC.h"
 
 static NSString *const ContractManageCell = @"ContractManageCell";
 @interface FCContractManageVC ()<UITableViewDelegate,UITableViewDataSource,JXCategoryViewDelegate,UIScrollViewDelegate,UITextFieldDelegate,WMZDropMenuDelegate>
@@ -154,13 +156,13 @@ static NSString *const ContractManageCell = @"ContractManageCell";
 #pragma mark -- 点击事件
 -(void)addContractClicked
 {
-//    if (arc4random_uniform(2)%2) {
-//        FCAddOutContractVC *avc = [FCAddOutContractVC new];
-//        [self.navigationController pushViewController:avc animated:YES];
-//    }else{
+    if (arc4random_uniform(2)%2) {
+        FCAddOutContractVC *avc = [FCAddOutContractVC new];
+        [self.navigationController pushViewController:avc animated:YES];
+    }else{
         FCAddInContractVC *hvc = [FCAddInContractVC new];
         [self.navigationController pushViewController:hvc animated:YES];
-//    }
+    }
 }
 -(void)filterHouseClicked
 {
@@ -358,7 +360,13 @@ static NSString *const ContractManageCell = @"ContractManageCell";
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    if (arc4random_uniform(2)%2) {
+        FCOutContractDetailVC *dvc = [FCOutContractDetailVC new];
+        [self.navigationController pushViewController:dvc animated:YES];
+    }else{
+        FCInContractDetailVC *dvc = [FCInContractDetailVC new];
+        [self.navigationController pushViewController:dvc animated:YES];
+    }
 }
 
 @end

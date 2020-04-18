@@ -12,6 +12,8 @@
 #import "FCContractTemplateVC.h"
 #import "FCChooseHouseVC.h"
 #import "FCFreeRuleVC.h"
+#import "FCRaiseRuleVC.h"
+#import "FCGoodsJointVC.h"
 
 @interface FCAddInContractVC ()
 @property (weak, nonatomic) IBOutlet HXPlaceholderTextView *remark;
@@ -36,9 +38,11 @@
         FCChooseHouseVC *tvc = [FCChooseHouseVC new];
         [self.navigationController pushViewController:tvc animated:YES];
     }else if (sender.tag == 4) {
-       
+        FCGoodsJointVC *jvc = [FCGoodsJointVC new];
+        [self.navigationController pushViewController:jvc animated:YES];
     }else if (sender.tag == 5) {
-        
+        FCRaiseRuleVC *rvc = [FCRaiseRuleVC new];
+        [self.navigationController pushViewController:rvc animated:YES];
     }else{
         FCFreeRuleVC *rvc = [FCFreeRuleVC new];
         [self.navigationController pushViewController:rvc animated:YES];

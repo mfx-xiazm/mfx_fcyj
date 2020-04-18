@@ -14,6 +14,16 @@
 		491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491AD0CA24458AB0003D9749 /* FCContacterCell.xib */; };
 		491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 491AD0CE24458ADC003D9749 /* FCContactHeaderView.m */; };
 		491AD0D124458AE6003D9749 /* FCContactHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491AD0D024458AE6003D9749 /* FCContactHeaderView.xib */; };
+		493DE8332449872B00647BAD /* FCGoodsJointHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE8322449872B00647BAD /* FCGoodsJointHeader.m */; };
+		493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE8342449873100647BAD /* FCGoodsJointHeader.xib */; };
+		493DE839244989ED00647BAD /* FCGoodsJointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE837244989ED00647BAD /* FCGoodsJointCell.m */; };
+		493DE83A244989ED00647BAD /* FCGoodsJointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE838244989ED00647BAD /* FCGoodsJointCell.xib */; };
+		493DE83E24499A1700647BAD /* FCSubmitPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE83C24499A1700647BAD /* FCSubmitPicCell.m */; };
+		493DE83F24499A1700647BAD /* FCSubmitPicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE83D24499A1700647BAD /* FCSubmitPicCell.xib */; };
+		493DE8482449B0C900647BAD /* FCInContractDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE8462449B0C900647BAD /* FCInContractDetailVC.m */; };
+		493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE8472449B0C900647BAD /* FCInContractDetailVC.xib */; };
+		493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */; };
+		493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */; };
 		49608B37244434A500ED3284 /* SDWeiXinPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608A75244434A400ED3284 /* SDWeiXinPhotoContainerView.m */; };
 		49608B38244434A500ED3284 /* RCFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608A78244434A400ED3284 /* RCFilterCell.m */; };
 		49608B39244434A500ED3284 /* RCFilterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49608A79244434A400ED3284 /* RCFilterCell.xib */; };
@@ -94,6 +104,14 @@
 		49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA62444572D00ED3284 /* DVPieCenterView.m */; };
 		49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA72444572D00ED3284 /* DVFoodPieModel.m */; };
 		49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BAB2444572D00ED3284 /* DVPieChart.m */; };
+		497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15B3244939A500075FDC /* FCRaiseRuleHeader.m */; };
+		497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F15B5244939AD00075FDC /* FCRaiseRuleHeader.xib */; };
+		497F15BA244939BC00075FDC /* FCRaiseRuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15B8244939BC00075FDC /* FCRaiseRuleCell.m */; };
+		497F15BB244939BC00075FDC /* FCRaiseRuleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F15B9244939BC00075FDC /* FCRaiseRuleCell.xib */; };
+		497F15BF24495BC300075FDC /* FCRaiseRuleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15BD24495BC300075FDC /* FCRaiseRuleVC.m */; };
+		497F15C024495BC300075FDC /* FCRaiseRuleVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F15BE24495BC300075FDC /* FCRaiseRuleVC.xib */; };
+		497F15C42449799E00075FDC /* FCGoodsJointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15C22449799E00075FDC /* FCGoodsJointVC.m */; };
+		497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F15C32449799E00075FDC /* FCGoodsJointVC.xib */; };
 		49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A0B2447EF8800191C66 /* FCDropMenuCollectionHeader.m */; };
 		49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A0E2447F15B00191C66 /* FCDropMenuCollectionCell.m */; };
 		49812A132447F58400191C66 /* FCSearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49812A112447F58400191C66 /* FCSearchResultVC.m */; };
@@ -148,6 +166,8 @@
 		49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AF525B2446BA8A00598AAD /* FCCityCell.xib */; };
 		49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF525F2446BA9C00598AAD /* FCCityHeader.m */; };
 		49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AF52612446BAA700598AAD /* FCCityHeader.xib */; };
+		49B7CD77244A8C8700BDFDBB /* FCSignCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7CD75244A8C8700BDFDBB /* FCSignCodeVC.m */; };
+		49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B7CD76244A8C8700BDFDBB /* FCSignCodeVC.xib */; };
 		49CD6B7B2446D75400DD72DB /* FCMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD6B792446D75400DD72DB /* FCMsgVC.m */; };
 		49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CD6B7A2446D75400DD72DB /* FCMsgVC.xib */; };
 		49CD6B812446D7C400DD72DB /* FCMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD6B7F2446D7C400DD72DB /* FCMsgCell.m */; };
@@ -199,6 +219,21 @@
 		491AD0CD24458ADC003D9749 /* FCContactHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContactHeaderView.h; sourceTree = "<group>"; };
 		491AD0CE24458ADC003D9749 /* FCContactHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContactHeaderView.m; sourceTree = "<group>"; };
 		491AD0D024458AE6003D9749 /* FCContactHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContactHeaderView.xib; sourceTree = "<group>"; };
+		493DE8312449872B00647BAD /* FCGoodsJointHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsJointHeader.h; sourceTree = "<group>"; };
+		493DE8322449872B00647BAD /* FCGoodsJointHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsJointHeader.m; sourceTree = "<group>"; };
+		493DE8342449873100647BAD /* FCGoodsJointHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsJointHeader.xib; sourceTree = "<group>"; };
+		493DE836244989ED00647BAD /* FCGoodsJointCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsJointCell.h; sourceTree = "<group>"; };
+		493DE837244989ED00647BAD /* FCGoodsJointCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsJointCell.m; sourceTree = "<group>"; };
+		493DE838244989ED00647BAD /* FCGoodsJointCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsJointCell.xib; sourceTree = "<group>"; };
+		493DE83B24499A1700647BAD /* FCSubmitPicCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSubmitPicCell.h; sourceTree = "<group>"; };
+		493DE83C24499A1700647BAD /* FCSubmitPicCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSubmitPicCell.m; sourceTree = "<group>"; };
+		493DE83D24499A1700647BAD /* FCSubmitPicCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSubmitPicCell.xib; sourceTree = "<group>"; };
+		493DE8452449B0C900647BAD /* FCInContractDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCInContractDetailVC.h; sourceTree = "<group>"; };
+		493DE8462449B0C900647BAD /* FCInContractDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCInContractDetailVC.m; sourceTree = "<group>"; };
+		493DE8472449B0C900647BAD /* FCInContractDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCInContractDetailVC.xib; sourceTree = "<group>"; };
+		493DE84A2449B0DD00647BAD /* FCOutContractDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutContractDetailVC.h; sourceTree = "<group>"; };
+		493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutContractDetailVC.m; sourceTree = "<group>"; };
+		493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutContractDetailVC.xib; sourceTree = "<group>"; };
 		49608A75244434A400ED3284 /* SDWeiXinPhotoContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWeiXinPhotoContainerView.m; sourceTree = "<group>"; };
 		49608A76244434A400ED3284 /* SDWeiXinPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWeiXinPhotoContainerView.h; sourceTree = "<group>"; };
 		49608A78244434A400ED3284 /* RCFilterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCFilterCell.m; sourceTree = "<group>"; };
@@ -351,6 +386,18 @@
 		49608BA92444572D00ED3284 /* DVPieCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPieCenterView.h; sourceTree = "<group>"; };
 		49608BAA2444572D00ED3284 /* DVFoodPieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVFoodPieModel.h; sourceTree = "<group>"; };
 		49608BAB2444572D00ED3284 /* DVPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPieChart.m; sourceTree = "<group>"; };
+		497F15B2244939A500075FDC /* FCRaiseRuleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRaiseRuleHeader.h; sourceTree = "<group>"; };
+		497F15B3244939A500075FDC /* FCRaiseRuleHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRaiseRuleHeader.m; sourceTree = "<group>"; };
+		497F15B5244939AD00075FDC /* FCRaiseRuleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCRaiseRuleHeader.xib; sourceTree = "<group>"; };
+		497F15B7244939BC00075FDC /* FCRaiseRuleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRaiseRuleCell.h; sourceTree = "<group>"; };
+		497F15B8244939BC00075FDC /* FCRaiseRuleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRaiseRuleCell.m; sourceTree = "<group>"; };
+		497F15B9244939BC00075FDC /* FCRaiseRuleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCRaiseRuleCell.xib; sourceTree = "<group>"; };
+		497F15BC24495BC300075FDC /* FCRaiseRuleVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRaiseRuleVC.h; sourceTree = "<group>"; };
+		497F15BD24495BC300075FDC /* FCRaiseRuleVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRaiseRuleVC.m; sourceTree = "<group>"; };
+		497F15BE24495BC300075FDC /* FCRaiseRuleVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCRaiseRuleVC.xib; sourceTree = "<group>"; };
+		497F15C12449799E00075FDC /* FCGoodsJointVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsJointVC.h; sourceTree = "<group>"; };
+		497F15C22449799E00075FDC /* FCGoodsJointVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsJointVC.m; sourceTree = "<group>"; };
+		497F15C32449799E00075FDC /* FCGoodsJointVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsJointVC.xib; sourceTree = "<group>"; };
 		49812A0A2447EF8800191C66 /* FCDropMenuCollectionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDropMenuCollectionHeader.h; sourceTree = "<group>"; };
 		49812A0B2447EF8800191C66 /* FCDropMenuCollectionHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCDropMenuCollectionHeader.m; sourceTree = "<group>"; };
 		49812A0D2447F15B00191C66 /* FCDropMenuCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCDropMenuCollectionCell.h; sourceTree = "<group>"; };
@@ -437,6 +484,9 @@
 		49AF525E2446BA9C00598AAD /* FCCityHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCityHeader.h; sourceTree = "<group>"; };
 		49AF525F2446BA9C00598AAD /* FCCityHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCityHeader.m; sourceTree = "<group>"; };
 		49AF52612446BAA700598AAD /* FCCityHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCCityHeader.xib; sourceTree = "<group>"; };
+		49B7CD74244A8C8700BDFDBB /* FCSignCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSignCodeVC.h; sourceTree = "<group>"; };
+		49B7CD75244A8C8700BDFDBB /* FCSignCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSignCodeVC.m; sourceTree = "<group>"; };
+		49B7CD76244A8C8700BDFDBB /* FCSignCodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSignCodeVC.xib; sourceTree = "<group>"; };
 		49CD6B782446D75400DD72DB /* FCMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMsgVC.h; sourceTree = "<group>"; };
 		49CD6B792446D75400DD72DB /* FCMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMsgVC.m; sourceTree = "<group>"; };
 		49CD6B7A2446D75400DD72DB /* FCMsgVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMsgVC.xib; sourceTree = "<group>"; };
@@ -1156,6 +1206,15 @@
 				49812A3D244848AC00191C66 /* FCContractManageVC.h */,
 				49812A3E244848AC00191C66 /* FCContractManageVC.m */,
 				49812A3F244848AC00191C66 /* FCContractManageVC.xib */,
+				493DE84A2449B0DD00647BAD /* FCOutContractDetailVC.h */,
+				493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */,
+				493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */,
+				493DE8452449B0C900647BAD /* FCInContractDetailVC.h */,
+				493DE8462449B0C900647BAD /* FCInContractDetailVC.m */,
+				493DE8472449B0C900647BAD /* FCInContractDetailVC.xib */,
+				49B7CD74244A8C8700BDFDBB /* FCSignCodeVC.h */,
+				49B7CD75244A8C8700BDFDBB /* FCSignCodeVC.m */,
+				49B7CD76244A8C8700BDFDBB /* FCSignCodeVC.xib */,
 				49812A4E244854D500191C66 /* FCAddOutContractVC.h */,
 				49812A4F244854D500191C66 /* FCAddOutContractVC.m */,
 				49812A50244854D500191C66 /* FCAddOutContractVC.xib */,
@@ -1174,6 +1233,12 @@
 				49812A6C244867E400191C66 /* FCFreeRuleVC.h */,
 				49812A6D244867E400191C66 /* FCFreeRuleVC.m */,
 				49812A6E244867E400191C66 /* FCFreeRuleVC.xib */,
+				497F15BC24495BC300075FDC /* FCRaiseRuleVC.h */,
+				497F15BD24495BC300075FDC /* FCRaiseRuleVC.m */,
+				497F15BE24495BC300075FDC /* FCRaiseRuleVC.xib */,
+				497F15C12449799E00075FDC /* FCGoodsJointVC.h */,
+				497F15C22449799E00075FDC /* FCGoodsJointVC.m */,
+				497F15C32449799E00075FDC /* FCGoodsJointVC.xib */,
 			);
 			name = "合同管理";
 			sourceTree = "<group>";
@@ -1193,6 +1258,21 @@
 				49812A712448690400191C66 /* FCFreeRuleCell.h */,
 				49812A722448690400191C66 /* FCFreeRuleCell.m */,
 				49812A732448690400191C66 /* FCFreeRuleCell.xib */,
+				497F15B2244939A500075FDC /* FCRaiseRuleHeader.h */,
+				497F15B3244939A500075FDC /* FCRaiseRuleHeader.m */,
+				497F15B5244939AD00075FDC /* FCRaiseRuleHeader.xib */,
+				497F15B7244939BC00075FDC /* FCRaiseRuleCell.h */,
+				497F15B8244939BC00075FDC /* FCRaiseRuleCell.m */,
+				497F15B9244939BC00075FDC /* FCRaiseRuleCell.xib */,
+				493DE8312449872B00647BAD /* FCGoodsJointHeader.h */,
+				493DE8322449872B00647BAD /* FCGoodsJointHeader.m */,
+				493DE8342449873100647BAD /* FCGoodsJointHeader.xib */,
+				493DE836244989ED00647BAD /* FCGoodsJointCell.h */,
+				493DE837244989ED00647BAD /* FCGoodsJointCell.m */,
+				493DE838244989ED00647BAD /* FCGoodsJointCell.xib */,
+				493DE83B24499A1700647BAD /* FCSubmitPicCell.h */,
+				493DE83C24499A1700647BAD /* FCSubmitPicCell.m */,
+				493DE83D24499A1700647BAD /* FCSubmitPicCell.xib */,
 			);
 			name = "合同管理";
 			sourceTree = "<group>";
@@ -1514,7 +1594,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */,
+				493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */,
+				497F15BB244939BC00075FDC /* FCRaiseRuleCell.xib in Resources */,
 				49AF52562446BA1E00598AAD /* FCCityVC.xib in Resources */,
+				497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */,
 				49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */,
 				49CD6BA42446E20300DD72DB /* FCSearchTagCell.xib in Resources */,
 				49608B9624443B3600ED3284 /* FCApproveVC.xib in Resources */,
@@ -1533,6 +1616,7 @@
 				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
+				49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */,
 				491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */,
 				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
@@ -1540,6 +1624,7 @@
 				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
+				497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */,
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
 				49608BA424443C0600ED3284 /* FCLoginVC.xib in Resources */,
 				49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */,
@@ -1549,10 +1634,13 @@
 				49608B45244434A500ED3284 /* FSActionSheet_cancel@3x.png in Resources */,
 				49CD6B872446D98400DD72DB /* FCMsgDetailVC.xib in Resources */,
 				49A01FB52440169700FDE60E /* Assets.xcassets in Resources */,
+				493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */,
 				49CD6B822446D7C400DD72DB /* FCMsgCell.xib in Resources */,
 				49AF5250244696A900598AAD /* FCBannerCell.xib in Resources */,
 				49812A2F2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib in Resources */,
+				497F15C024495BC300075FDC /* FCRaiseRuleVC.xib in Resources */,
 				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
+				493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */,
 				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
 				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
 				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
@@ -1562,7 +1650,9 @@
 				49CD6BB02446EA4300DD72DB /* FCEntireRentHouseVC.xib in Resources */,
 				49608B4B244434A500ED3284 /* SGQRCode.bundle in Resources */,
 				49812A662448619B00191C66 /* FCChooseHouseVC.xib in Resources */,
+				493DE83A244989ED00647BAD /* FCGoodsJointCell.xib in Resources */,
 				49812A7A24486D8500191C66 /* FCFreeRuleHeader.xib in Resources */,
+				493DE83F24499A1700647BAD /* FCSubmitPicCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1629,14 +1719,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B7CD77244A8C8700BDFDBB /* FCSignCodeVC.m in Sources */,
 				49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */,
 				49608BA324443C0600ED3284 /* FCLoginVC.m in Sources */,
 				49812A5B24485E9900191C66 /* FCContractTemplateVC.m in Sources */,
 				49608B50244434A500ED3284 /* UIScrollView+Empty.m in Sources */,
 				49608B3E244434A500ED3284 /* UIView+Extension.m in Sources */,
+				493DE8482449B0C900647BAD /* FCInContractDetailVC.m in Sources */,
 				49608B67244434A500ED3284 /* UIColor+DSGradient.m in Sources */,
 				49812A652448619B00191C66 /* FCChooseHouseVC.m in Sources */,
 				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
+				497F15BF24495BC300075FDC /* FCRaiseRuleVC.m in Sources */,
 				49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */,
 				49608B57244434A500ED3284 /* UILabel+ForLMJVerticalScrollText.m in Sources */,
 				49812A262447F9B000191C66 /* FCStoreHouseFooter.m in Sources */,
@@ -1670,7 +1763,9 @@
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
 				49AF52552446BA1E00598AAD /* FCCityVC.m in Sources */,
 				49608B6A244434A500ED3284 /* Foundation+Log.m in Sources */,
+				493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */,
 				49CD6B7B2446D75400DD72DB /* FCMsgVC.m in Sources */,
+				497F15C42449799E00075FDC /* FCGoodsJointVC.m in Sources */,
 				49812A56244854E600191C66 /* FCAddInContractVC.m in Sources */,
 				49608B7E244434A500ED3284 /* MSUserManager.m in Sources */,
 				49812A2E2448288E00191C66 /* FCDropMenuRangeCollectionCell.m in Sources */,
@@ -1697,11 +1792,13 @@
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
 				49608B75244434A500ED3284 /* HXNetworkCache.m in Sources */,
 				49608B7D244434A500ED3284 /* MSUserInfo.m in Sources */,
+				493DE839244989ED00647BAD /* FCGoodsJointCell.m in Sources */,
 				49608B73244434A500ED3284 /* HXLocationTool_.m in Sources */,
 				49CD6B8C2446DE8600DD72DB /* FCNoticeVC.m in Sources */,
 				49608B54244434A500ED3284 /* zhAlertView.m in Sources */,
 				49608B61244434A500ED3284 /* HXTabBarController.m in Sources */,
 				49608B6F244434A500ED3284 /* ContactDataHelper.m in Sources */,
+				493DE8332449872B00647BAD /* FCGoodsJointHeader.m in Sources */,
 				49608B38244434A500ED3284 /* RCFilterCell.m in Sources */,
 				49608B44244434A500ED3284 /* HXPlaceholderTextView.m in Sources */,
 				49AF524F244696A900598AAD /* FCBannerCell.m in Sources */,
@@ -1715,14 +1812,17 @@
 				49608B872444372200ED3284 /* AppDelegate+MSAppService.m in Sources */,
 				49608B8B24443B1300ED3284 /* FCHomeVC.m in Sources */,
 				49CD6BA82446E2A900DD72DB /* FCSearchTagHeader.m in Sources */,
+				497F15BA244939BC00075FDC /* FCRaiseRuleCell.m in Sources */,
 				49608B5D244434A500ED3284 /* ZJPickerView.m in Sources */,
 				49812A6A2448628D00191C66 /* FCChooseClientVC.m in Sources */,
+				493DE83E24499A1700647BAD /* FCSubmitPicCell.m in Sources */,
 				49608B59244434A500ED3284 /* CAAnimation+WAnimation.m in Sources */,
 				49608B37244434A500ED3284 /* SDWeiXinPhotoContainerView.m in Sources */,
 				49CD6B972446DFD900DD72DB /* FCNoticeDetailVC.m in Sources */,
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
+				497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */,
 				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,
 				49608B47244434A500ED3284 /* FSActionSheetConfig.m in Sources */,
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,

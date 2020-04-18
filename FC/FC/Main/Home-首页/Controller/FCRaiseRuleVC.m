@@ -1,22 +1,23 @@
 //
-//  FCFreeRuleVC.m
+//  FCRaiseRuleVC.m
 //  FC
 //
-//  Created by huaxin-01 on 2020/4/16.
+//  Created by huaxin-01 on 2020/4/17.
 //  Copyright © 2020 huaxin-01. All rights reserved.
 //
 
-#import "FCFreeRuleVC.h"
-#import "FCFreeRuleCell.h"
-#import "FCFreeRuleHeader.h"
+#import "FCRaiseRuleVC.h"
+#import "FCRaiseRuleCell.h"
+#import "FCRaiseRuleHeader.h"
 
-static NSString *const FreeRuleCell = @"FreeRuleCell";
-@interface FCFreeRuleVC ()<UITableViewDelegate,UITableViewDataSource>
+static NSString *const RaiseRuleCell = @"RaiseRuleCell";
+@interface FCRaiseRuleVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) FCFreeRuleHeader *header;
+@property (nonatomic, strong) FCRaiseRuleHeader *header;
+
 @end
 
-@implementation FCFreeRuleVC
+@implementation FCRaiseRuleVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,12 +27,12 @@ static NSString *const FreeRuleCell = @"FreeRuleCell";
 -(void)viewDidLayoutSubviews
 {
     [super viewDidLayoutSubviews];
-    self.header.frame = CGRectMake(0, 0, HX_SCREEN_WIDTH, 90.f);
+    self.header.frame = CGRectMake(0, 0, HX_SCREEN_WIDTH, 65.f);
 }
 #pragma mark -- 视图
 -(void)setUpNavBar
 {
-    [self.navigationItem setTitle:@"免租期规则"];
+    [self.navigationItem setTitle:@"递增约定"];
 }
 -(void)setUpTableView
 {
@@ -50,10 +51,10 @@ static NSString *const FreeRuleCell = @"FreeRuleCell";
     self.tableView.backgroundColor = [UIColor clearColor];
     
     // 注册cell
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FCFreeRuleCell class]) bundle:nil] forCellReuseIdentifier:FreeRuleCell];
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FCRaiseRuleCell class]) bundle:nil] forCellReuseIdentifier:RaiseRuleCell];
     
-    FCFreeRuleHeader *header = [FCFreeRuleHeader loadXibView];
-    header.frame = CGRectMake(0, 0, HX_SCREEN_WIDTH, 90.f);
+    FCRaiseRuleHeader *header = [FCRaiseRuleHeader loadXibView];
+    header.frame = CGRectMake(0, 0, HX_SCREEN_WIDTH, 65.f);
     self.header = header;
     self.tableView.tableHeaderView = header;
 }
@@ -68,7 +69,7 @@ static NSString *const FreeRuleCell = @"FreeRuleCell";
     return 6;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    FCFreeRuleCell *cell = [tableView dequeueReusableCellWithIdentifier:FreeRuleCell forIndexPath:indexPath];
+    FCRaiseRuleCell *cell = [tableView dequeueReusableCellWithIdentifier:RaiseRuleCell forIndexPath:indexPath];
     //无色
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (indexPath.row%2) {
