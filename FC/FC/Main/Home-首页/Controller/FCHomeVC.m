@@ -22,6 +22,10 @@
 #import "FCStoreHouseVC.h"
 #import "FCStoreClientVC.h"
 #import "FCContractManageVC.h"
+#import "FCInSaleRecordVC.h"
+#import "FCOutSaleRecordVC.h"
+#import "FCDepartmentSaleRecordVC.h"
+#import "FCAreaSaleRecordVC.h"
 
 @interface FCHomeVC ()<TYCyclePagerViewDataSource, TYCyclePagerViewDelegate, UITextFieldDelegate>
 /* 轮播图 */
@@ -169,16 +173,31 @@
         FCEntireRentHouseVC *rvc = [FCEntireRentHouseVC new];
         [self.navigationController pushViewController:rvc animated:YES];
     }else if (sender.tag == 2) {
-        if (arc4random_uniform(2)%2) {
-            FCStoreClientVC *cvc = [FCStoreClientVC new];
-            [self.navigationController pushViewController:cvc animated:YES];
-        }else{
+//        if (arc4random_uniform(2)%2) {
+//            FCStoreClientVC *cvc = [FCStoreClientVC new];
+//            [self.navigationController pushViewController:cvc animated:YES];
+//        }else{
             FCStoreHouseVC *hvc = [FCStoreHouseVC new];
             [self.navigationController pushViewController:hvc animated:YES];
-        }
+//        }
     }else if (sender.tag == 3) {
         FCContractManageVC *mvc = [FCContractManageVC new];
         [self.navigationController pushViewController:mvc animated:YES];
+    }else if (sender.tag == 4) {
+        NSInteger type = arc4random_uniform(4)%4;
+        if (type == 0) {
+            FCInSaleRecordVC *rvc = [FCInSaleRecordVC new];
+            [self.navigationController pushViewController:rvc animated:YES];
+        }else if (type == 1) {
+            FCOutSaleRecordVC *rvc = [FCOutSaleRecordVC new];
+            [self.navigationController pushViewController:rvc animated:YES];
+        }else if (type == 1) {
+            FCDepartmentSaleRecordVC *rvc = [FCDepartmentSaleRecordVC new];
+            [self.navigationController pushViewController:rvc animated:YES];
+        }else{
+            FCAreaSaleRecordVC *rvc = [FCAreaSaleRecordVC new];
+            [self.navigationController pushViewController:rvc animated:YES];
+        }
     }
 }
 

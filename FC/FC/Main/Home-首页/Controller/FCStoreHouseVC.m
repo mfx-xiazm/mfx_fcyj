@@ -16,6 +16,7 @@
 #import <WMZDropDownMenu.h>
 #import "FCDropMenuCollectionHeader.h"
 #import "FCDropMenuCollectionCell.h"
+#import "FCStoreHouseDetailVC.h"
 
 static NSString *const StoreHouseCell = @"StoreHouseCell";
 static NSString *const StoreHouseHeader = @"StoreHouseHeader";
@@ -526,7 +527,8 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    FCStoreHouseDetailVC *dvc = [FCStoreHouseDetailVC new];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
 @end

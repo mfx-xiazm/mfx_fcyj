@@ -44,21 +44,6 @@
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  二次出租  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOq-Ru-hdQ">
-                                <rect key="frame" x="17" y="15" width="43" height="18"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.30023107389999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="18" id="tzd-ir-m94"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
-                                        <real key="value" value="9"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="房东：张晓晨 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUr-X6-apz">
                                 <rect key="frame" x="128.5" y="55" width="203.5" height="14"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -88,9 +73,7 @@
                             <constraint firstItem="KYE-Ax-vX1" firstAttribute="leading" secondItem="MOw-pH-rzF" secondAttribute="trailing" constant="10" id="Gd5-g5-TM0"/>
                             <constraint firstAttribute="trailing" secondItem="KYE-Ax-vX1" secondAttribute="trailing" constant="12" id="GvS-tU-DXP"/>
                             <constraint firstItem="GUr-X6-apz" firstAttribute="top" secondItem="KYE-Ax-vX1" secondAttribute="bottom" constant="7" id="JS1-RA-k6y"/>
-                            <constraint firstItem="yOq-Ru-hdQ" firstAttribute="leading" secondItem="MOw-pH-rzF" secondAttribute="leading" constant="5" id="JVM-UH-A1O"/>
                             <constraint firstAttribute="trailing" secondItem="Z4C-K0-Yav" secondAttribute="trailing" constant="12" id="M8X-b6-Tbb"/>
-                            <constraint firstItem="yOq-Ru-hdQ" firstAttribute="top" secondItem="MOw-pH-rzF" secondAttribute="top" constant="5" id="Nlg-v9-p7X"/>
                             <constraint firstItem="GUr-X6-apz" firstAttribute="leading" secondItem="MOw-pH-rzF" secondAttribute="trailing" constant="10" id="Um5-ci-xRo"/>
                             <constraint firstItem="Z4C-K0-Yav" firstAttribute="leading" secondItem="MOw-pH-rzF" secondAttribute="trailing" constant="10" id="cpC-iH-jaK"/>
                             <constraint firstAttribute="bottom" secondItem="KcQ-99-GN4" secondAttribute="bottom" constant="10" id="cvm-M6-Tdk"/>
