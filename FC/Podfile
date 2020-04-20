@@ -11,6 +11,7 @@ target 'FC' do
     pod "JJFontFit"
     pod "YYCache"
     pod "YYModel"
+    pod "YYText"
     pod "JXCategoryView"
     pod "TYCyclePagerView"
     pod "ZLCollectionViewFlowLayout"

@@ -37,6 +37,7 @@ PODS:
   - WMZDropDownMenu (1.0.6)
   - YYCache (1.0.4)
   - YYModel (1.0.4)
+  - YYText (1.0.7)
   - zhPopupController (2.0.0)
   - ZLCollectionViewFlowLayout (1.3.0)
   - ZLPhotoBrowser (3.1.4):
@@ -58,6 +59,7 @@ DEPENDENCIES:
   - WMZDropDownMenu
   - YYCache
   - YYModel
+  - YYText
   - zhPopupController
   - ZLCollectionViewFlowLayout
   - ZLPhotoBrowser
@@ -81,6 +83,7 @@ SPEC REPOS:
     - WMZDropDownMenu
     - YYCache
     - YYModel
+    - YYText
     - zhPopupController
     - ZLCollectionViewFlowLayout
     - ZLPhotoBrowser
@@ -103,10 +106,11 @@ SPEC CHECKSUMS:
   WMZDropDownMenu: 9fa426c0935a94fdd8152ace60956fac0abca812
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   zhPopupController: 600aee950c86442c5cca0b078d94c71fe0e1c51e
   ZLCollectionViewFlowLayout: be1c74853577964cb806572807dd9b983945b825
   ZLPhotoBrowser: 638189d99c51f78013c9a0369e385db4a4b9673f
 
-PODFILE CHECKSUM: ffe0e65c084584ef9527abfc65601daea403a1da
+PODFILE CHECKSUM: e0e6994ad315f2a711d25300c305b3f03dc1cf93
 
 COCOAPODS: 1.9.1

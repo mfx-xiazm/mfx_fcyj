@@ -13,14 +13,25 @@
 #import <JXCategoryIndicatorLineView.h>
 #import "FCHouseNearbyCell.h"
 #import "FCPerfectHouseVC.h"
+#import "FCHouseMoreView.h"
+#import "FCHouseMoreObject.h"
+#import <zhPopupController.h>
+#import "zhAlertView.h"
+#import "FCStoreFollowVC.h"
+#import "FCEndAgencyVC.h"
+#import "FCEndAgencyDetailVC.h"
 
 static NSString *const HouseNearbyCell = @"HouseNearbyCell";
-@interface FCStoreHouseDetailVC ()<UITableViewDelegate,UITableViewDataSource,TYCyclePagerViewDataSource,TYCyclePagerViewDelegate,JXCategoryViewDelegate>
+@interface FCStoreHouseDetailVC ()<UITableViewDelegate,UITableViewDataSource,TYCyclePagerViewDataSource,TYCyclePagerViewDelegate,JXCategoryViewDelegate,FCHouseMoreViewDelegate,FCHouseMoreViewDataSource>
 /* 轮播图 */
 @property (weak, nonatomic) IBOutlet TYCyclePagerView *cycleView;
 @property (weak, nonatomic) IBOutlet UILabel *currentPage;
 @property (weak, nonatomic) IBOutlet JXCategoryTitleView *categoryView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) FCHouseMoreView *moreView;
+@property (nonatomic, strong) NSMutableArray *moreObjects;
+@property (nonatomic, strong) zhPopupController *popupController;
+@property (nonatomic, strong) zhPopupController *popupController1;
 
 @end
 
@@ -32,6 +43,46 @@ static NSString *const HouseNearbyCell = @"HouseNearbyCell";
     [self setUpCycleView];
     [self setUpCategoryView];
     [self setUpTableView];
+}
+#pragma mark -- 懒加载
+-(FCHouseMoreView *)moreView
+{
+    if (_moreView == nil) {
+        _moreView = [FCHouseMoreView loadXibView];
+        _moreView.frame = CGRectMake(0,0,HX_SCREEN_WIDTH, 40.f*2 + HX_SCREEN_WIDTH/3.0*0.75 + self.HXButtomHeight);
+        _moreView.dataSource = self;
+        _moreView.delegate = self;
+    }
+    return _moreView;;
+}
+- (zhPopupController *)popupController {
+    if (!_popupController) {
+        _popupController = [[zhPopupController alloc] initWithView:self.moreView size:self.moreView.bounds.size];
+        _popupController.layoutType = zhPopupLayoutTypeBottom;
+        _popupController.dismissOnMaskTouched = YES;
+    }
+    return _popupController;
+}
+-(NSMutableArray *)moreObjects
+{
+    if (_moreObjects == nil) {
+        _moreObjects = [NSMutableArray array];
+        FCHouseMoreObject *object1 = [[FCHouseMoreObject alloc] init];
+        object1.cateName = @"修改房源";
+        object1.imageName = @"修改客源";
+        [_moreObjects addObject:object1];
+        
+        FCHouseMoreObject *object2 = [[FCHouseMoreObject alloc] init];
+        object2.cateName = @"完善房源";
+        object2.imageName = @"完善客源";
+        [_moreObjects addObject:object2];
+        
+        FCHouseMoreObject *object3 = [[FCHouseMoreObject alloc] init];
+        object3.cateName = @"删除房源";
+        object3.imageName = @"删除客源";
+        [_moreObjects addObject:object3];
+    }
+    return _moreObjects;
 }
 #pragma mark -- 视图
 -(void)setUpNavBar
@@ -92,8 +143,70 @@ static NSString *const HouseNearbyCell = @"HouseNearbyCell";
 #pragma mark -- 点击事件
 -(void)moreClicked
 {
-    FCPerfectHouseVC *pvc = [FCPerfectHouseVC new];
-    [self.navigationController pushViewController:pvc animated:YES];
+    _popupController = [[zhPopupController alloc] initWithView:self.moreView size:self.moreView.bounds.size];
+    _popupController.layoutType = zhPopupLayoutTypeBottom;
+    _popupController.dismissOnMaskTouched = YES;
+    [_popupController show];
+}
+- (IBAction)followRecordBtnClicked:(SPButton *)sender {
+    FCStoreFollowVC *fvc = [FCStoreFollowVC new];
+    [self.navigationController pushViewController:fvc animated:YES];
+}
+- (IBAction)signOrEndAgencyClicked:(UIButton *)sender {
+    if (arc4random_uniform(2)%2) {
+        FCEndAgencyDetailVC *dvc = [FCEndAgencyDetailVC new];
+        [self.navigationController pushViewController:dvc animated:YES];
+    }else{
+        FCEndAgencyVC *avc = [FCEndAgencyVC new];
+        [self.navigationController pushViewController:avc animated:YES];
+    }
+}
+
+#pragma mark -- FCHouseMoreViewDelegate
+// 返回元素个数
+- (NSInteger)houseMoreView:(FCHouseMoreView *)houseMoreView numberOfItemsInSection:(NSInteger)section
+{
+    return self.moreObjects.count;
+}
+// 返回每行排列几个元素
+- (NSInteger)houseMoreView:(FCHouseMoreView *)houseMoreView columnCountOfSection:(NSInteger)section
+{
+    return 3;
+}
+// 返回数据实例
+- (FCHouseMoreObject *)houseMoreView:(FCHouseMoreView *)houseMoreView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    FCHouseMoreObject *object = self.moreObjects[indexPath.row];
+    return object;
+}
+- (void)houseMoreView:(FCHouseMoreView *)houseMoreView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    [_popupController dismiss];
+    if (indexPath.row == 0) {
+        
+    }else if (indexPath.row == 1) {
+        FCPerfectHouseVC *pvc = [FCPerfectHouseVC new];
+        [self.navigationController pushViewController:pvc animated:YES];
+    }else{
+        hx_weakify(self);
+        zhAlertView *alert = [[zhAlertView alloc] initWithTitle:@"提示" message:@"确定要删除房源吗？" constantWidth:HX_SCREEN_WIDTH - 50*2];
+        zhAlertButton *cancelButton = [zhAlertButton buttonWithTitle:@"取消" handler:^(zhAlertButton * _Nonnull button) {
+            [weakSelf.popupController1 dismiss];
+        }];
+        cancelButton.lineColor = UIColorFromRGB(0xDDDDDD);
+        [cancelButton setTitleColor:[UIColor colorWithHexString:@"#999999"] forState:UIControlStateNormal];
+        zhAlertButton *okButton = [zhAlertButton buttonWithTitle:@"删除" handler:^(zhAlertButton * _Nonnull button) {
+            [weakSelf.popupController1 dismiss];
+        }];
+        okButton.lineColor = UIColorFromRGB(0xDDDDDD);
+        [okButton setTitleColor:HXControlBg forState:UIControlStateNormal];
+        [alert adjoinWithLeftAction:cancelButton rightAction:okButton];
+
+        _popupController1 = [[zhPopupController alloc] initWithView:alert size:alert.bounds.size];
+        _popupController1.layoutType = zhPopupLayoutTypeCenter;
+        _popupController1.dismissOnMaskTouched = NO;
+        [_popupController1 show];
+    }
 }
 #pragma mark -- JXCategoryViewDelegate
 // 点击选中

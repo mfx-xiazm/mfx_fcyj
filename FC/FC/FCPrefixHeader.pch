@@ -31,6 +31,7 @@
 #import "HBDNavigationController.h"
 #import "UIViewController+HBD.h"
 #import "UIColor+DSGradient.h"
+#import <YYText.h>
 
 /**
  调试阶段，用HXLog代替NSLog

@@ -108,6 +108,21 @@
 		49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA62444572D00ED3284 /* DVPieCenterView.m */; };
 		49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BA72444572D00ED3284 /* DVFoodPieModel.m */; };
 		49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 49608BAB2444572D00ED3284 /* DVPieChart.m */; };
+		4971CB68244D2C1900C2DFD4 /* FCHouseMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB67244D2C1900C2DFD4 /* FCHouseMoreView.m */; };
+		4971CB6A244D2C2100C2DFD4 /* FCHouseMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB69244D2C2100C2DFD4 /* FCHouseMoreView.xib */; };
+		4971CB6E244D2C5B00C2DFD4 /* FCHouseMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB6C244D2C5B00C2DFD4 /* FCHouseMoreCell.m */; };
+		4971CB6F244D2C5B00C2DFD4 /* FCHouseMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB6D244D2C5B00C2DFD4 /* FCHouseMoreCell.xib */; };
+		4971CB72244D35F700C2DFD4 /* FCHouseMoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB71244D35F700C2DFD4 /* FCHouseMoreObject.m */; };
+		4971CB76244D486100C2DFD4 /* FCStoreFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB74244D486100C2DFD4 /* FCStoreFollowVC.m */; };
+		4971CB77244D486100C2DFD4 /* FCStoreFollowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB75244D486100C2DFD4 /* FCStoreFollowVC.xib */; };
+		4971CB7E244D493800C2DFD4 /* FCAddFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB7C244D493800C2DFD4 /* FCAddFollowVC.m */; };
+		4971CB7F244D493800C2DFD4 /* FCAddFollowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB7D244D493800C2DFD4 /* FCAddFollowVC.xib */; };
+		4971CB82244D51B200C2DFD4 /* FCHouseFollowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB81244D51B200C2DFD4 /* FCHouseFollowCell.m */; };
+		4971CB86244D520900C2DFD4 /* FCHouseFollow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB85244D520900C2DFD4 /* FCHouseFollow.m */; };
+		4971CB88244D521400C2DFD4 /* moment2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB87244D521400C2DFD4 /* moment2.plist */; };
+		4971CB8B244D52A900C2DFD4 /* FCHouseFollowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB8A244D52A900C2DFD4 /* FCHouseFollowLayout.m */; };
+		4971CB8F244D7E4600C2DFD4 /* FCEndAgencyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4971CB8D244D7E4600C2DFD4 /* FCEndAgencyVC.m */; };
+		4971CB90244D7E4600C2DFD4 /* FCEndAgencyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4971CB8E244D7E4600C2DFD4 /* FCEndAgencyVC.xib */; };
 		497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15B3244939A500075FDC /* FCRaiseRuleHeader.m */; };
 		497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 497F15B5244939AD00075FDC /* FCRaiseRuleHeader.xib */; };
 		497F15BA244939BC00075FDC /* FCRaiseRuleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 497F15B8244939BC00075FDC /* FCRaiseRuleCell.m */; };
@@ -206,6 +221,10 @@
 		49CD6BB02446EA4300DD72DB /* FCEntireRentHouseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CD6BAE2446EA4300DD72DB /* FCEntireRentHouseVC.xib */; };
 		49CD6BB52446EA6F00DD72DB /* FCEntireRentHouseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD6BB32446EA6F00DD72DB /* FCEntireRentHouseCell.m */; };
 		49CD6BB62446EA6F00DD72DB /* FCEntireRentHouseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49CD6BB42446EA6F00DD72DB /* FCEntireRentHouseCell.xib */; };
+		49D1E1F6244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E1F4244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m */; };
+		49D1E1F7244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D1E1F5244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib */; };
+		49D1E1FB244D9BAC0055F6C0 /* FCAddHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E1F9244D9BAC0055F6C0 /* FCAddHouseVC.m */; };
+		49D1E1FC244D9BAC0055F6C0 /* FCAddHouseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D1E1FA244D9BAC0055F6C0 /* FCAddHouseVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -408,6 +427,30 @@
 		49608BA92444572D00ED3284 /* DVPieCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVPieCenterView.h; sourceTree = "<group>"; };
 		49608BAA2444572D00ED3284 /* DVFoodPieModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVFoodPieModel.h; sourceTree = "<group>"; };
 		49608BAB2444572D00ED3284 /* DVPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVPieChart.m; sourceTree = "<group>"; };
+		4971CB66244D2C1900C2DFD4 /* FCHouseMoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseMoreView.h; sourceTree = "<group>"; };
+		4971CB67244D2C1900C2DFD4 /* FCHouseMoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseMoreView.m; sourceTree = "<group>"; };
+		4971CB69244D2C2100C2DFD4 /* FCHouseMoreView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseMoreView.xib; sourceTree = "<group>"; };
+		4971CB6B244D2C5B00C2DFD4 /* FCHouseMoreCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseMoreCell.h; sourceTree = "<group>"; };
+		4971CB6C244D2C5B00C2DFD4 /* FCHouseMoreCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseMoreCell.m; sourceTree = "<group>"; };
+		4971CB6D244D2C5B00C2DFD4 /* FCHouseMoreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseMoreCell.xib; sourceTree = "<group>"; };
+		4971CB70244D35F700C2DFD4 /* FCHouseMoreObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseMoreObject.h; sourceTree = "<group>"; };
+		4971CB71244D35F700C2DFD4 /* FCHouseMoreObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseMoreObject.m; sourceTree = "<group>"; };
+		4971CB73244D486100C2DFD4 /* FCStoreFollowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCStoreFollowVC.h; sourceTree = "<group>"; };
+		4971CB74244D486100C2DFD4 /* FCStoreFollowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCStoreFollowVC.m; sourceTree = "<group>"; };
+		4971CB75244D486100C2DFD4 /* FCStoreFollowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCStoreFollowVC.xib; sourceTree = "<group>"; };
+		4971CB7B244D493800C2DFD4 /* FCAddFollowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddFollowVC.h; sourceTree = "<group>"; };
+		4971CB7C244D493800C2DFD4 /* FCAddFollowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddFollowVC.m; sourceTree = "<group>"; };
+		4971CB7D244D493800C2DFD4 /* FCAddFollowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddFollowVC.xib; sourceTree = "<group>"; };
+		4971CB80244D51B200C2DFD4 /* FCHouseFollowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseFollowCell.h; sourceTree = "<group>"; };
+		4971CB81244D51B200C2DFD4 /* FCHouseFollowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseFollowCell.m; sourceTree = "<group>"; };
+		4971CB84244D520900C2DFD4 /* FCHouseFollow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseFollow.h; sourceTree = "<group>"; };
+		4971CB85244D520900C2DFD4 /* FCHouseFollow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseFollow.m; sourceTree = "<group>"; };
+		4971CB87244D521400C2DFD4 /* moment2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moment2.plist; sourceTree = "<group>"; };
+		4971CB89244D52A900C2DFD4 /* FCHouseFollowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseFollowLayout.h; sourceTree = "<group>"; };
+		4971CB8A244D52A900C2DFD4 /* FCHouseFollowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseFollowLayout.m; sourceTree = "<group>"; };
+		4971CB8C244D7E4600C2DFD4 /* FCEndAgencyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEndAgencyVC.h; sourceTree = "<group>"; };
+		4971CB8D244D7E4600C2DFD4 /* FCEndAgencyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEndAgencyVC.m; sourceTree = "<group>"; };
+		4971CB8E244D7E4600C2DFD4 /* FCEndAgencyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEndAgencyVC.xib; sourceTree = "<group>"; };
 		497F15B2244939A500075FDC /* FCRaiseRuleHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRaiseRuleHeader.h; sourceTree = "<group>"; };
 		497F15B3244939A500075FDC /* FCRaiseRuleHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRaiseRuleHeader.m; sourceTree = "<group>"; };
 		497F15B5244939AD00075FDC /* FCRaiseRuleHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCRaiseRuleHeader.xib; sourceTree = "<group>"; };
@@ -560,6 +603,12 @@
 		49CD6BB22446EA6F00DD72DB /* FCEntireRentHouseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEntireRentHouseCell.h; sourceTree = "<group>"; };
 		49CD6BB32446EA6F00DD72DB /* FCEntireRentHouseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEntireRentHouseCell.m; sourceTree = "<group>"; };
 		49CD6BB42446EA6F00DD72DB /* FCEntireRentHouseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEntireRentHouseCell.xib; sourceTree = "<group>"; };
+		49D1E1F3244D8C4A0055F6C0 /* FCEndAgencyDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEndAgencyDetailVC.h; sourceTree = "<group>"; };
+		49D1E1F4244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEndAgencyDetailVC.m; sourceTree = "<group>"; };
+		49D1E1F5244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEndAgencyDetailVC.xib; sourceTree = "<group>"; };
+		49D1E1F8244D9BAC0055F6C0 /* FCAddHouseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddHouseVC.h; sourceTree = "<group>"; };
+		49D1E1F9244D9BAC0055F6C0 /* FCAddHouseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddHouseVC.m; sourceTree = "<group>"; };
+		49D1E1FA244D9BAC0055F6C0 /* FCAddHouseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddHouseVC.xib; sourceTree = "<group>"; };
 		A937ABE21C0AAEFC587D5B93 /* Pods-FC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.debug.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A330CD2F5886716026AE3A /* Pods-FC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.release.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.release.xcconfig"; sourceTree = "<group>"; };
 		CA8784845D3A5F6D39464FA0 /* libPods-FC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -911,6 +960,7 @@
 		49608AE6244434A500ED3284 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4971CB83244D51F200C2DFD4 /* 储备房源 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1196,6 +1246,18 @@
 			path = DVPieChart;
 			sourceTree = "<group>";
 		};
+		4971CB83244D51F200C2DFD4 /* 储备房源 */ = {
+			isa = PBXGroup;
+			children = (
+				4971CB87244D521400C2DFD4 /* moment2.plist */,
+				4971CB84244D520900C2DFD4 /* FCHouseFollow.h */,
+				4971CB85244D520900C2DFD4 /* FCHouseFollow.m */,
+				4971CB89244D52A900C2DFD4 /* FCHouseFollowLayout.h */,
+				4971CB8A244D52A900C2DFD4 /* FCHouseFollowLayout.m */,
+			);
+			name = "储备房源";
+			sourceTree = "<group>";
+		};
 		49812A152447F93200191C66 /* 储备房源 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1205,9 +1267,24 @@
 				49B7CD94244AA89800BDFDBB /* FCStoreHouseDetailVC.h */,
 				49B7CD95244AA89800BDFDBB /* FCStoreHouseDetailVC.m */,
 				49B7CD96244AA89800BDFDBB /* FCStoreHouseDetailVC.xib */,
+				4971CB73244D486100C2DFD4 /* FCStoreFollowVC.h */,
+				4971CB74244D486100C2DFD4 /* FCStoreFollowVC.m */,
+				4971CB75244D486100C2DFD4 /* FCStoreFollowVC.xib */,
+				4971CB7B244D493800C2DFD4 /* FCAddFollowVC.h */,
+				4971CB7C244D493800C2DFD4 /* FCAddFollowVC.m */,
+				4971CB7D244D493800C2DFD4 /* FCAddFollowVC.xib */,
+				4971CB8C244D7E4600C2DFD4 /* FCEndAgencyVC.h */,
+				4971CB8D244D7E4600C2DFD4 /* FCEndAgencyVC.m */,
+				4971CB8E244D7E4600C2DFD4 /* FCEndAgencyVC.xib */,
+				49D1E1F3244D8C4A0055F6C0 /* FCEndAgencyDetailVC.h */,
+				49D1E1F4244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m */,
+				49D1E1F5244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib */,
 				495245C0244AF17800D2488C /* FCPerfectHouseVC.h */,
 				495245C1244AF17800D2488C /* FCPerfectHouseVC.m */,
 				495245C2244AF17800D2488C /* FCPerfectHouseVC.xib */,
+				49D1E1F8244D9BAC0055F6C0 /* FCAddHouseVC.h */,
+				49D1E1F9244D9BAC0055F6C0 /* FCAddHouseVC.m */,
+				49D1E1FA244D9BAC0055F6C0 /* FCAddHouseVC.xib */,
 			);
 			name = "储备房源";
 			sourceTree = "<group>";
@@ -1227,6 +1304,16 @@
 				495245BB244AECFF00D2488C /* FCHouseNearbyCell.h */,
 				495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */,
 				495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */,
+				4971CB66244D2C1900C2DFD4 /* FCHouseMoreView.h */,
+				4971CB67244D2C1900C2DFD4 /* FCHouseMoreView.m */,
+				4971CB69244D2C2100C2DFD4 /* FCHouseMoreView.xib */,
+				4971CB70244D35F700C2DFD4 /* FCHouseMoreObject.h */,
+				4971CB71244D35F700C2DFD4 /* FCHouseMoreObject.m */,
+				4971CB6B244D2C5B00C2DFD4 /* FCHouseMoreCell.h */,
+				4971CB6C244D2C5B00C2DFD4 /* FCHouseMoreCell.m */,
+				4971CB6D244D2C5B00C2DFD4 /* FCHouseMoreCell.xib */,
+				4971CB80244D51B200C2DFD4 /* FCHouseFollowCell.h */,
+				4971CB81244D51B200C2DFD4 /* FCHouseFollowCell.m */,
 			);
 			name = "储备房源";
 			sourceTree = "<group>";
@@ -1691,6 +1778,7 @@
 				49608B42244434A500ED3284 /* AlipaySDK.bundle in Resources */,
 				49B7CD7E244A931500BDFDBB /* FCInSaleRecordVC.xib in Resources */,
 				49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */,
+				4971CB6F244D2C5B00C2DFD4 /* FCHouseMoreCell.xib in Resources */,
 				49608B39244434A500ED3284 /* RCFilterCell.xib in Resources */,
 				49608B46244434A500ED3284 /* FSActionSheet_cancel@2x.png in Resources */,
 				49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */,
@@ -1702,6 +1790,7 @@
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
 				49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */,
 				491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */,
+				49D1E1F7244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib in Resources */,
 				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
 				49B7CD98244AA89800BDFDBB /* FCStoreHouseDetailVC.xib in Resources */,
@@ -1712,6 +1801,7 @@
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
 				497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */,
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
+				4971CB7F244D493800C2DFD4 /* FCAddFollowVC.xib in Resources */,
 				49608BA424443C0600ED3284 /* FCLoginVC.xib in Resources */,
 				49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */,
 				49CD6BA92446E2A900DD72DB /* FCSearchTagHeader.xib in Resources */,
@@ -1719,17 +1809,21 @@
 				49608B9B24443B4300ED3284 /* FCMyVC.xib in Resources */,
 				49608B45244434A500ED3284 /* FSActionSheet_cancel@3x.png in Resources */,
 				49CD6B872446D98400DD72DB /* FCMsgDetailVC.xib in Resources */,
+				4971CB90244D7E4600C2DFD4 /* FCEndAgencyVC.xib in Resources */,
 				49A01FB52440169700FDE60E /* Assets.xcassets in Resources */,
 				493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */,
 				49CD6B822446D7C400DD72DB /* FCMsgCell.xib in Resources */,
 				49AF5250244696A900598AAD /* FCBannerCell.xib in Resources */,
 				49B7CD93244A9CED00BDFDBB /* FCSaleRecordCell.xib in Resources */,
 				49812A2F2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib in Resources */,
+				49D1E1FC244D9BAC0055F6C0 /* FCAddHouseVC.xib in Resources */,
 				497F15C024495BC300075FDC /* FCRaiseRuleVC.xib in Resources */,
+				4971CB88244D521400C2DFD4 /* moment2.plist in Resources */,
 				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
 				493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */,
 				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
 				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
+				4971CB77244D486100C2DFD4 /* FCStoreFollowVC.xib in Resources */,
 				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
 				49812A2A2447F9C800191C66 /* FCStoreHouseFooter.xib in Resources */,
 				49608B8C24443B1300ED3284 /* FCHomeVC.xib in Resources */,
@@ -1738,6 +1832,7 @@
 				49608B4B244434A500ED3284 /* SGQRCode.bundle in Resources */,
 				49812A662448619B00191C66 /* FCChooseHouseVC.xib in Resources */,
 				495245C4244AF17800D2488C /* FCPerfectHouseVC.xib in Resources */,
+				4971CB6A244D2C2100C2DFD4 /* FCHouseMoreView.xib in Resources */,
 				493DE83A244989ED00647BAD /* FCGoodsJointCell.xib in Resources */,
 				49812A7A24486D8500191C66 /* FCFreeRuleHeader.xib in Resources */,
 				493DE83F24499A1700647BAD /* FCSubmitPicCell.xib in Resources */,
@@ -1819,6 +1914,7 @@
 				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
 				497F15BF24495BC300075FDC /* FCRaiseRuleVC.m in Sources */,
 				49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */,
+				4971CB86244D520900C2DFD4 /* FCHouseFollow.m in Sources */,
 				49608B57244434A500ED3284 /* UILabel+ForLMJVerticalScrollText.m in Sources */,
 				49812A262447F9B000191C66 /* FCStoreHouseFooter.m in Sources */,
 				49CD6B862446D98400DD72DB /* FCMsgDetailVC.m in Sources */,
@@ -1827,6 +1923,8 @@
 				49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */,
 				49608B53244434A500ED3284 /* HXSearchBar.m in Sources */,
 				49608B7F244434A500ED3284 /* HXCacheTool.m in Sources */,
+				4971CB8B244D52A900C2DFD4 /* FCHouseFollowLayout.m in Sources */,
+				49D1E1FB244D9BAC0055F6C0 /* FCAddHouseVC.m in Sources */,
 				49608B6B244434A500ED3284 /* UITextField+GYExpand.m in Sources */,
 				49608B3F244434A500ED3284 /* SPButton.m in Sources */,
 				49608B64244434A500ED3284 /* UIButton+HXCode.m in Sources */,
@@ -1847,6 +1945,7 @@
 				49608B9524443B3600ED3284 /* FCApproveVC.m in Sources */,
 				49CD6BA32446E20300DD72DB /* FCSearchTagCell.m in Sources */,
 				49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */,
+				49D1E1F6244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m in Sources */,
 				49608B4E244434A500ED3284 /* SGQRCodeScanView.m in Sources */,
 				49608B74244434A500ED3284 /* HXNetworkTool.m in Sources */,
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
@@ -1874,6 +1973,7 @@
 				49B7CD8C244A939100BDFDBB /* FCAreaSaleRecordVC.m in Sources */,
 				49812A51244854D500191C66 /* FCAddOutContractVC.m in Sources */,
 				49812A132447F58400191C66 /* FCSearchResultVC.m in Sources */,
+				4971CB6E244D2C5B00C2DFD4 /* FCHouseMoreCell.m in Sources */,
 				49812A3A24483A1A00191C66 /* FCStoreClientCell.m in Sources */,
 				49608B4F244434A500ED3284 /* LYEmptyBaseView.m in Sources */,
 				49608B49244434A500ED3284 /* FSActionSheetCell.m in Sources */,
@@ -1881,9 +1981,12 @@
 				49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */,
 				49608B58244434A500ED3284 /* LMJHorizontalScrollText.m in Sources */,
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
+				4971CB7E244D493800C2DFD4 /* FCAddFollowVC.m in Sources */,
 				49608B75244434A500ED3284 /* HXNetworkCache.m in Sources */,
+				4971CB76244D486100C2DFD4 /* FCStoreFollowVC.m in Sources */,
 				49608B7D244434A500ED3284 /* MSUserInfo.m in Sources */,
 				493DE839244989ED00647BAD /* FCGoodsJointCell.m in Sources */,
+				4971CB8F244D7E4600C2DFD4 /* FCEndAgencyVC.m in Sources */,
 				49608B73244434A500ED3284 /* HXLocationTool_.m in Sources */,
 				49CD6B8C2446DE8600DD72DB /* FCNoticeVC.m in Sources */,
 				49B7CD87244A936D00BDFDBB /* FCDepartmentSaleRecordVC.m in Sources */,
@@ -1895,6 +1998,7 @@
 				49608B44244434A500ED3284 /* HXPlaceholderTextView.m in Sources */,
 				49AF524F244696A900598AAD /* FCBannerCell.m in Sources */,
 				49B7CD92244A9CED00BDFDBB /* FCSaleRecordCell.m in Sources */,
+				4971CB72244D35F700C2DFD4 /* FCHouseMoreObject.m in Sources */,
 				491AD0C6244589D2003D9749 /* FCContactChildVC.m in Sources */,
 				49608B6C244434A500ED3284 /* HXConst.m in Sources */,
 				49812A34244839EE00191C66 /* FCStoreClientVC.m in Sources */,
@@ -1910,11 +2014,13 @@
 				49608B5D244434A500ED3284 /* ZJPickerView.m in Sources */,
 				49812A6A2448628D00191C66 /* FCChooseClientVC.m in Sources */,
 				493DE83E24499A1700647BAD /* FCSubmitPicCell.m in Sources */,
+				4971CB68244D2C1900C2DFD4 /* FCHouseMoreView.m in Sources */,
 				49608B59244434A500ED3284 /* CAAnimation+WAnimation.m in Sources */,
 				49608B37244434A500ED3284 /* SDWeiXinPhotoContainerView.m in Sources */,
 				49CD6B972446DFD900DD72DB /* FCNoticeDetailVC.m in Sources */,
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
+				4971CB82244D51B200C2DFD4 /* FCHouseFollowCell.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
 				497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */,
 				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,

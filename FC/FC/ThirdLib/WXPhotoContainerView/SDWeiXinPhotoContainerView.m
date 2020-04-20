@@ -13,6 +13,7 @@
 #define kTodayPortraitWidthAndHeight 45
 #define kTodayPortraitNamePadding 10
 #define margin 10
+#define kLeftMargin 12
 @interface SDWeiXinPhotoContainerView ()
 
 @property (nonatomic, strong) NSArray *imageViewsArray;
@@ -130,13 +131,14 @@
 {
     if (array.count == 1)
     {
-        return 120;
+        return 80.f;
     } else {
         if (_customImgWidth != 0) {
             return _customImgWidth;
         }else{
-            CGFloat w = (HX_SCREEN_WIDTH - kTodayNormalPadding - kTodayPortraitWidthAndHeight - kTodayPortraitNamePadding - kTodayNormalPadding - margin*2)/3.0;
-            return w;
+//            CGFloat w = (HX_SCREEN_WIDTH - kLeftMargin - kTodayPortraitWidthAndHeight - margin - kLeftMargin - margin*2)/3.0;
+//            return w;
+            return 80.f;
         }
     }
 }
@@ -154,7 +156,8 @@
 
 + (CGSize)getContainerSizeWithPicPathStringsArray:(NSArray *)picPathStringsArray
 {
-    CGFloat itemW = picPathStringsArray.count == 1 ? 120 : (HX_SCREEN_WIDTH - margin - kTodayPortraitWidthAndHeight - margin - margin - margin*2)/3.0;
+    //CGFloat itemW = picPathStringsArray.count == 1 ? 80 : (HX_SCREEN_WIDTH - kLeftMargin - kTodayPortraitWidthAndHeight - margin - kLeftMargin - margin*2)/3.0;
+    CGFloat itemW = 80.f;
     CGFloat itemH = 0;
     if (picPathStringsArray.count == 1) {
         itemH = itemW;

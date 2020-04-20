@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "上传.png",
+      "filename" : "_自拍照.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "上传@2x.png",
+      "filename" : "_自拍照@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "上传@3x.png",
+      "filename" : "_自拍照@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
