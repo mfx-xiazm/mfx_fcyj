@@ -174,11 +174,11 @@
         [self.navigationController pushViewController:rvc animated:YES];
     }else if (sender.tag == 2) {
 //        if (arc4random_uniform(2)%2) {
-//            FCStoreClientVC *cvc = [FCStoreClientVC new];
-//            [self.navigationController pushViewController:cvc animated:YES];
+            FCStoreClientVC *cvc = [FCStoreClientVC new];
+            [self.navigationController pushViewController:cvc animated:YES];
 //        }else{
-            FCStoreHouseVC *hvc = [FCStoreHouseVC new];
-            [self.navigationController pushViewController:hvc animated:YES];
+//            FCStoreHouseVC *hvc = [FCStoreHouseVC new];
+//            [self.navigationController pushViewController:hvc animated:YES];
 //        }
     }else if (sender.tag == 3) {
         FCContractManageVC *mvc = [FCContractManageVC new];

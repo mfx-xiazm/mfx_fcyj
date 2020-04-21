@@ -14,6 +14,12 @@
 		491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491AD0CA24458AB0003D9749 /* FCContacterCell.xib */; };
 		491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 491AD0CE24458ADC003D9749 /* FCContactHeaderView.m */; };
 		491AD0D124458AE6003D9749 /* FCContactHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491AD0D024458AE6003D9749 /* FCContactHeaderView.xib */; };
+		492DC670244EA330004B52F7 /* FCReserveClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 492DC66E244EA330004B52F7 /* FCReserveClientVC.m */; };
+		492DC671244EA330004B52F7 /* FCReserveClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492DC66F244EA330004B52F7 /* FCReserveClientVC.xib */; };
+		492DC675244EA343004B52F7 /* FCSignClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 492DC673244EA343004B52F7 /* FCSignClientVC.m */; };
+		492DC676244EA343004B52F7 /* FCSignClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492DC674244EA343004B52F7 /* FCSignClientVC.xib */; };
+		492DC67A244EA3A4004B52F7 /* FCTargetClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 492DC678244EA3A4004B52F7 /* FCTargetClientVC.m */; };
+		492DC67B244EA3A4004B52F7 /* FCTargetClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492DC679244EA3A4004B52F7 /* FCTargetClientVC.xib */; };
 		493DE8332449872B00647BAD /* FCGoodsJointHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE8322449872B00647BAD /* FCGoodsJointHeader.m */; };
 		493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE8342449873100647BAD /* FCGoodsJointHeader.xib */; };
 		493DE839244989ED00647BAD /* FCGoodsJointCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE837244989ED00647BAD /* FCGoodsJointCell.m */; };
@@ -185,6 +191,27 @@
 		49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AF525B2446BA8A00598AAD /* FCCityCell.xib */; };
 		49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF525F2446BA9C00598AAD /* FCCityHeader.m */; };
 		49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AF52612446BAA700598AAD /* FCCityHeader.xib */; };
+		49B1EDAF244EC6E5009B2449 /* FCClientFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDAD244EC6E5009B2449 /* FCClientFollowVC.m */; };
+		49B1EDB0244EC6E5009B2449 /* FCClientFollowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDAE244EC6E5009B2449 /* FCClientFollowVC.xib */; };
+		49B1EDB4244ECD1E009B2449 /* FCAddVisitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDB2244ECD1E009B2449 /* FCAddVisitVC.m */; };
+		49B1EDB5244ECD1E009B2449 /* FCAddVisitVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDB3244ECD1E009B2449 /* FCAddVisitVC.xib */; };
+		49B1EDB9244ED13B009B2449 /* FCPerfectClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDB7244ED13B009B2449 /* FCPerfectClientVC.m */; };
+		49B1EDBA244ED13B009B2449 /* FCPerfectClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDB8244ED13B009B2449 /* FCPerfectClientVC.xib */; };
+		49B1EDC6244EDF69009B2449 /* YBRectConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDBE244EDF68009B2449 /* YBRectConst.m */; };
+		49B1EDC7244EDF69009B2449 /* YBPopupMenuPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDBF244EDF68009B2449 /* YBPopupMenuPath.m */; };
+		49B1EDC8244EDF69009B2449 /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDC2244EDF68009B2449 /* YBPopupMenu.m */; };
+		49B1EDC9244EDF69009B2449 /* YBPopupMenuDeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDC3244EDF68009B2449 /* YBPopupMenuDeviceOrientationManager.m */; };
+		49B1EDCA244EDF69009B2449 /* YBPopupMenuAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDC5244EDF68009B2449 /* YBPopupMenuAnimationManager.m */; };
+		49B1EDCE244EE249009B2449 /* FCReserveRefundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDCC244EE249009B2449 /* FCReserveRefundVC.m */; };
+		49B1EDCF244EE249009B2449 /* FCReserveRefundVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDCD244EE249009B2449 /* FCReserveRefundVC.xib */; };
+		49B1EDD3244EE257009B2449 /* FCReserveBreakVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDD1244EE257009B2449 /* FCReserveBreakVC.m */; };
+		49B1EDD4244EE257009B2449 /* FCReserveBreakVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDD2244EE257009B2449 /* FCReserveBreakVC.xib */; };
+		49B1EDD8244EE272009B2449 /* FCReserveRefundDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDD6244EE272009B2449 /* FCReserveRefundDetailVC.m */; };
+		49B1EDD9244EE272009B2449 /* FCReserveRefundDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDD7244EE272009B2449 /* FCReserveRefundDetailVC.xib */; };
+		49B1EDDD244EE282009B2449 /* FCReserveBreakDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDDB244EE282009B2449 /* FCReserveBreakDetailVC.m */; };
+		49B1EDDE244EE282009B2449 /* FCReserveBreakDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDDC244EE282009B2449 /* FCReserveBreakDetailVC.xib */; };
+		49B1EDE2244EF949009B2449 /* FCAddClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1EDE0244EF949009B2449 /* FCAddClientVC.m */; };
+		49B1EDE3244EF949009B2449 /* FCAddClientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B1EDE1244EF949009B2449 /* FCAddClientVC.xib */; };
 		49B7CD77244A8C8700BDFDBB /* FCSignCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7CD75244A8C8700BDFDBB /* FCSignCodeVC.m */; };
 		49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49B7CD76244A8C8700BDFDBB /* FCSignCodeVC.xib */; };
 		49B7CD7D244A931500BDFDBB /* FCInSaleRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B7CD7B244A931500BDFDBB /* FCInSaleRecordVC.m */; };
@@ -254,6 +281,15 @@
 		491AD0CD24458ADC003D9749 /* FCContactHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContactHeaderView.h; sourceTree = "<group>"; };
 		491AD0CE24458ADC003D9749 /* FCContactHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContactHeaderView.m; sourceTree = "<group>"; };
 		491AD0D024458AE6003D9749 /* FCContactHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContactHeaderView.xib; sourceTree = "<group>"; };
+		492DC66D244EA330004B52F7 /* FCReserveClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveClientVC.h; sourceTree = "<group>"; };
+		492DC66E244EA330004B52F7 /* FCReserveClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveClientVC.m; sourceTree = "<group>"; };
+		492DC66F244EA330004B52F7 /* FCReserveClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveClientVC.xib; sourceTree = "<group>"; };
+		492DC672244EA343004B52F7 /* FCSignClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSignClientVC.h; sourceTree = "<group>"; };
+		492DC673244EA343004B52F7 /* FCSignClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSignClientVC.m; sourceTree = "<group>"; };
+		492DC674244EA343004B52F7 /* FCSignClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSignClientVC.xib; sourceTree = "<group>"; };
+		492DC677244EA3A4004B52F7 /* FCTargetClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCTargetClientVC.h; sourceTree = "<group>"; };
+		492DC678244EA3A4004B52F7 /* FCTargetClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCTargetClientVC.m; sourceTree = "<group>"; };
+		492DC679244EA3A4004B52F7 /* FCTargetClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCTargetClientVC.xib; sourceTree = "<group>"; };
 		493DE8312449872B00647BAD /* FCGoodsJointHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsJointHeader.h; sourceTree = "<group>"; };
 		493DE8322449872B00647BAD /* FCGoodsJointHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsJointHeader.m; sourceTree = "<group>"; };
 		493DE8342449873100647BAD /* FCGoodsJointHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsJointHeader.xib; sourceTree = "<group>"; };
@@ -549,6 +585,40 @@
 		49AF525E2446BA9C00598AAD /* FCCityHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCityHeader.h; sourceTree = "<group>"; };
 		49AF525F2446BA9C00598AAD /* FCCityHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCityHeader.m; sourceTree = "<group>"; };
 		49AF52612446BAA700598AAD /* FCCityHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCCityHeader.xib; sourceTree = "<group>"; };
+		49B1EDAC244EC6E5009B2449 /* FCClientFollowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCClientFollowVC.h; sourceTree = "<group>"; };
+		49B1EDAD244EC6E5009B2449 /* FCClientFollowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCClientFollowVC.m; sourceTree = "<group>"; };
+		49B1EDAE244EC6E5009B2449 /* FCClientFollowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCClientFollowVC.xib; sourceTree = "<group>"; };
+		49B1EDB1244ECD1E009B2449 /* FCAddVisitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddVisitVC.h; sourceTree = "<group>"; };
+		49B1EDB2244ECD1E009B2449 /* FCAddVisitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddVisitVC.m; sourceTree = "<group>"; };
+		49B1EDB3244ECD1E009B2449 /* FCAddVisitVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddVisitVC.xib; sourceTree = "<group>"; };
+		49B1EDB6244ED13B009B2449 /* FCPerfectClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPerfectClientVC.h; sourceTree = "<group>"; };
+		49B1EDB7244ED13B009B2449 /* FCPerfectClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPerfectClientVC.m; sourceTree = "<group>"; };
+		49B1EDB8244ED13B009B2449 /* FCPerfectClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCPerfectClientVC.xib; sourceTree = "<group>"; };
+		49B1EDBC244EDF68009B2449 /* YBPopupMenuDeviceOrientationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuDeviceOrientationManager.h; sourceTree = "<group>"; };
+		49B1EDBD244EDF68009B2449 /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
+		49B1EDBE244EDF68009B2449 /* YBRectConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBRectConst.m; sourceTree = "<group>"; };
+		49B1EDBF244EDF68009B2449 /* YBPopupMenuPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuPath.m; sourceTree = "<group>"; };
+		49B1EDC0244EDF68009B2449 /* YBPopupMenuAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuAnimationManager.h; sourceTree = "<group>"; };
+		49B1EDC1244EDF68009B2449 /* YBRectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRectConst.h; sourceTree = "<group>"; };
+		49B1EDC2244EDF68009B2449 /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
+		49B1EDC3244EDF68009B2449 /* YBPopupMenuDeviceOrientationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuDeviceOrientationManager.m; sourceTree = "<group>"; };
+		49B1EDC4244EDF68009B2449 /* YBPopupMenuPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuPath.h; sourceTree = "<group>"; };
+		49B1EDC5244EDF68009B2449 /* YBPopupMenuAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuAnimationManager.m; sourceTree = "<group>"; };
+		49B1EDCB244EE249009B2449 /* FCReserveRefundVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveRefundVC.h; sourceTree = "<group>"; };
+		49B1EDCC244EE249009B2449 /* FCReserveRefundVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveRefundVC.m; sourceTree = "<group>"; };
+		49B1EDCD244EE249009B2449 /* FCReserveRefundVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveRefundVC.xib; sourceTree = "<group>"; };
+		49B1EDD0244EE257009B2449 /* FCReserveBreakVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveBreakVC.h; sourceTree = "<group>"; };
+		49B1EDD1244EE257009B2449 /* FCReserveBreakVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveBreakVC.m; sourceTree = "<group>"; };
+		49B1EDD2244EE257009B2449 /* FCReserveBreakVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveBreakVC.xib; sourceTree = "<group>"; };
+		49B1EDD5244EE272009B2449 /* FCReserveRefundDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveRefundDetailVC.h; sourceTree = "<group>"; };
+		49B1EDD6244EE272009B2449 /* FCReserveRefundDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveRefundDetailVC.m; sourceTree = "<group>"; };
+		49B1EDD7244EE272009B2449 /* FCReserveRefundDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveRefundDetailVC.xib; sourceTree = "<group>"; };
+		49B1EDDA244EE282009B2449 /* FCReserveBreakDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveBreakDetailVC.h; sourceTree = "<group>"; };
+		49B1EDDB244EE282009B2449 /* FCReserveBreakDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveBreakDetailVC.m; sourceTree = "<group>"; };
+		49B1EDDC244EE282009B2449 /* FCReserveBreakDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveBreakDetailVC.xib; sourceTree = "<group>"; };
+		49B1EDDF244EF949009B2449 /* FCAddClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddClientVC.h; sourceTree = "<group>"; };
+		49B1EDE0244EF949009B2449 /* FCAddClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddClientVC.m; sourceTree = "<group>"; };
+		49B1EDE1244EF949009B2449 /* FCAddClientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddClientVC.xib; sourceTree = "<group>"; };
 		49B7CD74244A8C8700BDFDBB /* FCSignCodeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSignCodeVC.h; sourceTree = "<group>"; };
 		49B7CD75244A8C8700BDFDBB /* FCSignCodeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSignCodeVC.m; sourceTree = "<group>"; };
 		49B7CD76244A8C8700BDFDBB /* FCSignCodeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSignCodeVC.xib; sourceTree = "<group>"; };
@@ -644,6 +714,7 @@
 		49608A73244434A400ED3284 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				49B1EDBB244EDF68009B2449 /* YBPopupMenu */,
 				49608BA52444572D00ED3284 /* DVPieChart */,
 				49608A85244434A400ED3284 /* SPButton */,
 				49608A88244434A400ED3284 /* FBShimmering */,
@@ -1324,6 +1395,39 @@
 				49812A31244839EE00191C66 /* FCStoreClientVC.h */,
 				49812A32244839EE00191C66 /* FCStoreClientVC.m */,
 				49812A33244839EE00191C66 /* FCStoreClientVC.xib */,
+				492DC677244EA3A4004B52F7 /* FCTargetClientVC.h */,
+				492DC678244EA3A4004B52F7 /* FCTargetClientVC.m */,
+				492DC679244EA3A4004B52F7 /* FCTargetClientVC.xib */,
+				49B1EDB6244ED13B009B2449 /* FCPerfectClientVC.h */,
+				49B1EDB7244ED13B009B2449 /* FCPerfectClientVC.m */,
+				49B1EDB8244ED13B009B2449 /* FCPerfectClientVC.xib */,
+				49B1EDB1244ECD1E009B2449 /* FCAddVisitVC.h */,
+				49B1EDB2244ECD1E009B2449 /* FCAddVisitVC.m */,
+				49B1EDB3244ECD1E009B2449 /* FCAddVisitVC.xib */,
+				492DC66D244EA330004B52F7 /* FCReserveClientVC.h */,
+				492DC66E244EA330004B52F7 /* FCReserveClientVC.m */,
+				492DC66F244EA330004B52F7 /* FCReserveClientVC.xib */,
+				49B1EDCB244EE249009B2449 /* FCReserveRefundVC.h */,
+				49B1EDCC244EE249009B2449 /* FCReserveRefundVC.m */,
+				49B1EDCD244EE249009B2449 /* FCReserveRefundVC.xib */,
+				49B1EDD5244EE272009B2449 /* FCReserveRefundDetailVC.h */,
+				49B1EDD6244EE272009B2449 /* FCReserveRefundDetailVC.m */,
+				49B1EDD7244EE272009B2449 /* FCReserveRefundDetailVC.xib */,
+				49B1EDD0244EE257009B2449 /* FCReserveBreakVC.h */,
+				49B1EDD1244EE257009B2449 /* FCReserveBreakVC.m */,
+				49B1EDD2244EE257009B2449 /* FCReserveBreakVC.xib */,
+				49B1EDDA244EE282009B2449 /* FCReserveBreakDetailVC.h */,
+				49B1EDDB244EE282009B2449 /* FCReserveBreakDetailVC.m */,
+				49B1EDDC244EE282009B2449 /* FCReserveBreakDetailVC.xib */,
+				492DC672244EA343004B52F7 /* FCSignClientVC.h */,
+				492DC673244EA343004B52F7 /* FCSignClientVC.m */,
+				492DC674244EA343004B52F7 /* FCSignClientVC.xib */,
+				49B1EDAC244EC6E5009B2449 /* FCClientFollowVC.h */,
+				49B1EDAD244EC6E5009B2449 /* FCClientFollowVC.m */,
+				49B1EDAE244EC6E5009B2449 /* FCClientFollowVC.xib */,
+				49B1EDDF244EF949009B2449 /* FCAddClientVC.h */,
+				49B1EDE0244EF949009B2449 /* FCAddClientVC.m */,
+				49B1EDE1244EF949009B2449 /* FCAddClientVC.xib */,
 			);
 			name = "储备客源";
 			sourceTree = "<group>";
@@ -1507,6 +1611,23 @@
 				49AF525B2446BA8A00598AAD /* FCCityCell.xib */,
 			);
 			name = "切换城市";
+			sourceTree = "<group>";
+		};
+		49B1EDBB244EDF68009B2449 /* YBPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				49B1EDBD244EDF68009B2449 /* YBPopupMenu.h */,
+				49B1EDC2244EDF68009B2449 /* YBPopupMenu.m */,
+				49B1EDC1244EDF68009B2449 /* YBRectConst.h */,
+				49B1EDBE244EDF68009B2449 /* YBRectConst.m */,
+				49B1EDC4244EDF68009B2449 /* YBPopupMenuPath.h */,
+				49B1EDBF244EDF68009B2449 /* YBPopupMenuPath.m */,
+				49B1EDC0244EDF68009B2449 /* YBPopupMenuAnimationManager.h */,
+				49B1EDBC244EDF68009B2449 /* YBPopupMenuDeviceOrientationManager.h */,
+				49B1EDC5244EDF68009B2449 /* YBPopupMenuAnimationManager.m */,
+				49B1EDC3244EDF68009B2449 /* YBPopupMenuDeviceOrientationManager.m */,
+			);
+			path = YBPopupMenu;
 			sourceTree = "<group>";
 		};
 		49B7CD79244A92D000BDFDBB /* 统计报表 */ = {
@@ -1761,13 +1882,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B7CD83244A933000BDFDBB /* FCOutSaleRecordVC.xib in Resources */,
+				492DC671244EA330004B52F7 /* FCReserveClientVC.xib in Resources */,
 				49B7CD88244A936D00BDFDBB /* FCDepartmentSaleRecordVC.xib in Resources */,
 				49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */,
 				493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */,
 				497F15BB244939BC00075FDC /* FCRaiseRuleCell.xib in Resources */,
 				49AF52562446BA1E00598AAD /* FCCityVC.xib in Resources */,
 				49B7CD8D244A939100BDFDBB /* FCAreaSaleRecordVC.xib in Resources */,
+				49B1EDB5244ECD1E009B2449 /* FCAddVisitVC.xib in Resources */,
 				497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */,
+				49B1EDB0244EC6E5009B2449 /* FCClientFollowVC.xib in Resources */,
 				49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */,
 				49CD6BA42446E20300DD72DB /* FCSearchTagCell.xib in Resources */,
 				49608B9624443B3600ED3284 /* FCApproveVC.xib in Resources */,
@@ -1779,12 +1903,16 @@
 				49B7CD7E244A931500BDFDBB /* FCInSaleRecordVC.xib in Resources */,
 				49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */,
 				4971CB6F244D2C5B00C2DFD4 /* FCHouseMoreCell.xib in Resources */,
+				49B1EDBA244ED13B009B2449 /* FCPerfectClientVC.xib in Resources */,
+				49B1EDDE244EE282009B2449 /* FCReserveBreakDetailVC.xib in Resources */,
 				49608B39244434A500ED3284 /* RCFilterCell.xib in Resources */,
 				49608B46244434A500ED3284 /* FSActionSheet_cancel@2x.png in Resources */,
 				49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */,
 				49A01FB82440169700FDE60E /* LaunchScreen.storyboard in Resources */,
+				49B1EDE3244EF949009B2449 /* FCAddClientVC.xib in Resources */,
 				49608B9124443B2300ED3284 /* FCContactVC.xib in Resources */,
 				49812A48244848F000191C66 /* FCContractManageCell.xib in Resources */,
+				492DC67B244EA3A4004B52F7 /* FCTargetClientVC.xib in Resources */,
 				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
@@ -1793,11 +1921,13 @@
 				49D1E1F7244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib in Resources */,
 				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
+				49B1EDCF244EE249009B2449 /* FCReserveRefundVC.xib in Resources */,
 				49B7CD98244AA89800BDFDBB /* FCStoreHouseDetailVC.xib in Resources */,
 				495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */,
 				49608B3B244434A500ED3284 /* WSDatePickerView.xib in Resources */,
 				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
+				492DC676244EA343004B52F7 /* FCSignClientVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
 				497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */,
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
@@ -1821,9 +1951,11 @@
 				4971CB88244D521400C2DFD4 /* moment2.plist in Resources */,
 				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
 				493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */,
+				49B1EDD4244EE257009B2449 /* FCReserveBreakVC.xib in Resources */,
 				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
 				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
 				4971CB77244D486100C2DFD4 /* FCStoreFollowVC.xib in Resources */,
+				49B1EDD9244EE272009B2449 /* FCReserveRefundDetailVC.xib in Resources */,
 				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
 				49812A2A2447F9C800191C66 /* FCStoreHouseFooter.xib in Resources */,
 				49608B8C24443B1300ED3284 /* FCHomeVC.xib in Resources */,
@@ -1921,6 +2053,7 @@
 				49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */,
 				49608B52244434A500ED3284 /* LYEmptyView.m in Sources */,
 				49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */,
+				49B1EDC9244EDF69009B2449 /* YBPopupMenuDeviceOrientationManager.m in Sources */,
 				49608B53244434A500ED3284 /* HXSearchBar.m in Sources */,
 				49608B7F244434A500ED3284 /* HXCacheTool.m in Sources */,
 				4971CB8B244D52A900C2DFD4 /* FCHouseFollowLayout.m in Sources */,
@@ -1929,6 +2062,7 @@
 				49608B3F244434A500ED3284 /* SPButton.m in Sources */,
 				49608B64244434A500ED3284 /* UIButton+HXCode.m in Sources */,
 				49608B65244434A500ED3284 /* NSURL+Expand.m in Sources */,
+				49B1EDE2244EF949009B2449 /* FCAddClientVC.m in Sources */,
 				49A01FAA2440169300FDE60E /* AppDelegate.m in Sources */,
 				49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */,
 				49B7CD7D244A931500BDFDBB /* FCInSaleRecordVC.m in Sources */,
@@ -1936,6 +2070,7 @@
 				49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */,
 				49AF525C2446BA8A00598AAD /* FCCityCell.m in Sources */,
 				49CD6BAF2446EA4300DD72DB /* FCEntireRentHouseVC.m in Sources */,
+				49B1EDDD244EE282009B2449 /* FCReserveBreakDetailVC.m in Sources */,
 				49608B6D244434A500ED3284 /* NSDate+HXNExtension.m in Sources */,
 				49608B55244434A500ED3284 /* UIView+ForLMJVerticalScrollText.m in Sources */,
 				49608B9A24443B4300ED3284 /* FCMyVC.m in Sources */,
@@ -1951,9 +2086,12 @@
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
 				49AF52552446BA1E00598AAD /* FCCityVC.m in Sources */,
 				49608B6A244434A500ED3284 /* Foundation+Log.m in Sources */,
+				49B1EDC7244EDF69009B2449 /* YBPopupMenuPath.m in Sources */,
 				493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */,
 				49CD6B7B2446D75400DD72DB /* FCMsgVC.m in Sources */,
+				492DC67A244EA3A4004B52F7 /* FCTargetClientVC.m in Sources */,
 				49B7CD97244AA89800BDFDBB /* FCStoreHouseDetailVC.m in Sources */,
+				49B1EDAF244EC6E5009B2449 /* FCClientFollowVC.m in Sources */,
 				497F15C42449799E00075FDC /* FCGoodsJointVC.m in Sources */,
 				49812A56244854E600191C66 /* FCAddInContractVC.m in Sources */,
 				49608B7E244434A500ED3284 /* MSUserManager.m in Sources */,
@@ -1966,8 +2104,11 @@
 				49608B63244434A500ED3284 /* HXNavigationController.m in Sources */,
 				49812A742448690400191C66 /* FCFreeRuleCell.m in Sources */,
 				49CD6B812446D7C400DD72DB /* FCMsgCell.m in Sources */,
+				49B1EDB4244ECD1E009B2449 /* FCAddVisitVC.m in Sources */,
 				49608B71244434A500ED3284 /* UIView+HXNExtension.m in Sources */,
 				49608B41244434A500ED3284 /* FBShimmeringView.m in Sources */,
+				49B1EDC6244EDF69009B2449 /* YBRectConst.m in Sources */,
+				49B1EDCE244EE249009B2449 /* FCReserveRefundVC.m in Sources */,
 				49608B5A244434A500ED3284 /* UIView+WZLBadge.m in Sources */,
 				49608B60244434A500ED3284 /* HXBaseViewController.m in Sources */,
 				49B7CD8C244A939100BDFDBB /* FCAreaSaleRecordVC.m in Sources */,
@@ -1978,6 +2119,7 @@
 				49608B4F244434A500ED3284 /* LYEmptyBaseView.m in Sources */,
 				49608B49244434A500ED3284 /* FSActionSheetCell.m in Sources */,
 				49608B51244434A500ED3284 /* UIView+LYExtension.m in Sources */,
+				49B1EDC8244EDF69009B2449 /* YBPopupMenu.m in Sources */,
 				49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */,
 				49608B58244434A500ED3284 /* LMJHorizontalScrollText.m in Sources */,
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
@@ -2007,10 +2149,12 @@
 				49B7CD82244A933000BDFDBB /* FCOutSaleRecordVC.m in Sources */,
 				49608B4D244434A500ED3284 /* SGQRCodeObtain.m in Sources */,
 				49608B48244434A500ED3284 /* FSActionSheet.m in Sources */,
+				49B1EDD3244EE257009B2449 /* FCReserveBreakVC.m in Sources */,
 				49608B872444372200ED3284 /* AppDelegate+MSAppService.m in Sources */,
 				49608B8B24443B1300ED3284 /* FCHomeVC.m in Sources */,
 				49CD6BA82446E2A900DD72DB /* FCSearchTagHeader.m in Sources */,
 				497F15BA244939BC00075FDC /* FCRaiseRuleCell.m in Sources */,
+				492DC675244EA343004B52F7 /* FCSignClientVC.m in Sources */,
 				49608B5D244434A500ED3284 /* ZJPickerView.m in Sources */,
 				49812A6A2448628D00191C66 /* FCChooseClientVC.m in Sources */,
 				493DE83E24499A1700647BAD /* FCSubmitPicCell.m in Sources */,
@@ -2020,19 +2164,23 @@
 				49CD6B972446DFD900DD72DB /* FCNoticeDetailVC.m in Sources */,
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
+				49B1EDCA244EDF69009B2449 /* YBPopupMenuAnimationManager.m in Sources */,
 				4971CB82244D51B200C2DFD4 /* FCHouseFollowCell.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
 				497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */,
 				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,
 				49608B47244434A500ED3284 /* FSActionSheetConfig.m in Sources */,
 				495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */,
+				492DC670244EA330004B52F7 /* FCReserveClientVC.m in Sources */,
 				495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */,
+				49B1EDD8244EE272009B2449 /* FCReserveRefundDetailVC.m in Sources */,
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,
 				49608B3D244434A500ED3284 /* NSDate+Extension.m in Sources */,
 				49608B7C244434A500ED3284 /* HXTopWindow.m in Sources */,
 				49CD6B922446DEB300DD72DB /* FCNoticeCell.m in Sources */,
 				49608B6E244434A500ED3284 /* UILabel+HXNExtension.m in Sources */,
 				49812A6F244867E400191C66 /* FCFreeRuleVC.m in Sources */,
+				49B1EDB9244ED13B009B2449 /* FCPerfectClientVC.m in Sources */,
 				491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */,
 				49608B70244434A500ED3284 /* UIBarButtonItem+HXNExtension.m in Sources */,
 				49608B5F244434A500ED3284 /* UINavigation+SXFixSpace.m in Sources */,

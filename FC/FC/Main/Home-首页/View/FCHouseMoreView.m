@@ -60,7 +60,7 @@ static NSString *const HouseMoreCell = @"HouseMoreCell";
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     NSInteger count = [self.dataSource houseMoreView:self columnCountOfSection:indexPath.section];
     CGFloat width = HX_SCREEN_WIDTH/count;
-    CGFloat height = width*0.75;
+    CGFloat height = 90;
     return CGSizeMake(width, height);
 }
 //- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {

@@ -1,24 +1,24 @@
 //
-//  FCAddHouseVC.m
+//  FCReserveRefundVC.m
 //  FC
 //
-//  Created by huaxin-01 on 2020/4/20.
+//  Created by huaxin-01 on 2020/4/21.
 //  Copyright © 2020 huaxin-01. All rights reserved.
 //
 
-#import "FCAddHouseVC.h"
+#import "FCReserveRefundVC.h"
 #import <ZLPhotoActionSheet.h>
-#import <AFNetworking.h>
 #import "HXPlaceholderTextView.h"
 #import "FCSubmitPicCell.h"
 #import <ZLCollectionViewVerticalLayout.h>
-#import "ZJPickerView.h"
-#import "FCChooseHouseVC.h"
+#import <AFNetworking.h>
 
 static NSString *const SubmitPicCell = @"SubmitPicCell";
-@interface FCAddHouseVC ()<UICollectionViewDelegate,UICollectionViewDataSource,ZLCollectionViewBaseFlowLayoutDelegate>
+@interface FCReserveRefundVC ()<UICollectionViewDelegate,UICollectionViewDataSource,ZLCollectionViewBaseFlowLayoutDelegate>
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *collectionViewHeight;
+@property (weak, nonatomic) IBOutlet UICollectionView *otherCollectionView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *otherCollectionViewHeight;
 @property (weak, nonatomic) IBOutlet HXPlaceholderTextView *remark;
 
 /** 已选择的数组 */
@@ -30,25 +30,45 @@ static NSString *const SubmitPicCell = @"SubmitPicCell";
 /** 是否选择了9张 */
 @property (nonatomic, assign) BOOL isSelect9;
 /** 模型数组 */
-@property (nonatomic,strong) NSMutableArray *showHousePics;
+@property (nonatomic,strong) NSMutableArray *showPicsData;
 
+/** 已选择的数组 */
+@property (nonatomic,strong) NSMutableArray *otherSelectedAssets;
+/** 已选择的数组 */
+@property (nonatomic,strong) NSMutableArray *otherSelectedPhotos;
+/** 是否原图 */
+@property (nonatomic, assign) BOOL isOtherOriginal;
+/** 是否选择了9张 */
+@property (nonatomic, assign) BOOL isOtherSelect9;
+/** 模型数组 */
+@property (nonatomic,strong) NSMutableArray *otherPicsData;
+/** 1定金 2其他 */
+@property (nonatomic, assign) NSInteger picType;
 @end
 
-@implementation FCAddHouseVC
+@implementation FCReserveRefundVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationItem setTitle:@"录入房源"];
-    self.remark.placeholder = @"请输入备注";
+    [self.navigationItem setTitle:@"定金退订"];
+    self.remark.placeholder = @"请输入备注内容";
     [self setUpCollectionView];
 }
--(NSMutableArray *)showHousePics
+-(NSMutableArray *)showPicsData
 {
-    if (_showHousePics == nil) {
-        _showHousePics = [NSMutableArray array];
-        [_showHousePics addObject:HXGetImage(@"上传房间图片")];
+    if (_showPicsData == nil) {
+        _showPicsData = [NSMutableArray array];
+        [_showPicsData addObject:HXGetImage(@"上传")];
     }
-    return _showHousePics;
+    return _showPicsData;
+}
+-(NSMutableArray *)otherPicsData
+{
+    if (_otherPicsData == nil) {
+        _otherPicsData = [NSMutableArray array];
+        [_otherPicsData addObject:HXGetImage(@"上传")];
+    }
+    return _otherPicsData;
 }
 - (ZLPhotoActionSheet *)getPas
 {
@@ -121,7 +141,7 @@ static NSString *const SubmitPicCell = @"SubmitPicCell";
     /**
      已选择的图片数组
      */
-    actionSheet.arrSelectedAssets = self.selectedAssets;
+    actionSheet.arrSelectedAssets = (self.picType == 1)?self.selectedAssets:self.otherSelectedAssets;
     /**
      选择照片回调，回调解析好的图片、对应的asset对象、是否原图
      pod 2.2.6版本之后 统一通过selectImageBlock回调
@@ -129,25 +149,45 @@ static NSString *const SubmitPicCell = @"SubmitPicCell";
     @zl_weakify(self);
     [actionSheet setSelectImageBlock:^(NSArray<UIImage *> * _Nonnull images, NSArray<PHAsset *> * _Nonnull assets, BOOL isOriginal) {
         @zl_strongify(self);
-        [self.showHousePics removeAllObjects];
-        [self.showHousePics addObjectsFromArray:images];
-        if (self.showHousePics.count != 9) {
-            [self.showHousePics addObject:HXGetImage(@"上传房间图片")];
-            self.isSelect9 = NO;
-        }else{
-            self.isSelect9 = YES;
-        }
-        
-        self.selectedAssets = assets.mutableCopy;
-        self.isOriginal = isOriginal;
-        self.selectedPhotos = images.mutableCopy;
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self.collectionView reloadData];
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                self.collectionViewHeight.constant = self.collectionView.contentSize.height;
+        if (self.picType == 1) {
+            [self.showPicsData removeAllObjects];
+            [self.showPicsData addObjectsFromArray:images];
+            if (self.showPicsData.count != 9) {
+                [self.showPicsData addObject:HXGetImage(@"上传")];
+                self.isSelect9 = NO;
+            }else{
+                self.isSelect9 = YES;
+            }
+            
+            self.selectedAssets = assets.mutableCopy;
+            self.isOriginal = isOriginal;
+            self.selectedPhotos = images.mutableCopy;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.collectionView reloadData];
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    self.collectionViewHeight.constant = self.collectionView.contentSize.height;
+                });
             });
-        });
+        }else{
+            [self.otherPicsData removeAllObjects];
+            [self.otherPicsData addObjectsFromArray:images];
+            if (self.otherPicsData.count != 9) {
+                [self.otherPicsData addObject:HXGetImage(@"上传")];
+                self.isOtherSelect9 = NO;
+            }else{
+                self.isOtherSelect9 = YES;
+            }
+            
+            self.otherSelectedAssets = assets.mutableCopy;
+            self.isOtherOriginal = isOriginal;
+            self.otherSelectedPhotos = images.mutableCopy;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                [self.otherCollectionView reloadData];
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    self.otherCollectionViewHeight.constant = self.otherCollectionView.contentSize.height;
+                });
+            });
+        }
     }];
     return actionSheet;
 }
@@ -171,144 +211,32 @@ static NSString *const SubmitPicCell = @"SubmitPicCell";
     
     [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([FCSubmitPicCell class]) bundle:nil] forCellWithReuseIdentifier:SubmitPicCell];
     
+    // 针对 11.0 以上的iOS系统进行处理
+    if (@available(iOS 11.0, *)) {
+        self.otherCollectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
+    } else {
+        // 针对 11.0 以下的iOS系统进行处理
+        // 不要自动调整inset
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    ZLCollectionViewVerticalLayout *flowLayout1 = [[ZLCollectionViewVerticalLayout alloc] init];
+    flowLayout1.delegate = self;
+    flowLayout1.canDrag = NO;
+    flowLayout1.header_suspension = NO;
+    self.otherCollectionView.collectionViewLayout = flowLayout1;
+    self.otherCollectionView.dataSource = self;
+    self.otherCollectionView.delegate = self;
+    
+    [self.otherCollectionView registerNib:[UINib nibWithNibName:NSStringFromClass([FCSubmitPicCell class]) bundle:nil] forCellWithReuseIdentifier:SubmitPicCell];
+    
     hx_weakify(self);
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         hx_strongify(weakSelf);
         strongSelf.collectionViewHeight.constant = strongSelf.collectionView.contentSize.height;
+        strongSelf.otherCollectionViewHeight.constant = strongSelf.otherCollectionView.contentSize.height;
     });
 }
 #pragma mark -- 点击事件
-
-- (IBAction)addHouseTypeClicked:(UIButton *)sender {
-    NSArray *showData = nil;
-    if(sender.tag == 5){
-        // 小区
-        FCChooseHouseVC *cvc = [FCChooseHouseVC new];
-        [self.navigationController pushViewController:cvc animated:YES];
-    }else{
-        if (sender.tag == 1) {
-            showData = @[@{@"店铺1":@[@"光谷分组1",@"光谷分组2",@"光谷分组3",@"光谷分组4"]},@{@"店铺2":@[@"中南分组1",@"中南分组2",@"中南分组3",@"中南分组4"]}];
-        }else if(sender.tag == 2){
-            showData = @[@"58同城",@"闲鱼",@"网上联系",@"中介介绍"];
-        }else if(sender.tag == 3){
-            showData = @[@"男",@"女"];
-        }else if(sender.tag == 4){
-            // 省市区
-            showData =@[@{@"省1":@[@{@"市1":@[@"区1",@"区2",@"区3"]},@{@"市2":@[@"区1",@"区2",@"区3"]},@{@"市3":@[@"区1",@"区2",@"区3"]},@{@"市4":@[@"区1",@"区2",@"区3"]}]},@{@"省2":@[@{@"市1":@[@"区1",@"区2",@"区3"]},@{@"市2":@[@"区1",@"区2",@"区3"]},@{@"市3":@[@"区1",@"区2",@"区3"]},@{@"市4":@[@"区1",@"区2",@"区3"]}]},@{@"省3":@[@{@"市1":@[@"区1",@"区2",@"区3"]},@{@"市2":@[@"区1",@"区2",@"区3"]},@{@"市3":@[@"区1",@"区2",@"区3"]},@{@"市4":@[@"区1",@"区2",@"区3"]}]}];
-        }else if(sender.tag == 6){
-             showData = @[@"栋",@"幢",@"胡同"];
-        }else if(sender.tag == 7){
-            showData = @[@"单元",@"大单元",@"小单元"];
-        }else if(sender.tag == 8){
-            showData = @[@"毛胚房",@"简装房",@"改装房",@"精装房"];
-        }else if(sender.tag == 9){
-            showData = @[@"月付",@"季付",@"半年付",@"年付"];
-        }else if(sender.tag == 10){
-            showData = @[@"是",@"否"];
-        }else if(sender.tag == 11){
-            showData = @[@"方正",@"客厅异性",@"厨房异性",@"卧室异性"];
-        }else if(sender.tag == 12){
-            showData = @[@"通透",@"整体采光不好",@"客厅采光不好",@"主卧采光不好"];
-        }else if(sender.tag == 13){
-            showData = @[@"安静",@"噪音大",@"临街",@"临闹市"];
-        }else if(sender.tag == 14){
-            showData = @[@"好",@"一般",@"无小区情况"];
-        }else if(sender.tag == 15){
-            showData = @[@"步行5分钟",@"步行10分钟",@"步行30分钟",@"步行50分钟"];
-        }else if(sender.tag == 16){
-            showData = @[@"步行5分钟",@"步行10分钟",@"步行30分钟",@"步行50分钟"];
-        }else if(sender.tag == 17){
-            showData = @[@"商业核心",@"学校周边",@"旅游周边",@"较偏区域"];
-        }else if(sender.tag == 18){
-            showData = @[@"不限",@"居家",@"上班族",@"娱乐行业"];
-        }
-        // 1.Custom propery（自定义属性）
-        NSDictionary *propertyDict = @{
-            ZJPickerViewPropertyCanceBtnTitleKey : @"取消",
-            ZJPickerViewPropertySureBtnTitleKey  : @"确定",
-            //ZJPickerViewPropertyTipLabelTextKey  : (textKey&&textKey.length)?textKey:@"选择贷款年限", // 提示内容
-            ZJPickerViewPropertyTipLabelTextKey  :@"提示语", // 提示内容
-            ZJPickerViewPropertyCanceBtnTitleColorKey : UIColorFromRGB(0x999999),
-            ZJPickerViewPropertySureBtnTitleColorKey : UIColorFromRGB(0x845D32),
-            ZJPickerViewPropertyTipLabelTextColorKey :
-                UIColorFromRGB(0x131D2D),
-            ZJPickerViewPropertyLineViewBackgroundColorKey : UIColorFromRGB(0xF2F2F2),
-            ZJPickerViewPropertyCanceBtnTitleFontKey : [UIFont systemFontOfSize:13.0f],
-            ZJPickerViewPropertySureBtnTitleFontKey : [UIFont systemFontOfSize:13.0f],
-            ZJPickerViewPropertyTipLabelTextFontKey : [UIFont systemFontOfSize:13.0f],
-            ZJPickerViewPropertyPickerViewHeightKey : @260.0f,
-            ZJPickerViewPropertyOneComponentRowHeightKey : @40.0f,
-            ZJPickerViewPropertySelectRowTitleAttrKey : @{NSForegroundColorAttributeName : UIColorFromRGB(0x845D32), NSFontAttributeName : [UIFont systemFontOfSize:13.0f]},
-            ZJPickerViewPropertyUnSelectRowTitleAttrKey : @{NSForegroundColorAttributeName : UIColorFromRGB(0x999999), NSFontAttributeName : [UIFont systemFontOfSize:13.0f]},
-            ZJPickerViewPropertySelectRowLineBackgroundColorKey : UIColorFromRGB(0xF2F2F2),
-            ZJPickerViewPropertyIsTouchBackgroundHideKey : @YES,
-            ZJPickerViewPropertyIsShowSelectContentKey : @YES,
-            ZJPickerViewPropertyIsScrollToSelectedRowKey: @YES,
-            ZJPickerViewPropertyIsAnimationShowKey : @YES};
-        
-        // 2.Show（显示）
-        //    hx_weakify(self);
-        [ZJPickerView zj_showWithDataList:showData propertyDict:propertyDict completion:^(NSString *selectContent) {
-            //        hx_strongify(weakSelf);
-            // show select content|
-            //        NSArray *results = [selectContent componentsSeparatedByString:@"|"];
-            //
-            //        NSArray *years = [results.firstObject componentsSeparatedByString:@","];
-            //
-            //        NSArray *rows = [results.lastObject componentsSeparatedByString:@","];
-            //
-            //        years.firstObject rows.firstObject
-        }];
-    }
-}
-/*
- - (NSMutableArray *)getCityData
- {
-     NSMutableArray *areaDataArray = [NSMutableArray array];
-     NSString *path = [[NSBundle mainBundle] pathForResource:@"CityData3" ofType:@"txt"];
-     NSString *areaString = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
-     if (areaString && ![areaString isEqualToString:@""]) {
-         NSError *error = nil;
-         NSArray *areaStringArray = [NSJSONSerialization JSONObjectWithData:[areaString dataUsingEncoding:NSUTF8StringEncoding] options:NSJSONReadingAllowFragments error:&error];
-         if (areaStringArray && areaStringArray.count) {
-             [areaStringArray enumerateObjectsUsingBlock:^(NSDictionary *currentProviceDict, NSUInteger idx, BOOL * _Nonnull stop) {
-                 NSMutableDictionary *proviceDict = [NSMutableDictionary dictionary];
-                 NSString *proviceName = currentProviceDict[@"name"];
-                 NSArray *cityArray = currentProviceDict[@"childs"];
-                 
-                 NSMutableArray *tempCityArray = [NSMutableArray arrayWithCapacity:cityArray.count];
-                 [cityArray enumerateObjectsUsingBlock:^(NSDictionary *currentCityDict, NSUInteger idx, BOOL * _Nonnull stop) {
-                     NSMutableDictionary *cityDict = [NSMutableDictionary dictionary];
-                     NSString *cityName = currentCityDict[@"name"];
-                     NSArray *countryArray = currentCityDict[@"childs"];
-                     
-                     NSMutableArray *tempCountryArray = [NSMutableArray arrayWithCapacity:countryArray.count];
-                     if (countryArray) {
-                         [countryArray enumerateObjectsUsingBlock:^(NSDictionary *currentCountryDict, NSUInteger idx, BOOL * _Nonnull stop) {
-                             [tempCountryArray addObject:currentCountryDict[@"name"]];
-                         }];
-                         
-                         if (cityName) {
-                             [cityDict setObject:tempCountryArray forKey:cityName];
-                             [tempCityArray addObject:cityDict];
-                         }
-                     } else {
-                         [tempCityArray addObject:cityName];
-                     }
-                 }];
-                 
-                 if (proviceName && cityArray) {
-                     [proviceDict setObject:tempCityArray forKey:proviceName];
-                     [areaDataArray addObject:proviceDict];
-                 }
-             }];
-         } else {
-             NSLog(@"解析错误");
-         }
-     }
-     return areaDataArray;
- }
- */
 //-(void)submitBtnClicked:(UIButton *)btn
 //{
 //    if (self.showData.count >1) {
@@ -445,35 +373,57 @@ static NSString *const SubmitPicCell = @"SubmitPicCell";
 
 #pragma mark -- UICollectionView 数据源和代理
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return self.showHousePics.count;
+    if (collectionView == self.collectionView) {
+        return self.showPicsData.count;
+    }else{
+        return self.otherPicsData.count;
+    }
 }
 - (ZLLayoutType)collectionView:(UICollectionView *)collectionView layout:(ZLCollectionViewBaseFlowLayout *)collectionViewLayout typeOfLayout:(NSInteger)section {
     return ClosedLayout;
 }
 //如果是ClosedLayout样式的section，必须实现该代理，指定列数
 - (NSInteger)collectionView:(UICollectionView *)collectionView layout:(ZLCollectionViewBaseFlowLayout*)collectionViewLayout columnCountOfSection:(NSInteger)section {
-    return 2;
+    return 4;
 }
 - (__kindof UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     FCSubmitPicCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:SubmitPicCell forIndexPath:indexPath];
-    cell.picContent.image = self.showHousePics[indexPath.item];
+    if (collectionView == self.collectionView) {
+        cell.picContent.image = self.showPicsData[indexPath.item];
+    }else{
+        cell.picContent.image = self.otherPicsData[indexPath.item];
+    }
     return cell;
 }
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self.view endEditing:YES];
-    if (self.isSelect9) {
-        [[self getPas] previewSelectedPhotos:self.selectedPhotos assets:self.selectedAssets index:indexPath.row isOriginal:self.isOriginal];
-    }else{
-        if (indexPath.row == self.showHousePics.count - 1) {//最后一个
-            [[self getPas] showPhotoLibrary];
-        }else{
+    if (collectionView == self.collectionView) {
+        self.picType = 1;
+        if (self.isSelect9) {
             [[self getPas] previewSelectedPhotos:self.selectedPhotos assets:self.selectedAssets index:indexPath.row isOriginal:self.isOriginal];
+        }else{
+            if (indexPath.row == self.showPicsData.count - 1) {//最后一个
+                [[self getPas] showPhotoLibrary];
+            }else{
+                [[self getPas] previewSelectedPhotos:self.selectedPhotos assets:self.selectedAssets index:indexPath.row isOriginal:self.isOriginal];
+            }
+        }
+    }else{
+        self.picType = 2;
+        if (self.isOtherSelect9) {
+            [[self getPas] previewSelectedPhotos:self.otherSelectedPhotos assets:self.otherSelectedAssets index:indexPath.row isOriginal:self.isOtherOriginal];
+        }else{
+            if (indexPath.row == self.otherPicsData.count - 1) {//最后一个
+                [[self getPas] showPhotoLibrary];
+            }else{
+                [[self getPas] previewSelectedPhotos:self.otherSelectedPhotos assets:self.otherSelectedAssets index:indexPath.row isOriginal:self.isOtherOriginal];
+            }
         }
     }
 }
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
-    CGFloat width = (collectionView.hxn_width-12*2.f - 10.f)/2.0;
-    CGFloat height = 140.f;
+    CGFloat width = (collectionView.hxn_width-12.f*2.f - 10.f*2)/4.0;
+    CGFloat height = width;
     return CGSizeMake(width, height);
 }
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {

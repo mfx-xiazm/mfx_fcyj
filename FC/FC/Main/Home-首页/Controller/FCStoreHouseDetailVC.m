@@ -49,19 +49,11 @@ static NSString *const HouseNearbyCell = @"HouseNearbyCell";
 {
     if (_moreView == nil) {
         _moreView = [FCHouseMoreView loadXibView];
-        _moreView.frame = CGRectMake(0,0,HX_SCREEN_WIDTH, 40.f*2 + HX_SCREEN_WIDTH/3.0*0.75 + self.HXButtomHeight);
+        _moreView.frame = CGRectMake(0,0,HX_SCREEN_WIDTH, 40.f*2 + 90.f + self.HXButtomHeight);
         _moreView.dataSource = self;
         _moreView.delegate = self;
     }
     return _moreView;;
-}
-- (zhPopupController *)popupController {
-    if (!_popupController) {
-        _popupController = [[zhPopupController alloc] initWithView:self.moreView size:self.moreView.bounds.size];
-        _popupController.layoutType = zhPopupLayoutTypeBottom;
-        _popupController.dismissOnMaskTouched = YES;
-    }
-    return _popupController;
 }
 -(NSMutableArray *)moreObjects
 {

@@ -16,6 +16,10 @@
 #import <WMZDropDownMenu.h>
 #import "FCDropMenuCollectionHeader.h"
 #import "FCDropMenuCollectionCell.h"
+#import "FCTargetClientVC.h"
+#import "FCSignClientVC.h"
+#import "FCReserveClientVC.h"
+#import "FCAddClientVC.h"
 
 static NSString *const StoreClientCell = @"StoreClientCell";
 static NSString *const StoreHouseHeader = @"StoreHouseHeader";
@@ -68,7 +72,7 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
 {
     [self.navigationItem setTitle:nil];
     
-    UIBarButtonItem *addItem = [UIBarButtonItem itemWithTarget:self action:@selector(addHouseClicked) nomalImage:HXGetImage(@"房源添加") higeLightedImage:HXGetImage(@"房源添加") imageEdgeInsets:UIEdgeInsetsZero];
+    UIBarButtonItem *addItem = [UIBarButtonItem itemWithTarget:self action:@selector(addClientClicked) nomalImage:HXGetImage(@"房源添加") higeLightedImage:HXGetImage(@"房源添加") imageEdgeInsets:UIEdgeInsetsZero];
     
     UIBarButtonItem *filterItem = [UIBarButtonItem itemWithTarget:self action:@selector(filterHouseClicked) nomalImage:HXGetImage(@"筛选") higeLightedImage:HXGetImage(@"筛选") imageEdgeInsets:UIEdgeInsetsZero];
     
@@ -155,9 +159,10 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
     [self.tableView reloadData];
 }
 #pragma mark -- 点击事件
--(void)addHouseClicked
+-(void)addClientClicked
 {
-    HXLog(@"添加房源");
+    FCAddClientVC *avc = [FCAddClientVC new];
+    [self.navigationController pushViewController:avc animated:YES];
 }
 -(void)filterHouseClicked
 {
@@ -431,7 +436,16 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    if (self.categoryView.selectedIndex == 1) {
+        FCTargetClientVC *tvc = [FCTargetClientVC new];
+        [self.navigationController pushViewController:tvc animated:YES];
+    }else if (self.categoryView.selectedIndex == 2) {
+        FCReserveClientVC *rvc = [FCReserveClientVC new];
+        [self.navigationController pushViewController:rvc animated:YES];
+    }else{
+        FCSignClientVC *svc = [FCSignClientVC new];
+        [self.navigationController pushViewController:svc animated:YES];
+    }
 }
 
 @end

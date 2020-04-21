@@ -17,6 +17,7 @@
 #import "FCDropMenuCollectionHeader.h"
 #import "FCDropMenuCollectionCell.h"
 #import "FCStoreHouseDetailVC.h"
+#import "FCAddHouseVC.h"
 
 static NSString *const StoreHouseCell = @"StoreHouseCell";
 static NSString *const StoreHouseHeader = @"StoreHouseHeader";
@@ -156,7 +157,8 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
 #pragma mark -- 点击事件
 -(void)addHouseClicked
 {
-    HXLog(@"添加房源");
+    FCAddHouseVC *avc = [FCAddHouseVC new];
+    [self.navigationController pushViewController:avc animated:YES];
 }
 -(void)filterHouseClicked
 {

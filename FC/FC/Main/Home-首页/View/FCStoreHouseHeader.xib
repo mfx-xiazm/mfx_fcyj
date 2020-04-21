@@ -52,7 +52,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="6aD-Vb-1HY" secondAttribute="trailing" id="4yE-10-p2r"/>
                 <constraint firstAttribute="bottom" secondItem="6aD-Vb-1HY" secondAttribute="bottom" id="EP1-HV-Ljg"/>

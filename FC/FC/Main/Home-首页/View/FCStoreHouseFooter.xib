@@ -61,7 +61,6 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
                 <constraint firstItem="dwV-8P-9s6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JJt-A9-8Aq"/>
                 <constraint firstItem="dwV-8P-9s6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MB7-uV-3fs"/>
