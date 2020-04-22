@@ -7,6 +7,7 @@
 //
 
 #import "FCLoginVC.h"
+#import "HXTabBarController.h"
 
 @interface FCLoginVC ()
 
@@ -16,17 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.hbd_barHidden = YES;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)loginClicked:(UIButton *)sender {
+    HXTabBarController *tabBarController = [[HXTabBarController alloc] init];
+    [UIApplication sharedApplication].keyWindow.rootViewController = tabBarController;
+    
+    //推出主界面出来
+    CATransition *ca = [CATransition animation];
+    ca.type = @"movein";
+    ca.duration = 0.25;
+    [[UIApplication sharedApplication].keyWindow.layer addAnimation:ca forKey:nil];
 }
-*/
+
 
 @end

@@ -16,17 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="枫巢蚁家" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RC3-Ad-qkP">
-                                <rect key="frame" x="159" y="264" width="96" height="28"/>
-                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="24"/>
-                                <color key="textColor" red="0.51764705882352935" green="0.36470588235294116" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="begin_icon" translatesAutoresizingMaskIntoConstraints="NO" id="3GF-ZF-6qe">
+                                <rect key="frame" x="165.5" y="244" width="83.5" height="83.5"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RC3-Ad-qkP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="220" id="bjf-G1-xZz"/>
-                            <constraint firstItem="RC3-Ad-qkP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zb2-oO-rZw"/>
+                            <constraint firstItem="3GF-ZF-6qe" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jgw-vS-WrF"/>
+                            <constraint firstItem="3GF-ZF-6qe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="u3v-ZX-2XP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -36,4 +33,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="begin_icon" width="83.5" height="83.5"/>
+    </resources>
 </document>

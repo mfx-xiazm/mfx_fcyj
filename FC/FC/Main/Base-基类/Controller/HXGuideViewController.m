@@ -127,7 +127,7 @@
 //    //推出主界面出来
 //    CATransition *ca = [CATransition animation];
 //    ca.type = @"movein";
-//    ca.duration = 0.5;
+//    ca.duration = 0.25;
 //    [[UIApplication sharedApplication].keyWindow.layer addAnimation:ca forKey:nil];
     
 }

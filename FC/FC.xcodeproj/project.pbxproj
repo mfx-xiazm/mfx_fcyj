@@ -30,6 +30,48 @@
 		493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE8472449B0C900647BAD /* FCInContractDetailVC.xib */; };
 		493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */; };
 		493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */; };
+		493FC85E244FD7A4009BE8CF /* FCEntireHouseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */; };
+		493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */; };
+		493FC863244FDC52009BE8CF /* FCEcontractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC861244FDC52009BE8CF /* FCEcontractVC.m */; };
+		493FC864244FDC52009BE8CF /* FCEcontractVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC862244FDC52009BE8CF /* FCEcontractVC.xib */; };
+		493FC868244FDC81009BE8CF /* FCEcontractChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC866244FDC81009BE8CF /* FCEcontractChildVC.m */; };
+		493FC869244FDC81009BE8CF /* FCEcontractChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC867244FDC81009BE8CF /* FCEcontractChildVC.xib */; };
+		493FC86D244FDC9E009BE8CF /* FCEcontractCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC86B244FDC9E009BE8CF /* FCEcontractCell.m */; };
+		493FC86E244FDC9E009BE8CF /* FCEcontractCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC86C244FDC9E009BE8CF /* FCEcontractCell.xib */; };
+		493FC872244FE78C009BE8CF /* FCHouseRentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC870244FE78C009BE8CF /* FCHouseRentCell.m */; };
+		493FC873244FE78C009BE8CF /* FCHouseRentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC871244FE78C009BE8CF /* FCHouseRentCell.xib */; };
+		493FC877244FE7AA009BE8CF /* FCHouseRentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC875244FE7AA009BE8CF /* FCHouseRentVC.m */; };
+		493FC878244FE7AA009BE8CF /* FCHouseRentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC876244FE7AA009BE8CF /* FCHouseRentVC.xib */; };
+		493FC87C244FE7B8009BE8CF /* FCHouseRentChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC87A244FE7B8009BE8CF /* FCHouseRentChildVC.m */; };
+		493FC87D244FE7B8009BE8CF /* FCHouseRentChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC87B244FE7B8009BE8CF /* FCHouseRentChildVC.xib */; };
+		493FC881244FEA32009BE8CF /* FCFinanceNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC87F244FEA32009BE8CF /* FCFinanceNoteVC.m */; };
+		493FC882244FEA32009BE8CF /* FCFinanceNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC880244FEA32009BE8CF /* FCFinanceNoteVC.xib */; };
+		493FC886244FEA41009BE8CF /* FCFinanceNoteChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC884244FEA41009BE8CF /* FCFinanceNoteChildVC.m */; };
+		493FC887244FEA41009BE8CF /* FCFinanceNoteChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC885244FEA41009BE8CF /* FCFinanceNoteChildVC.xib */; };
+		493FC88B244FEA6A009BE8CF /* FCFinanceNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC889244FEA6A009BE8CF /* FCFinanceNoteCell.m */; };
+		493FC88C244FEA6A009BE8CF /* FCFinanceNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC88A244FEA6A009BE8CF /* FCFinanceNoteCell.xib */; };
+		493FC890244FEC90009BE8CF /* FCOutRentNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC88E244FEC90009BE8CF /* FCOutRentNoteVC.m */; };
+		493FC891244FEC90009BE8CF /* FCOutRentNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC88F244FEC90009BE8CF /* FCOutRentNoteVC.xib */; };
+		493FC895244FECA1009BE8CF /* FCOutRentNoteChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC893244FECA1009BE8CF /* FCOutRentNoteChildVC.m */; };
+		493FC896244FECA1009BE8CF /* FCOutRentNoteChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC894244FECA1009BE8CF /* FCOutRentNoteChildVC.xib */; };
+		493FC89A244FECB1009BE8CF /* FCOutRentNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC898244FECB1009BE8CF /* FCOutRentNoteCell.m */; };
+		493FC89B244FECB1009BE8CF /* FCOutRentNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC899244FECB1009BE8CF /* FCOutRentNoteCell.xib */; };
+		493FC89F244FEF10009BE8CF /* FCSubletRentNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC89D244FEF10009BE8CF /* FCSubletRentNoteVC.m */; };
+		493FC8A0244FEF10009BE8CF /* FCSubletRentNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC89E244FEF10009BE8CF /* FCSubletRentNoteVC.xib */; };
+		493FC8A9244FEF39009BE8CF /* FCSubletRentNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8A7244FEF39009BE8CF /* FCSubletRentNoteCell.m */; };
+		493FC8AA244FEF39009BE8CF /* FCSubletRentNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8A8244FEF39009BE8CF /* FCSubletRentNoteCell.xib */; };
+		493FC8AE244FF10D009BE8CF /* FCCashCouponVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8AC244FF10D009BE8CF /* FCCashCouponVC.m */; };
+		493FC8AF244FF10D009BE8CF /* FCCashCouponVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8AD244FF10D009BE8CF /* FCCashCouponVC.xib */; };
+		493FC8B3244FF129009BE8CF /* FCCashCouponCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8B1244FF129009BE8CF /* FCCashCouponCell.m */; };
+		493FC8B4244FF129009BE8CF /* FCCashCouponCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8B2244FF129009BE8CF /* FCCashCouponCell.xib */; };
+		493FC8B8244FF4B7009BE8CF /* FCFollowNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8B6244FF4B7009BE8CF /* FCFollowNoteVC.m */; };
+		493FC8B9244FF4B7009BE8CF /* FCFollowNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8B7244FF4B7009BE8CF /* FCFollowNoteVC.xib */; };
+		493FC8BD244FF4C6009BE8CF /* FCFollowNoteChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8BB244FF4C6009BE8CF /* FCFollowNoteChildVC.m */; };
+		493FC8BE244FF4C6009BE8CF /* FCFollowNoteChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8BC244FF4C6009BE8CF /* FCFollowNoteChildVC.xib */; };
+		493FC8C2244FF681009BE8CF /* FCFitNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8C0244FF681009BE8CF /* FCFitNoteVC.m */; };
+		493FC8C3244FF681009BE8CF /* FCFitNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8C1244FF681009BE8CF /* FCFitNoteVC.xib */; };
+		493FC8C7244FF692009BE8CF /* FCFitNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8C5244FF692009BE8CF /* FCFitNoteCell.m */; };
+		493FC8C8244FF692009BE8CF /* FCFitNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8C6244FF692009BE8CF /* FCFitNoteCell.xib */; };
 		495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */; };
 		495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */; };
 		495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245C1244AF17800D2488C /* FCPerfectHouseVC.m */; };
@@ -252,6 +294,49 @@
 		49D1E1F7244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D1E1F5244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib */; };
 		49D1E1FB244D9BAC0055F6C0 /* FCAddHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D1E1F9244D9BAC0055F6C0 /* FCAddHouseVC.m */; };
 		49D1E1FC244D9BAC0055F6C0 /* FCAddHouseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49D1E1FA244D9BAC0055F6C0 /* FCAddHouseVC.xib */; };
+		49EEBBDC2450189B00C7C197 /* FCVisitNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBDA2450189B00C7C197 /* FCVisitNoteVC.m */; };
+		49EEBBDD2450189B00C7C197 /* FCVisitNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBDB2450189B00C7C197 /* FCVisitNoteVC.xib */; };
+		49EEBBE12450196200C7C197 /* FCGoodsNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBDF2450196200C7C197 /* FCGoodsNoteVC.m */; };
+		49EEBBE22450196200C7C197 /* FCGoodsNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBE02450196200C7C197 /* FCGoodsNoteVC.xib */; };
+		49EEBBE62450197D00C7C197 /* FCGoodsNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBE42450197D00C7C197 /* FCGoodsNoteCell.m */; };
+		49EEBBE72450197D00C7C197 /* FCGoodsNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBE52450197D00C7C197 /* FCGoodsNoteCell.xib */; };
+		49EEBBEB24501AF500C7C197 /* FCMemoNoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBE924501AF500C7C197 /* FCMemoNoteVC.m */; };
+		49EEBBEC24501AF500C7C197 /* FCMemoNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBEA24501AF500C7C197 /* FCMemoNoteVC.xib */; };
+		49EEBBF024501B0700C7C197 /* FCMemoNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBEE24501B0700C7C197 /* FCMemoNoteCell.m */; };
+		49EEBBF124501B0700C7C197 /* FCMemoNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBEF24501B0700C7C197 /* FCMemoNoteCell.xib */; };
+		49EEBBFB24501DB600C7C197 /* FCChangeMyMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBF924501DB600C7C197 /* FCChangeMyMsgVC.m */; };
+		49EEBBFC24501DB600C7C197 /* FCChangeMyMsgVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBFA24501DB600C7C197 /* FCChangeMyMsgVC.xib */; };
+		49EEBC0024501DE900C7C197 /* FCAddContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBBFE24501DE900C7C197 /* FCAddContactVC.m */; };
+		49EEBC0124501DE900C7C197 /* FCAddContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBBFF24501DE900C7C197 /* FCAddContactVC.xib */; };
+		49EEBC052450206E00C7C197 /* FCMyMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC032450206E00C7C197 /* FCMyMsgVC.m */; };
+		49EEBC062450206E00C7C197 /* FCMyMsgVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC042450206E00C7C197 /* FCMyMsgVC.xib */; };
+		49EEBC10245025DE00C7C197 /* FCUrgencyContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC0E245025DE00C7C197 /* FCUrgencyContactCell.m */; };
+		49EEBC11245025DE00C7C197 /* FCUrgencyContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC0F245025DE00C7C197 /* FCUrgencyContactCell.xib */; };
+		49EEBC15245030D500C7C197 /* FCMyRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC13245030D500C7C197 /* FCMyRecommendVC.m */; };
+		49EEBC16245030D500C7C197 /* FCMyRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC14245030D500C7C197 /* FCMyRecommendVC.xib */; };
+		49EEBC1A245030E800C7C197 /* FCAddRecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC18245030E800C7C197 /* FCAddRecommendVC.m */; };
+		49EEBC1B245030E800C7C197 /* FCAddRecommendVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC19245030E800C7C197 /* FCAddRecommendVC.xib */; };
+		49EEBC1F2450325900C7C197 /* FCMyRecommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC1D2450325900C7C197 /* FCMyRecommendCell.m */; };
+		49EEBC202450325900C7C197 /* FCMyRecommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC1E2450325900C7C197 /* FCMyRecommendCell.xib */; };
+		49EEBC24245035ED00C7C197 /* FCMyChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC22245035ED00C7C197 /* FCMyChannelVC.m */; };
+		49EEBC25245035ED00C7C197 /* FCMyChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC23245035ED00C7C197 /* FCMyChannelVC.xib */; };
+		49EEBC29245035FF00C7C197 /* FCChannelDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC27245035FF00C7C197 /* FCChannelDetailVC.m */; };
+		49EEBC2A245035FF00C7C197 /* FCChannelDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC28245035FF00C7C197 /* FCChannelDetailVC.xib */; };
+		49EEBC2E2450360E00C7C197 /* FCMyChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC2C2450360E00C7C197 /* FCMyChannelCell.m */; };
+		49EEBC2F2450360E00C7C197 /* FCMyChannelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC2D2450360E00C7C197 /* FCMyChannelCell.xib */; };
+		49EEBC332450375E00C7C197 /* FCMyChannelSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC312450375E00C7C197 /* FCMyChannelSubCell.m */; };
+		49EEBC342450375E00C7C197 /* FCMyChannelSubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC322450375E00C7C197 /* FCMyChannelSubCell.xib */; };
+		49EEBC37245038DD00C7C197 /* FCMyChannelHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC36245038DD00C7C197 /* FCMyChannelHeader.m */; };
+		49EEBC39245038E300C7C197 /* FCMyChannelHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC38245038E300C7C197 /* FCMyChannelHeader.xib */; };
+		49EEBC3D24503BEE00C7C197 /* FCChangePwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC3B24503BEE00C7C197 /* FCChangePwdVC.m */; };
+		49EEBC3E24503BEE00C7C197 /* FCChangePwdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC3C24503BEE00C7C197 /* FCChangePwdVC.xib */; };
+		49EEBC4224503BFF00C7C197 /* FCChangePhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC4024503BFF00C7C197 /* FCChangePhoneVC.m */; };
+		49EEBC4324503BFF00C7C197 /* FCChangePhoneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC4124503BFF00C7C197 /* FCChangePhoneVC.xib */; };
+		49EEBC4624504B8700C7C197 /* HXMallTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC4524504B8700C7C197 /* HXMallTabBarController.m */; };
+		49EEBC4E24504F4A00C7C197 /* FCMallHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC4C24504F4A00C7C197 /* FCMallHomeVC.m */; };
+		49EEBC4F24504F4A00C7C197 /* FCMallHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC4D24504F4A00C7C197 /* FCMallHomeVC.xib */; };
+		49EEBC5324504F5B00C7C197 /* FCMallOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */; };
+		49EEBC5424504F5B00C7C197 /* FCMallOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -305,6 +390,69 @@
 		493DE84A2449B0DD00647BAD /* FCOutContractDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutContractDetailVC.h; sourceTree = "<group>"; };
 		493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutContractDetailVC.m; sourceTree = "<group>"; };
 		493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutContractDetailVC.xib; sourceTree = "<group>"; };
+		493FC85B244FD7A4009BE8CF /* FCEntireHouseDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEntireHouseDetailVC.h; sourceTree = "<group>"; };
+		493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEntireHouseDetailVC.m; sourceTree = "<group>"; };
+		493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEntireHouseDetailVC.xib; sourceTree = "<group>"; };
+		493FC860244FDC52009BE8CF /* FCEcontractVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEcontractVC.h; sourceTree = "<group>"; };
+		493FC861244FDC52009BE8CF /* FCEcontractVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEcontractVC.m; sourceTree = "<group>"; };
+		493FC862244FDC52009BE8CF /* FCEcontractVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEcontractVC.xib; sourceTree = "<group>"; };
+		493FC865244FDC81009BE8CF /* FCEcontractChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEcontractChildVC.h; sourceTree = "<group>"; };
+		493FC866244FDC81009BE8CF /* FCEcontractChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEcontractChildVC.m; sourceTree = "<group>"; };
+		493FC867244FDC81009BE8CF /* FCEcontractChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEcontractChildVC.xib; sourceTree = "<group>"; };
+		493FC86A244FDC9E009BE8CF /* FCEcontractCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEcontractCell.h; sourceTree = "<group>"; };
+		493FC86B244FDC9E009BE8CF /* FCEcontractCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEcontractCell.m; sourceTree = "<group>"; };
+		493FC86C244FDC9E009BE8CF /* FCEcontractCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEcontractCell.xib; sourceTree = "<group>"; };
+		493FC86F244FE78C009BE8CF /* FCHouseRentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRentCell.h; sourceTree = "<group>"; };
+		493FC870244FE78C009BE8CF /* FCHouseRentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRentCell.m; sourceTree = "<group>"; };
+		493FC871244FE78C009BE8CF /* FCHouseRentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRentCell.xib; sourceTree = "<group>"; };
+		493FC874244FE7AA009BE8CF /* FCHouseRentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRentVC.h; sourceTree = "<group>"; };
+		493FC875244FE7AA009BE8CF /* FCHouseRentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRentVC.m; sourceTree = "<group>"; };
+		493FC876244FE7AA009BE8CF /* FCHouseRentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRentVC.xib; sourceTree = "<group>"; };
+		493FC879244FE7B8009BE8CF /* FCHouseRentChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRentChildVC.h; sourceTree = "<group>"; };
+		493FC87A244FE7B8009BE8CF /* FCHouseRentChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRentChildVC.m; sourceTree = "<group>"; };
+		493FC87B244FE7B8009BE8CF /* FCHouseRentChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRentChildVC.xib; sourceTree = "<group>"; };
+		493FC87E244FEA32009BE8CF /* FCFinanceNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFinanceNoteVC.h; sourceTree = "<group>"; };
+		493FC87F244FEA32009BE8CF /* FCFinanceNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFinanceNoteVC.m; sourceTree = "<group>"; };
+		493FC880244FEA32009BE8CF /* FCFinanceNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFinanceNoteVC.xib; sourceTree = "<group>"; };
+		493FC883244FEA41009BE8CF /* FCFinanceNoteChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFinanceNoteChildVC.h; sourceTree = "<group>"; };
+		493FC884244FEA41009BE8CF /* FCFinanceNoteChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFinanceNoteChildVC.m; sourceTree = "<group>"; };
+		493FC885244FEA41009BE8CF /* FCFinanceNoteChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFinanceNoteChildVC.xib; sourceTree = "<group>"; };
+		493FC888244FEA6A009BE8CF /* FCFinanceNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFinanceNoteCell.h; sourceTree = "<group>"; };
+		493FC889244FEA6A009BE8CF /* FCFinanceNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFinanceNoteCell.m; sourceTree = "<group>"; };
+		493FC88A244FEA6A009BE8CF /* FCFinanceNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFinanceNoteCell.xib; sourceTree = "<group>"; };
+		493FC88D244FEC90009BE8CF /* FCOutRentNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutRentNoteVC.h; sourceTree = "<group>"; };
+		493FC88E244FEC90009BE8CF /* FCOutRentNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutRentNoteVC.m; sourceTree = "<group>"; };
+		493FC88F244FEC90009BE8CF /* FCOutRentNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutRentNoteVC.xib; sourceTree = "<group>"; };
+		493FC892244FECA0009BE8CF /* FCOutRentNoteChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutRentNoteChildVC.h; sourceTree = "<group>"; };
+		493FC893244FECA1009BE8CF /* FCOutRentNoteChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutRentNoteChildVC.m; sourceTree = "<group>"; };
+		493FC894244FECA1009BE8CF /* FCOutRentNoteChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutRentNoteChildVC.xib; sourceTree = "<group>"; };
+		493FC897244FECB1009BE8CF /* FCOutRentNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutRentNoteCell.h; sourceTree = "<group>"; };
+		493FC898244FECB1009BE8CF /* FCOutRentNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutRentNoteCell.m; sourceTree = "<group>"; };
+		493FC899244FECB1009BE8CF /* FCOutRentNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutRentNoteCell.xib; sourceTree = "<group>"; };
+		493FC89C244FEF10009BE8CF /* FCSubletRentNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSubletRentNoteVC.h; sourceTree = "<group>"; };
+		493FC89D244FEF10009BE8CF /* FCSubletRentNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSubletRentNoteVC.m; sourceTree = "<group>"; };
+		493FC89E244FEF10009BE8CF /* FCSubletRentNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSubletRentNoteVC.xib; sourceTree = "<group>"; };
+		493FC8A6244FEF39009BE8CF /* FCSubletRentNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSubletRentNoteCell.h; sourceTree = "<group>"; };
+		493FC8A7244FEF39009BE8CF /* FCSubletRentNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSubletRentNoteCell.m; sourceTree = "<group>"; };
+		493FC8A8244FEF39009BE8CF /* FCSubletRentNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSubletRentNoteCell.xib; sourceTree = "<group>"; };
+		493FC8AB244FF10D009BE8CF /* FCCashCouponVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCashCouponVC.h; sourceTree = "<group>"; };
+		493FC8AC244FF10D009BE8CF /* FCCashCouponVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCashCouponVC.m; sourceTree = "<group>"; };
+		493FC8AD244FF10D009BE8CF /* FCCashCouponVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCCashCouponVC.xib; sourceTree = "<group>"; };
+		493FC8B0244FF129009BE8CF /* FCCashCouponCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCCashCouponCell.h; sourceTree = "<group>"; };
+		493FC8B1244FF129009BE8CF /* FCCashCouponCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCCashCouponCell.m; sourceTree = "<group>"; };
+		493FC8B2244FF129009BE8CF /* FCCashCouponCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCCashCouponCell.xib; sourceTree = "<group>"; };
+		493FC8B5244FF4B7009BE8CF /* FCFollowNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFollowNoteVC.h; sourceTree = "<group>"; };
+		493FC8B6244FF4B7009BE8CF /* FCFollowNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFollowNoteVC.m; sourceTree = "<group>"; };
+		493FC8B7244FF4B7009BE8CF /* FCFollowNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFollowNoteVC.xib; sourceTree = "<group>"; };
+		493FC8BA244FF4C6009BE8CF /* FCFollowNoteChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFollowNoteChildVC.h; sourceTree = "<group>"; };
+		493FC8BB244FF4C6009BE8CF /* FCFollowNoteChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFollowNoteChildVC.m; sourceTree = "<group>"; };
+		493FC8BC244FF4C6009BE8CF /* FCFollowNoteChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFollowNoteChildVC.xib; sourceTree = "<group>"; };
+		493FC8BF244FF681009BE8CF /* FCFitNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFitNoteVC.h; sourceTree = "<group>"; };
+		493FC8C0244FF681009BE8CF /* FCFitNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFitNoteVC.m; sourceTree = "<group>"; };
+		493FC8C1244FF681009BE8CF /* FCFitNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFitNoteVC.xib; sourceTree = "<group>"; };
+		493FC8C4244FF692009BE8CF /* FCFitNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFitNoteCell.h; sourceTree = "<group>"; };
+		493FC8C5244FF692009BE8CF /* FCFitNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFitNoteCell.m; sourceTree = "<group>"; };
+		493FC8C6244FF692009BE8CF /* FCFitNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFitNoteCell.xib; sourceTree = "<group>"; };
 		495245BB244AECFF00D2488C /* FCHouseNearbyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseNearbyCell.h; sourceTree = "<group>"; };
 		495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseNearbyCell.m; sourceTree = "<group>"; };
 		495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseNearbyCell.xib; sourceTree = "<group>"; };
@@ -679,6 +827,71 @@
 		49D1E1F8244D9BAC0055F6C0 /* FCAddHouseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddHouseVC.h; sourceTree = "<group>"; };
 		49D1E1F9244D9BAC0055F6C0 /* FCAddHouseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddHouseVC.m; sourceTree = "<group>"; };
 		49D1E1FA244D9BAC0055F6C0 /* FCAddHouseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddHouseVC.xib; sourceTree = "<group>"; };
+		49EEBBD92450189B00C7C197 /* FCVisitNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCVisitNoteVC.h; sourceTree = "<group>"; };
+		49EEBBDA2450189B00C7C197 /* FCVisitNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCVisitNoteVC.m; sourceTree = "<group>"; };
+		49EEBBDB2450189B00C7C197 /* FCVisitNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCVisitNoteVC.xib; sourceTree = "<group>"; };
+		49EEBBDE2450196200C7C197 /* FCGoodsNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsNoteVC.h; sourceTree = "<group>"; };
+		49EEBBDF2450196200C7C197 /* FCGoodsNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsNoteVC.m; sourceTree = "<group>"; };
+		49EEBBE02450196200C7C197 /* FCGoodsNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsNoteVC.xib; sourceTree = "<group>"; };
+		49EEBBE32450197D00C7C197 /* FCGoodsNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsNoteCell.h; sourceTree = "<group>"; };
+		49EEBBE42450197D00C7C197 /* FCGoodsNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsNoteCell.m; sourceTree = "<group>"; };
+		49EEBBE52450197D00C7C197 /* FCGoodsNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsNoteCell.xib; sourceTree = "<group>"; };
+		49EEBBE824501AF500C7C197 /* FCMemoNoteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMemoNoteVC.h; sourceTree = "<group>"; };
+		49EEBBE924501AF500C7C197 /* FCMemoNoteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMemoNoteVC.m; sourceTree = "<group>"; };
+		49EEBBEA24501AF500C7C197 /* FCMemoNoteVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMemoNoteVC.xib; sourceTree = "<group>"; };
+		49EEBBED24501B0700C7C197 /* FCMemoNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMemoNoteCell.h; sourceTree = "<group>"; };
+		49EEBBEE24501B0700C7C197 /* FCMemoNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMemoNoteCell.m; sourceTree = "<group>"; };
+		49EEBBEF24501B0700C7C197 /* FCMemoNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMemoNoteCell.xib; sourceTree = "<group>"; };
+		49EEBBF824501DB600C7C197 /* FCChangeMyMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChangeMyMsgVC.h; sourceTree = "<group>"; };
+		49EEBBF924501DB600C7C197 /* FCChangeMyMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChangeMyMsgVC.m; sourceTree = "<group>"; };
+		49EEBBFA24501DB600C7C197 /* FCChangeMyMsgVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChangeMyMsgVC.xib; sourceTree = "<group>"; };
+		49EEBBFD24501DE900C7C197 /* FCAddContactVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddContactVC.h; sourceTree = "<group>"; };
+		49EEBBFE24501DE900C7C197 /* FCAddContactVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddContactVC.m; sourceTree = "<group>"; };
+		49EEBBFF24501DE900C7C197 /* FCAddContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddContactVC.xib; sourceTree = "<group>"; };
+		49EEBC022450206E00C7C197 /* FCMyMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyMsgVC.h; sourceTree = "<group>"; };
+		49EEBC032450206E00C7C197 /* FCMyMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyMsgVC.m; sourceTree = "<group>"; };
+		49EEBC042450206E00C7C197 /* FCMyMsgVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyMsgVC.xib; sourceTree = "<group>"; };
+		49EEBC0D245025DE00C7C197 /* FCUrgencyContactCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCUrgencyContactCell.h; sourceTree = "<group>"; };
+		49EEBC0E245025DE00C7C197 /* FCUrgencyContactCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCUrgencyContactCell.m; sourceTree = "<group>"; };
+		49EEBC0F245025DE00C7C197 /* FCUrgencyContactCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCUrgencyContactCell.xib; sourceTree = "<group>"; };
+		49EEBC12245030D500C7C197 /* FCMyRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyRecommendVC.h; sourceTree = "<group>"; };
+		49EEBC13245030D500C7C197 /* FCMyRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyRecommendVC.m; sourceTree = "<group>"; };
+		49EEBC14245030D500C7C197 /* FCMyRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyRecommendVC.xib; sourceTree = "<group>"; };
+		49EEBC17245030E800C7C197 /* FCAddRecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAddRecommendVC.h; sourceTree = "<group>"; };
+		49EEBC18245030E800C7C197 /* FCAddRecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAddRecommendVC.m; sourceTree = "<group>"; };
+		49EEBC19245030E800C7C197 /* FCAddRecommendVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAddRecommendVC.xib; sourceTree = "<group>"; };
+		49EEBC1C2450325900C7C197 /* FCMyRecommendCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyRecommendCell.h; sourceTree = "<group>"; };
+		49EEBC1D2450325900C7C197 /* FCMyRecommendCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyRecommendCell.m; sourceTree = "<group>"; };
+		49EEBC1E2450325900C7C197 /* FCMyRecommendCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyRecommendCell.xib; sourceTree = "<group>"; };
+		49EEBC21245035ED00C7C197 /* FCMyChannelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyChannelVC.h; sourceTree = "<group>"; };
+		49EEBC22245035ED00C7C197 /* FCMyChannelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyChannelVC.m; sourceTree = "<group>"; };
+		49EEBC23245035ED00C7C197 /* FCMyChannelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyChannelVC.xib; sourceTree = "<group>"; };
+		49EEBC26245035FF00C7C197 /* FCChannelDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChannelDetailVC.h; sourceTree = "<group>"; };
+		49EEBC27245035FF00C7C197 /* FCChannelDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChannelDetailVC.m; sourceTree = "<group>"; };
+		49EEBC28245035FF00C7C197 /* FCChannelDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChannelDetailVC.xib; sourceTree = "<group>"; };
+		49EEBC2B2450360E00C7C197 /* FCMyChannelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyChannelCell.h; sourceTree = "<group>"; };
+		49EEBC2C2450360E00C7C197 /* FCMyChannelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyChannelCell.m; sourceTree = "<group>"; };
+		49EEBC2D2450360E00C7C197 /* FCMyChannelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyChannelCell.xib; sourceTree = "<group>"; };
+		49EEBC302450375E00C7C197 /* FCMyChannelSubCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyChannelSubCell.h; sourceTree = "<group>"; };
+		49EEBC312450375E00C7C197 /* FCMyChannelSubCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyChannelSubCell.m; sourceTree = "<group>"; };
+		49EEBC322450375E00C7C197 /* FCMyChannelSubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyChannelSubCell.xib; sourceTree = "<group>"; };
+		49EEBC35245038DD00C7C197 /* FCMyChannelHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMyChannelHeader.h; sourceTree = "<group>"; };
+		49EEBC36245038DD00C7C197 /* FCMyChannelHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMyChannelHeader.m; sourceTree = "<group>"; };
+		49EEBC38245038E300C7C197 /* FCMyChannelHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMyChannelHeader.xib; sourceTree = "<group>"; };
+		49EEBC3A24503BEE00C7C197 /* FCChangePwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChangePwdVC.h; sourceTree = "<group>"; };
+		49EEBC3B24503BEE00C7C197 /* FCChangePwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChangePwdVC.m; sourceTree = "<group>"; };
+		49EEBC3C24503BEE00C7C197 /* FCChangePwdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChangePwdVC.xib; sourceTree = "<group>"; };
+		49EEBC3F24503BFF00C7C197 /* FCChangePhoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCChangePhoneVC.h; sourceTree = "<group>"; };
+		49EEBC4024503BFF00C7C197 /* FCChangePhoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCChangePhoneVC.m; sourceTree = "<group>"; };
+		49EEBC4124503BFF00C7C197 /* FCChangePhoneVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCChangePhoneVC.xib; sourceTree = "<group>"; };
+		49EEBC4424504B8700C7C197 /* HXMallTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXMallTabBarController.h; sourceTree = "<group>"; };
+		49EEBC4524504B8700C7C197 /* HXMallTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXMallTabBarController.m; sourceTree = "<group>"; };
+		49EEBC4B24504F4A00C7C197 /* FCMallHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallHomeVC.h; sourceTree = "<group>"; };
+		49EEBC4C24504F4A00C7C197 /* FCMallHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallHomeVC.m; sourceTree = "<group>"; };
+		49EEBC4D24504F4A00C7C197 /* FCMallHomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallHomeVC.xib; sourceTree = "<group>"; };
+		49EEBC5024504F5B00C7C197 /* FCMallOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderVC.h; sourceTree = "<group>"; };
+		49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderVC.m; sourceTree = "<group>"; };
+		49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderVC.xib; sourceTree = "<group>"; };
 		A937ABE21C0AAEFC587D5B93 /* Pods-FC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.debug.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A330CD2F5886716026AE3A /* Pods-FC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.release.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.release.xcconfig"; sourceTree = "<group>"; };
 		CA8784845D3A5F6D39464FA0 /* libPods-FC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -979,6 +1192,8 @@
 				49608ADB244434A500ED3284 /* HXBaseViewController.m */,
 				49608AE1244434A500ED3284 /* HXTabBarController.h */,
 				49608ADC244434A500ED3284 /* HXTabBarController.m */,
+				49EEBC4424504B8700C7C197 /* HXMallTabBarController.h */,
+				49EEBC4524504B8700C7C197 /* HXMallTabBarController.m */,
 				49608ADD244434A500ED3284 /* HXGuideViewController.m */,
 				49608AE0244434A500ED3284 /* HXGuideViewController.h */,
 			);
@@ -1103,6 +1318,8 @@
 				49608B9724443B4300ED3284 /* FCMyVC.h */,
 				49608B9824443B4300ED3284 /* FCMyVC.m */,
 				49608B9924443B4300ED3284 /* FCMyVC.xib */,
+				49EEBC4724504F0300C7C197 /* 商城 */,
+				49EEBBF224501C5700C7C197 /* 个人操作 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1117,6 +1334,7 @@
 		49608AEF244434A500ED3284 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				49EEBC072450257900C7C197 /* 个人操作 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1737,6 +1955,57 @@
 				49CD6BAC2446EA4300DD72DB /* FCEntireRentHouseVC.h */,
 				49CD6BAD2446EA4300DD72DB /* FCEntireRentHouseVC.m */,
 				49CD6BAE2446EA4300DD72DB /* FCEntireRentHouseVC.xib */,
+				493FC85B244FD7A4009BE8CF /* FCEntireHouseDetailVC.h */,
+				493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */,
+				493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */,
+				493FC860244FDC52009BE8CF /* FCEcontractVC.h */,
+				493FC861244FDC52009BE8CF /* FCEcontractVC.m */,
+				493FC862244FDC52009BE8CF /* FCEcontractVC.xib */,
+				493FC865244FDC81009BE8CF /* FCEcontractChildVC.h */,
+				493FC866244FDC81009BE8CF /* FCEcontractChildVC.m */,
+				493FC867244FDC81009BE8CF /* FCEcontractChildVC.xib */,
+				493FC874244FE7AA009BE8CF /* FCHouseRentVC.h */,
+				493FC875244FE7AA009BE8CF /* FCHouseRentVC.m */,
+				493FC876244FE7AA009BE8CF /* FCHouseRentVC.xib */,
+				493FC879244FE7B8009BE8CF /* FCHouseRentChildVC.h */,
+				493FC87A244FE7B8009BE8CF /* FCHouseRentChildVC.m */,
+				493FC87B244FE7B8009BE8CF /* FCHouseRentChildVC.xib */,
+				493FC87E244FEA32009BE8CF /* FCFinanceNoteVC.h */,
+				493FC87F244FEA32009BE8CF /* FCFinanceNoteVC.m */,
+				493FC880244FEA32009BE8CF /* FCFinanceNoteVC.xib */,
+				493FC883244FEA41009BE8CF /* FCFinanceNoteChildVC.h */,
+				493FC884244FEA41009BE8CF /* FCFinanceNoteChildVC.m */,
+				493FC885244FEA41009BE8CF /* FCFinanceNoteChildVC.xib */,
+				493FC88D244FEC90009BE8CF /* FCOutRentNoteVC.h */,
+				493FC88E244FEC90009BE8CF /* FCOutRentNoteVC.m */,
+				493FC88F244FEC90009BE8CF /* FCOutRentNoteVC.xib */,
+				493FC892244FECA0009BE8CF /* FCOutRentNoteChildVC.h */,
+				493FC893244FECA1009BE8CF /* FCOutRentNoteChildVC.m */,
+				493FC894244FECA1009BE8CF /* FCOutRentNoteChildVC.xib */,
+				493FC89C244FEF10009BE8CF /* FCSubletRentNoteVC.h */,
+				493FC89D244FEF10009BE8CF /* FCSubletRentNoteVC.m */,
+				493FC89E244FEF10009BE8CF /* FCSubletRentNoteVC.xib */,
+				493FC8AB244FF10D009BE8CF /* FCCashCouponVC.h */,
+				493FC8AC244FF10D009BE8CF /* FCCashCouponVC.m */,
+				493FC8AD244FF10D009BE8CF /* FCCashCouponVC.xib */,
+				493FC8B5244FF4B7009BE8CF /* FCFollowNoteVC.h */,
+				493FC8B6244FF4B7009BE8CF /* FCFollowNoteVC.m */,
+				493FC8B7244FF4B7009BE8CF /* FCFollowNoteVC.xib */,
+				493FC8BA244FF4C6009BE8CF /* FCFollowNoteChildVC.h */,
+				493FC8BB244FF4C6009BE8CF /* FCFollowNoteChildVC.m */,
+				493FC8BC244FF4C6009BE8CF /* FCFollowNoteChildVC.xib */,
+				493FC8BF244FF681009BE8CF /* FCFitNoteVC.h */,
+				493FC8C0244FF681009BE8CF /* FCFitNoteVC.m */,
+				493FC8C1244FF681009BE8CF /* FCFitNoteVC.xib */,
+				49EEBBD92450189B00C7C197 /* FCVisitNoteVC.h */,
+				49EEBBDA2450189B00C7C197 /* FCVisitNoteVC.m */,
+				49EEBBDB2450189B00C7C197 /* FCVisitNoteVC.xib */,
+				49EEBBDE2450196200C7C197 /* FCGoodsNoteVC.h */,
+				49EEBBDF2450196200C7C197 /* FCGoodsNoteVC.m */,
+				49EEBBE02450196200C7C197 /* FCGoodsNoteVC.xib */,
+				49EEBBE824501AF500C7C197 /* FCMemoNoteVC.h */,
+				49EEBBE924501AF500C7C197 /* FCMemoNoteVC.m */,
+				49EEBBEA24501AF500C7C197 /* FCMemoNoteVC.xib */,
 			);
 			name = "整租房源";
 			sourceTree = "<group>";
@@ -1754,8 +2023,120 @@
 				49812A2B2448288E00191C66 /* FCDropMenuRangeCollectionCell.h */,
 				49812A2C2448288E00191C66 /* FCDropMenuRangeCollectionCell.m */,
 				49812A2D2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib */,
+				493FC86A244FDC9E009BE8CF /* FCEcontractCell.h */,
+				493FC86B244FDC9E009BE8CF /* FCEcontractCell.m */,
+				493FC86C244FDC9E009BE8CF /* FCEcontractCell.xib */,
+				493FC86F244FE78C009BE8CF /* FCHouseRentCell.h */,
+				493FC870244FE78C009BE8CF /* FCHouseRentCell.m */,
+				493FC871244FE78C009BE8CF /* FCHouseRentCell.xib */,
+				493FC888244FEA6A009BE8CF /* FCFinanceNoteCell.h */,
+				493FC889244FEA6A009BE8CF /* FCFinanceNoteCell.m */,
+				493FC88A244FEA6A009BE8CF /* FCFinanceNoteCell.xib */,
+				493FC897244FECB1009BE8CF /* FCOutRentNoteCell.h */,
+				493FC898244FECB1009BE8CF /* FCOutRentNoteCell.m */,
+				493FC899244FECB1009BE8CF /* FCOutRentNoteCell.xib */,
+				493FC8A6244FEF39009BE8CF /* FCSubletRentNoteCell.h */,
+				493FC8A7244FEF39009BE8CF /* FCSubletRentNoteCell.m */,
+				493FC8A8244FEF39009BE8CF /* FCSubletRentNoteCell.xib */,
+				493FC8B0244FF129009BE8CF /* FCCashCouponCell.h */,
+				493FC8B1244FF129009BE8CF /* FCCashCouponCell.m */,
+				493FC8B2244FF129009BE8CF /* FCCashCouponCell.xib */,
+				493FC8C4244FF692009BE8CF /* FCFitNoteCell.h */,
+				493FC8C5244FF692009BE8CF /* FCFitNoteCell.m */,
+				493FC8C6244FF692009BE8CF /* FCFitNoteCell.xib */,
+				49EEBBE32450197D00C7C197 /* FCGoodsNoteCell.h */,
+				49EEBBE42450197D00C7C197 /* FCGoodsNoteCell.m */,
+				49EEBBE52450197D00C7C197 /* FCGoodsNoteCell.xib */,
+				49EEBBED24501B0700C7C197 /* FCMemoNoteCell.h */,
+				49EEBBEE24501B0700C7C197 /* FCMemoNoteCell.m */,
+				49EEBBEF24501B0700C7C197 /* FCMemoNoteCell.xib */,
 			);
 			name = "整租房源";
+			sourceTree = "<group>";
+		};
+		49EEBBF224501C5700C7C197 /* 个人操作 */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBC022450206E00C7C197 /* FCMyMsgVC.h */,
+				49EEBC032450206E00C7C197 /* FCMyMsgVC.m */,
+				49EEBC042450206E00C7C197 /* FCMyMsgVC.xib */,
+				49EEBBF824501DB600C7C197 /* FCChangeMyMsgVC.h */,
+				49EEBBF924501DB600C7C197 /* FCChangeMyMsgVC.m */,
+				49EEBBFA24501DB600C7C197 /* FCChangeMyMsgVC.xib */,
+				49EEBBFD24501DE900C7C197 /* FCAddContactVC.h */,
+				49EEBBFE24501DE900C7C197 /* FCAddContactVC.m */,
+				49EEBBFF24501DE900C7C197 /* FCAddContactVC.xib */,
+				49EEBC12245030D500C7C197 /* FCMyRecommendVC.h */,
+				49EEBC13245030D500C7C197 /* FCMyRecommendVC.m */,
+				49EEBC14245030D500C7C197 /* FCMyRecommendVC.xib */,
+				49EEBC17245030E800C7C197 /* FCAddRecommendVC.h */,
+				49EEBC18245030E800C7C197 /* FCAddRecommendVC.m */,
+				49EEBC19245030E800C7C197 /* FCAddRecommendVC.xib */,
+				49EEBC21245035ED00C7C197 /* FCMyChannelVC.h */,
+				49EEBC22245035ED00C7C197 /* FCMyChannelVC.m */,
+				49EEBC23245035ED00C7C197 /* FCMyChannelVC.xib */,
+				49EEBC26245035FF00C7C197 /* FCChannelDetailVC.h */,
+				49EEBC27245035FF00C7C197 /* FCChannelDetailVC.m */,
+				49EEBC28245035FF00C7C197 /* FCChannelDetailVC.xib */,
+				49EEBC3A24503BEE00C7C197 /* FCChangePwdVC.h */,
+				49EEBC3B24503BEE00C7C197 /* FCChangePwdVC.m */,
+				49EEBC3C24503BEE00C7C197 /* FCChangePwdVC.xib */,
+				49EEBC3F24503BFF00C7C197 /* FCChangePhoneVC.h */,
+				49EEBC4024503BFF00C7C197 /* FCChangePhoneVC.m */,
+				49EEBC4124503BFF00C7C197 /* FCChangePhoneVC.xib */,
+			);
+			name = "个人操作";
+			sourceTree = "<group>";
+		};
+		49EEBC072450257900C7C197 /* 个人操作 */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBC0D245025DE00C7C197 /* FCUrgencyContactCell.h */,
+				49EEBC0E245025DE00C7C197 /* FCUrgencyContactCell.m */,
+				49EEBC0F245025DE00C7C197 /* FCUrgencyContactCell.xib */,
+				49EEBC1C2450325900C7C197 /* FCMyRecommendCell.h */,
+				49EEBC1D2450325900C7C197 /* FCMyRecommendCell.m */,
+				49EEBC1E2450325900C7C197 /* FCMyRecommendCell.xib */,
+				49EEBC2B2450360E00C7C197 /* FCMyChannelCell.h */,
+				49EEBC2C2450360E00C7C197 /* FCMyChannelCell.m */,
+				49EEBC2D2450360E00C7C197 /* FCMyChannelCell.xib */,
+				49EEBC35245038DD00C7C197 /* FCMyChannelHeader.h */,
+				49EEBC36245038DD00C7C197 /* FCMyChannelHeader.m */,
+				49EEBC38245038E300C7C197 /* FCMyChannelHeader.xib */,
+				49EEBC302450375E00C7C197 /* FCMyChannelSubCell.h */,
+				49EEBC312450375E00C7C197 /* FCMyChannelSubCell.m */,
+				49EEBC322450375E00C7C197 /* FCMyChannelSubCell.xib */,
+			);
+			name = "个人操作";
+			sourceTree = "<group>";
+		};
+		49EEBC4724504F0300C7C197 /* 商城 */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBC4924504F2500C7C197 /* 首页 */,
+				49EEBC4A24504F3200C7C197 /* 订单 */,
+			);
+			name = "商城";
+			sourceTree = "<group>";
+		};
+		49EEBC4924504F2500C7C197 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBC4B24504F4A00C7C197 /* FCMallHomeVC.h */,
+				49EEBC4C24504F4A00C7C197 /* FCMallHomeVC.m */,
+				49EEBC4D24504F4A00C7C197 /* FCMallHomeVC.xib */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		49EEBC4A24504F3200C7C197 /* 订单 */ = {
+			isa = PBXGroup;
+			children = (
+				49EEBC5024504F5B00C7C197 /* FCMallOrderVC.h */,
+				49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */,
+				49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */,
+			);
+			name = "订单";
 			sourceTree = "<group>";
 		};
 		83B18B59850D55AB7034B9D9 /* Frameworks */ = {
@@ -1887,77 +2268,119 @@
 				49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */,
 				493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */,
 				497F15BB244939BC00075FDC /* FCRaiseRuleCell.xib in Resources */,
+				493FC8AF244FF10D009BE8CF /* FCCashCouponVC.xib in Resources */,
+				49EEBC202450325900C7C197 /* FCMyRecommendCell.xib in Resources */,
 				49AF52562446BA1E00598AAD /* FCCityVC.xib in Resources */,
 				49B7CD8D244A939100BDFDBB /* FCAreaSaleRecordVC.xib in Resources */,
 				49B1EDB5244ECD1E009B2449 /* FCAddVisitVC.xib in Resources */,
 				497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */,
+				493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */,
+				493FC864244FDC52009BE8CF /* FCEcontractVC.xib in Resources */,
 				49B1EDB0244EC6E5009B2449 /* FCClientFollowVC.xib in Resources */,
 				49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */,
 				49CD6BA42446E20300DD72DB /* FCSearchTagCell.xib in Resources */,
 				49608B9624443B3600ED3284 /* FCApproveVC.xib in Resources */,
+				493FC8B4244FF129009BE8CF /* FCCashCouponCell.xib in Resources */,
 				49812A6B2448628D00191C66 /* FCChooseClientVC.xib in Resources */,
 				49CD6B932446DEB300DD72DB /* FCNoticeCell.xib in Resources */,
+				49EEBBE22450196200C7C197 /* FCGoodsNoteVC.xib in Resources */,
+				49EEBC2A245035FF00C7C197 /* FCChannelDetailVC.xib in Resources */,
 				49812A57244854E600191C66 /* FCAddInContractVC.xib in Resources */,
 				491AD0D124458AE6003D9749 /* FCContactHeaderView.xib in Resources */,
+				49EEBBEC24501AF500C7C197 /* FCMemoNoteVC.xib in Resources */,
 				49608B42244434A500ED3284 /* AlipaySDK.bundle in Resources */,
+				49EEBC0124501DE900C7C197 /* FCAddContactVC.xib in Resources */,
 				49B7CD7E244A931500BDFDBB /* FCInSaleRecordVC.xib in Resources */,
 				49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */,
 				4971CB6F244D2C5B00C2DFD4 /* FCHouseMoreCell.xib in Resources */,
 				49B1EDBA244ED13B009B2449 /* FCPerfectClientVC.xib in Resources */,
+				493FC8A0244FEF10009BE8CF /* FCSubletRentNoteVC.xib in Resources */,
+				49EEBC5424504F5B00C7C197 /* FCMallOrderVC.xib in Resources */,
+				493FC887244FEA41009BE8CF /* FCFinanceNoteChildVC.xib in Resources */,
+				493FC882244FEA32009BE8CF /* FCFinanceNoteVC.xib in Resources */,
+				493FC88C244FEA6A009BE8CF /* FCFinanceNoteCell.xib in Resources */,
 				49B1EDDE244EE282009B2449 /* FCReserveBreakDetailVC.xib in Resources */,
+				49EEBC3E24503BEE00C7C197 /* FCChangePwdVC.xib in Resources */,
+				49EEBC4324503BFF00C7C197 /* FCChangePhoneVC.xib in Resources */,
 				49608B39244434A500ED3284 /* RCFilterCell.xib in Resources */,
+				493FC89B244FECB1009BE8CF /* FCOutRentNoteCell.xib in Resources */,
 				49608B46244434A500ED3284 /* FSActionSheet_cancel@2x.png in Resources */,
 				49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */,
 				49A01FB82440169700FDE60E /* LaunchScreen.storyboard in Resources */,
 				49B1EDE3244EF949009B2449 /* FCAddClientVC.xib in Resources */,
 				49608B9124443B2300ED3284 /* FCContactVC.xib in Resources */,
+				49EEBC16245030D500C7C197 /* FCMyRecommendVC.xib in Resources */,
+				49EEBC1B245030E800C7C197 /* FCAddRecommendVC.xib in Resources */,
+				49EEBC2F2450360E00C7C197 /* FCMyChannelCell.xib in Resources */,
+				49EEBC11245025DE00C7C197 /* FCUrgencyContactCell.xib in Resources */,
+				49EEBC4F24504F4A00C7C197 /* FCMallHomeVC.xib in Resources */,
 				49812A48244848F000191C66 /* FCContractManageCell.xib in Resources */,
 				492DC67B244EA3A4004B52F7 /* FCTargetClientVC.xib in Resources */,
+				493FC87D244FE7B8009BE8CF /* FCHouseRentChildVC.xib in Resources */,
+				493FC869244FDC81009BE8CF /* FCEcontractChildVC.xib in Resources */,
 				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
 				49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */,
+				493FC8AA244FEF39009BE8CF /* FCSubletRentNoteCell.xib in Resources */,
+				493FC8C8244FF692009BE8CF /* FCFitNoteCell.xib in Resources */,
 				491AD0CC24458AB0003D9749 /* FCContacterCell.xib in Resources */,
 				49D1E1F7244D8C4A0055F6C0 /* FCEndAgencyDetailVC.xib in Resources */,
+				49EEBC25245035ED00C7C197 /* FCMyChannelVC.xib in Resources */,
 				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
 				49B1EDCF244EE249009B2449 /* FCReserveRefundVC.xib in Resources */,
 				49B7CD98244AA89800BDFDBB /* FCStoreHouseDetailVC.xib in Resources */,
 				495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */,
 				49608B3B244434A500ED3284 /* WSDatePickerView.xib in Resources */,
+				49EEBBDD2450189B00C7C197 /* FCVisitNoteVC.xib in Resources */,
 				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
+				49EEBC39245038E300C7C197 /* FCMyChannelHeader.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
 				492DC676244EA343004B52F7 /* FCSignClientVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
 				497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */,
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
 				4971CB7F244D493800C2DFD4 /* FCAddFollowVC.xib in Resources */,
+				493FC873244FE78C009BE8CF /* FCHouseRentCell.xib in Resources */,
 				49608BA424443C0600ED3284 /* FCLoginVC.xib in Resources */,
 				49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */,
+				493FC8B9244FF4B7009BE8CF /* FCFollowNoteVC.xib in Resources */,
+				49EEBBE72450197D00C7C197 /* FCGoodsNoteCell.xib in Resources */,
 				49CD6BA92446E2A900DD72DB /* FCSearchTagHeader.xib in Resources */,
 				49CD6BB62446EA6F00DD72DB /* FCEntireRentHouseCell.xib in Resources */,
 				49608B9B24443B4300ED3284 /* FCMyVC.xib in Resources */,
 				49608B45244434A500ED3284 /* FSActionSheet_cancel@3x.png in Resources */,
 				49CD6B872446D98400DD72DB /* FCMsgDetailVC.xib in Resources */,
+				49EEBBF124501B0700C7C197 /* FCMemoNoteCell.xib in Resources */,
 				4971CB90244D7E4600C2DFD4 /* FCEndAgencyVC.xib in Resources */,
 				49A01FB52440169700FDE60E /* Assets.xcassets in Resources */,
+				493FC8C3244FF681009BE8CF /* FCFitNoteVC.xib in Resources */,
+				493FC86E244FDC9E009BE8CF /* FCEcontractCell.xib in Resources */,
 				493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */,
 				49CD6B822446D7C400DD72DB /* FCMsgCell.xib in Resources */,
+				493FC891244FEC90009BE8CF /* FCOutRentNoteVC.xib in Resources */,
 				49AF5250244696A900598AAD /* FCBannerCell.xib in Resources */,
+				493FC8BE244FF4C6009BE8CF /* FCFollowNoteChildVC.xib in Resources */,
 				49B7CD93244A9CED00BDFDBB /* FCSaleRecordCell.xib in Resources */,
 				49812A2F2448288E00191C66 /* FCDropMenuRangeCollectionCell.xib in Resources */,
+				493FC878244FE7AA009BE8CF /* FCHouseRentVC.xib in Resources */,
 				49D1E1FC244D9BAC0055F6C0 /* FCAddHouseVC.xib in Resources */,
 				497F15C024495BC300075FDC /* FCRaiseRuleVC.xib in Resources */,
 				4971CB88244D521400C2DFD4 /* moment2.plist in Resources */,
+				49EEBC342450375E00C7C197 /* FCMyChannelSubCell.xib in Resources */,
 				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
+				493FC896244FECA1009BE8CF /* FCOutRentNoteChildVC.xib in Resources */,
 				493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */,
 				49B1EDD4244EE257009B2449 /* FCReserveBreakVC.xib in Resources */,
 				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
 				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
+				49EEBBFC24501DB600C7C197 /* FCChangeMyMsgVC.xib in Resources */,
 				4971CB77244D486100C2DFD4 /* FCStoreFollowVC.xib in Resources */,
 				49B1EDD9244EE272009B2449 /* FCReserveRefundDetailVC.xib in Resources */,
 				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
 				49812A2A2447F9C800191C66 /* FCStoreHouseFooter.xib in Resources */,
+				49EEBC062450206E00C7C197 /* FCMyMsgVC.xib in Resources */,
 				49608B8C24443B1300ED3284 /* FCHomeVC.xib in Resources */,
 				49812A5C24485E9900191C66 /* FCContractTemplateVC.xib in Resources */,
 				49CD6BB02446EA4300DD72DB /* FCEntireRentHouseVC.xib in Resources */,
@@ -2035,6 +2458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49B7CD77244A8C8700BDFDBB /* FCSignCodeVC.m in Sources */,
+				493FC85E244FD7A4009BE8CF /* FCEntireHouseDetailVC.m in Sources */,
 				49608BAC2444572D00ED3284 /* DVPieCenterView.m in Sources */,
 				49608BA324443C0600ED3284 /* FCLoginVC.m in Sources */,
 				49812A5B24485E9900191C66 /* FCContractTemplateVC.m in Sources */,
@@ -2043,8 +2467,12 @@
 				493DE8482449B0C900647BAD /* FCInContractDetailVC.m in Sources */,
 				49608B67244434A500ED3284 /* UIColor+DSGradient.m in Sources */,
 				49812A652448619B00191C66 /* FCChooseHouseVC.m in Sources */,
+				49EEBC5324504F5B00C7C197 /* FCMallOrderVC.m in Sources */,
+				493FC868244FDC81009BE8CF /* FCEcontractChildVC.m in Sources */,
+				49EEBC052450206E00C7C197 /* FCMyMsgVC.m in Sources */,
 				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
 				497F15BF24495BC300075FDC /* FCRaiseRuleVC.m in Sources */,
+				493FC88B244FEA6A009BE8CF /* FCFinanceNoteCell.m in Sources */,
 				49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */,
 				4971CB86244D520900C2DFD4 /* FCHouseFollow.m in Sources */,
 				49608B57244434A500ED3284 /* UILabel+ForLMJVerticalScrollText.m in Sources */,
@@ -2052,6 +2480,7 @@
 				49CD6B862446D98400DD72DB /* FCMsgDetailVC.m in Sources */,
 				49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */,
 				49608B52244434A500ED3284 /* LYEmptyView.m in Sources */,
+				49EEBC29245035FF00C7C197 /* FCChannelDetailVC.m in Sources */,
 				49608BAE2444572D00ED3284 /* DVPieChart.m in Sources */,
 				49B1EDC9244EDF69009B2449 /* YBPopupMenuDeviceOrientationManager.m in Sources */,
 				49608B53244434A500ED3284 /* HXSearchBar.m in Sources */,
@@ -2062,6 +2491,8 @@
 				49608B3F244434A500ED3284 /* SPButton.m in Sources */,
 				49608B64244434A500ED3284 /* UIButton+HXCode.m in Sources */,
 				49608B65244434A500ED3284 /* NSURL+Expand.m in Sources */,
+				49EEBBFB24501DB600C7C197 /* FCChangeMyMsgVC.m in Sources */,
+				493FC8B3244FF129009BE8CF /* FCCashCouponCell.m in Sources */,
 				49B1EDE2244EF949009B2449 /* FCAddClientVC.m in Sources */,
 				49A01FAA2440169300FDE60E /* AppDelegate.m in Sources */,
 				49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */,
@@ -2069,6 +2500,7 @@
 				49A01FBB2440169700FDE60E /* main.m in Sources */,
 				49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */,
 				49AF525C2446BA8A00598AAD /* FCCityCell.m in Sources */,
+				49EEBBE62450197D00C7C197 /* FCGoodsNoteCell.m in Sources */,
 				49CD6BAF2446EA4300DD72DB /* FCEntireRentHouseVC.m in Sources */,
 				49B1EDDD244EE282009B2449 /* FCReserveBreakDetailVC.m in Sources */,
 				49608B6D244434A500ED3284 /* NSDate+HXNExtension.m in Sources */,
@@ -2079,16 +2511,24 @@
 				49812A7824486D7A00191C66 /* FCFreeRuleHeader.m in Sources */,
 				49608B9524443B3600ED3284 /* FCApproveVC.m in Sources */,
 				49CD6BA32446E20300DD72DB /* FCSearchTagCell.m in Sources */,
+				49EEBBDC2450189B00C7C197 /* FCVisitNoteVC.m in Sources */,
+				49EEBC3D24503BEE00C7C197 /* FCChangePwdVC.m in Sources */,
 				49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */,
+				49EEBC4624504B8700C7C197 /* HXMallTabBarController.m in Sources */,
+				493FC8B8244FF4B7009BE8CF /* FCFollowNoteVC.m in Sources */,
 				49D1E1F6244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m in Sources */,
 				49608B4E244434A500ED3284 /* SGQRCodeScanView.m in Sources */,
 				49608B74244434A500ED3284 /* HXNetworkTool.m in Sources */,
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
+				493FC872244FE78C009BE8CF /* FCHouseRentCell.m in Sources */,
 				49AF52552446BA1E00598AAD /* FCCityVC.m in Sources */,
 				49608B6A244434A500ED3284 /* Foundation+Log.m in Sources */,
+				493FC8C7244FF692009BE8CF /* FCFitNoteCell.m in Sources */,
 				49B1EDC7244EDF69009B2449 /* YBPopupMenuPath.m in Sources */,
+				493FC8C2244FF681009BE8CF /* FCFitNoteVC.m in Sources */,
 				493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */,
 				49CD6B7B2446D75400DD72DB /* FCMsgVC.m in Sources */,
+				49EEBC10245025DE00C7C197 /* FCUrgencyContactCell.m in Sources */,
 				492DC67A244EA3A4004B52F7 /* FCTargetClientVC.m in Sources */,
 				49B7CD97244AA89800BDFDBB /* FCStoreHouseDetailVC.m in Sources */,
 				49B1EDAF244EC6E5009B2449 /* FCClientFollowVC.m in Sources */,
@@ -2097,6 +2537,8 @@
 				49608B7E244434A500ED3284 /* MSUserManager.m in Sources */,
 				49812A2E2448288E00191C66 /* FCDropMenuRangeCollectionCell.m in Sources */,
 				49608B69244434A500ED3284 /* NSString+HXNExtension.m in Sources */,
+				49EEBC0024501DE900C7C197 /* FCAddContactVC.m in Sources */,
+				49EEBBEB24501AF500C7C197 /* FCMemoNoteVC.m in Sources */,
 				49608B80244434A500ED3284 /* GXSaveImageToPHAsset.m in Sources */,
 				49608B9024443B2300ED3284 /* FCContactVC.m in Sources */,
 				49608B40244434A500ED3284 /* FBShimmeringLayer.m in Sources */,
@@ -2109,14 +2551,20 @@
 				49608B41244434A500ED3284 /* FBShimmeringView.m in Sources */,
 				49B1EDC6244EDF69009B2449 /* YBRectConst.m in Sources */,
 				49B1EDCE244EE249009B2449 /* FCReserveRefundVC.m in Sources */,
+				493FC87C244FE7B8009BE8CF /* FCHouseRentChildVC.m in Sources */,
 				49608B5A244434A500ED3284 /* UIView+WZLBadge.m in Sources */,
 				49608B60244434A500ED3284 /* HXBaseViewController.m in Sources */,
+				49EEBBE12450196200C7C197 /* FCGoodsNoteVC.m in Sources */,
+				49EEBC15245030D500C7C197 /* FCMyRecommendVC.m in Sources */,
 				49B7CD8C244A939100BDFDBB /* FCAreaSaleRecordVC.m in Sources */,
+				493FC863244FDC52009BE8CF /* FCEcontractVC.m in Sources */,
 				49812A51244854D500191C66 /* FCAddOutContractVC.m in Sources */,
 				49812A132447F58400191C66 /* FCSearchResultVC.m in Sources */,
+				493FC895244FECA1009BE8CF /* FCOutRentNoteChildVC.m in Sources */,
 				4971CB6E244D2C5B00C2DFD4 /* FCHouseMoreCell.m in Sources */,
 				49812A3A24483A1A00191C66 /* FCStoreClientCell.m in Sources */,
 				49608B4F244434A500ED3284 /* LYEmptyBaseView.m in Sources */,
+				49EEBC1F2450325900C7C197 /* FCMyRecommendCell.m in Sources */,
 				49608B49244434A500ED3284 /* FSActionSheetCell.m in Sources */,
 				49608B51244434A500ED3284 /* UIView+LYExtension.m in Sources */,
 				49B1EDC8244EDF69009B2449 /* YBPopupMenu.m in Sources */,
@@ -2124,17 +2572,23 @@
 				49608B58244434A500ED3284 /* LMJHorizontalScrollText.m in Sources */,
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
 				4971CB7E244D493800C2DFD4 /* FCAddFollowVC.m in Sources */,
+				493FC8BD244FF4C6009BE8CF /* FCFollowNoteChildVC.m in Sources */,
+				49EEBC4224503BFF00C7C197 /* FCChangePhoneVC.m in Sources */,
 				49608B75244434A500ED3284 /* HXNetworkCache.m in Sources */,
 				4971CB76244D486100C2DFD4 /* FCStoreFollowVC.m in Sources */,
 				49608B7D244434A500ED3284 /* MSUserInfo.m in Sources */,
 				493DE839244989ED00647BAD /* FCGoodsJointCell.m in Sources */,
+				493FC8A9244FEF39009BE8CF /* FCSubletRentNoteCell.m in Sources */,
 				4971CB8F244D7E4600C2DFD4 /* FCEndAgencyVC.m in Sources */,
 				49608B73244434A500ED3284 /* HXLocationTool_.m in Sources */,
+				49EEBC2E2450360E00C7C197 /* FCMyChannelCell.m in Sources */,
 				49CD6B8C2446DE8600DD72DB /* FCNoticeVC.m in Sources */,
 				49B7CD87244A936D00BDFDBB /* FCDepartmentSaleRecordVC.m in Sources */,
 				49608B54244434A500ED3284 /* zhAlertView.m in Sources */,
 				49608B61244434A500ED3284 /* HXTabBarController.m in Sources */,
 				49608B6F244434A500ED3284 /* ContactDataHelper.m in Sources */,
+				493FC877244FE7AA009BE8CF /* FCHouseRentVC.m in Sources */,
+				49EEBC37245038DD00C7C197 /* FCMyChannelHeader.m in Sources */,
 				493DE8332449872B00647BAD /* FCGoodsJointHeader.m in Sources */,
 				49608B38244434A500ED3284 /* RCFilterCell.m in Sources */,
 				49608B44244434A500ED3284 /* HXPlaceholderTextView.m in Sources */,
@@ -2145,6 +2599,8 @@
 				49608B6C244434A500ED3284 /* HXConst.m in Sources */,
 				49812A34244839EE00191C66 /* FCStoreClientVC.m in Sources */,
 				49812A192447F95600191C66 /* FCStoreHouseVC.m in Sources */,
+				493FC886244FEA41009BE8CF /* FCFinanceNoteChildVC.m in Sources */,
+				49EEBC4E24504F4A00C7C197 /* FCMallHomeVC.m in Sources */,
 				49812A47244848F000191C66 /* FCContractManageCell.m in Sources */,
 				49B7CD82244A933000BDFDBB /* FCOutSaleRecordVC.m in Sources */,
 				49608B4D244434A500ED3284 /* SGQRCodeObtain.m in Sources */,
@@ -2160,26 +2616,36 @@
 				493DE83E24499A1700647BAD /* FCSubmitPicCell.m in Sources */,
 				4971CB68244D2C1900C2DFD4 /* FCHouseMoreView.m in Sources */,
 				49608B59244434A500ED3284 /* CAAnimation+WAnimation.m in Sources */,
+				493FC8AE244FF10D009BE8CF /* FCCashCouponVC.m in Sources */,
 				49608B37244434A500ED3284 /* SDWeiXinPhotoContainerView.m in Sources */,
 				49CD6B972446DFD900DD72DB /* FCNoticeDetailVC.m in Sources */,
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
+				49EEBC332450375E00C7C197 /* FCMyChannelSubCell.m in Sources */,
 				49B1EDCA244EDF69009B2449 /* YBPopupMenuAnimationManager.m in Sources */,
 				4971CB82244D51B200C2DFD4 /* FCHouseFollowCell.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
 				497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */,
 				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,
 				49608B47244434A500ED3284 /* FSActionSheetConfig.m in Sources */,
+				49EEBBF024501B0700C7C197 /* FCMemoNoteCell.m in Sources */,
 				495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */,
 				492DC670244EA330004B52F7 /* FCReserveClientVC.m in Sources */,
 				495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */,
+				493FC890244FEC90009BE8CF /* FCOutRentNoteVC.m in Sources */,
 				49B1EDD8244EE272009B2449 /* FCReserveRefundDetailVC.m in Sources */,
+				493FC881244FEA32009BE8CF /* FCFinanceNoteVC.m in Sources */,
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,
+				493FC86D244FDC9E009BE8CF /* FCEcontractCell.m in Sources */,
 				49608B3D244434A500ED3284 /* NSDate+Extension.m in Sources */,
 				49608B7C244434A500ED3284 /* HXTopWindow.m in Sources */,
 				49CD6B922446DEB300DD72DB /* FCNoticeCell.m in Sources */,
+				493FC89A244FECB1009BE8CF /* FCOutRentNoteCell.m in Sources */,
+				49EEBC24245035ED00C7C197 /* FCMyChannelVC.m in Sources */,
+				49EEBC1A245030E800C7C197 /* FCAddRecommendVC.m in Sources */,
 				49608B6E244434A500ED3284 /* UILabel+HXNExtension.m in Sources */,
 				49812A6F244867E400191C66 /* FCFreeRuleVC.m in Sources */,
+				493FC89F244FEF10009BE8CF /* FCSubletRentNoteVC.m in Sources */,
 				49B1EDB9244ED13B009B2449 /* FCPerfectClientVC.m in Sources */,
 				491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */,
 				49608B70244434A500ED3284 /* UIBarButtonItem+HXNExtension.m in Sources */,

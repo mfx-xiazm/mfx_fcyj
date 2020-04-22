@@ -38,7 +38,7 @@
                                     <rect key="frame" x="0.0" y="10" width="414" height="35"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UA1-N3-ty4">
-                                            <rect key="frame" x="12" y="9.5" width="69" height="16"/>
+                                            <rect key="frame" x="12" y="9.5" width="70" height="16"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="*">
                                                     <attributes>
@@ -55,7 +55,7 @@
                                                 <fragment content="违约房源">
                                                     <attributes>
                                                         <color key="NSColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                        <font key="NSFont" metaFont="system"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="  ">
@@ -340,7 +340,7 @@
                                     <rect key="frame" x="0.0" y="220" width="414" height="35"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMz-kf-81N">
-                                            <rect key="frame" x="12" y="9.5" width="61.5" height="16"/>
+                                            <rect key="frame" x="12" y="9.5" width="63" height="16"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="*">
                                                     <attributes>
@@ -357,7 +357,7 @@
                                                 <fragment content="定金金额">
                                                     <attributes>
                                                         <color key="NSColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                        <font key="NSFont" metaFont="system"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -443,7 +443,7 @@
                                     <rect key="frame" x="0.0" y="300" width="414" height="50"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jsu-3e-e62">
-                                            <rect key="frame" x="12" y="17" width="61.5" height="16"/>
+                                            <rect key="frame" x="12" y="17" width="63" height="16"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="*">
                                                     <attributes>
@@ -451,23 +451,17 @@
                                                         <font key="NSFont" metaFont="system"/>
                                                     </attributes>
                                                 </fragment>
-                                                <fragment content=" ">
+                                                <fragment content=" 违约日期">
                                                     <attributes>
                                                         <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <font key="NSFont" metaFont="system"/>
-                                                    </attributes>
-                                                </fragment>
-                                                <fragment content="违约日期">
-                                                    <attributes>
-                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请选择" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OV0-zU-0Xa">
-                                            <rect key="frame" x="83.5" y="16.5" width="303.5" height="17.5"/>
+                                            <rect key="frame" x="85" y="16.5" width="302" height="17.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>

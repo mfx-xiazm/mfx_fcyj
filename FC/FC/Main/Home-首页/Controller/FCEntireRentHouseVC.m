@@ -12,6 +12,7 @@
 #import <WMZDropDownMenu.h>
 #import "FCDropMenuCollectionHeader.h"
 #import "FCDropMenuCollectionCell.h"
+#import "FCEntireHouseDetailVC.h"
 
 static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
 @interface FCEntireRentHouseVC ()<UITableViewDelegate,UITableViewDataSource,UITextFieldDelegate,WMZDropMenuDelegate>
@@ -394,7 +395,8 @@ static NSString *const EntireRentHouseCell = @"EntireRentHouseCell";
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    FCEntireHouseDetailVC *dvc = [FCEntireHouseDetailVC new];
+    [self.navigationController pushViewController:dvc animated:YES];
 }
 
 @end

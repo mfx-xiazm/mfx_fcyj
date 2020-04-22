@@ -218,8 +218,8 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                 </view>
-                                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xAY-zH-l1z">
-                                    <rect key="frame" x="12" y="357" width="390" height="248"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAY-zH-l1z">
+                                    <rect key="frame" x="12" y="356.5" width="390" height="337"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QpL-ig-dn5">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
