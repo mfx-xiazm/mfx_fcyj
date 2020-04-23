@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface HXMallTabBarController : UITabBarController
-
+@property (nonatomic, assign) NSInteger backSelectedIndex;
 @end
 
 NS_ASSUME_NONNULL_END

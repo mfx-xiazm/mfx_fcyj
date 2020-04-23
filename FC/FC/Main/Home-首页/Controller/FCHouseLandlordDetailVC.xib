@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FCHouseLandlordDetailVC">
+            <connections>
+                <outlet property="tableView" destination="ALW-uy-hFt" id="w9g-pI-Cnc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ALW-uy-hFt">
+                    <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jku-QJ-j5M">
+                    <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUc-rG-Ync" customClass="SPButton">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="I03-7j-F8L"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="添加跟进" image="跟进记录">
+                                <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Eb-NR-xV7">
+                            <rect key="frame" x="80" y="0.0" width="334" height="60"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avM-YF-SH7">
+                                    <rect key="frame" x="0.0" y="10" width="100.5" height="40"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <state key="normal" title="租客签约">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="boderColor">
+                                            <color key="value" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNF-7L-xWf">
+                                    <rect key="frame" x="110.5" y="10" width="101" height="40"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <state key="normal" title="租客签订">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="boderColor">
+                                            <color key="value" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCd-Bx-9NX">
+                                    <rect key="frame" x="221.5" y="10" width="100.5" height="40"/>
+                                    <color key="backgroundColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <state key="normal" title="联系客户"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstItem="HCd-Bx-9NX" firstAttribute="top" secondItem="6Eb-NR-xV7" secondAttribute="top" constant="10" id="8Ea-MX-Hq6"/>
+                                <constraint firstItem="HCd-Bx-9NX" firstAttribute="width" secondItem="avM-YF-SH7" secondAttribute="width" id="Dc8-KV-N1m"/>
+                                <constraint firstItem="avM-YF-SH7" firstAttribute="top" secondItem="6Eb-NR-xV7" secondAttribute="top" constant="10" id="Ka8-Ee-Xjs"/>
+                                <constraint firstItem="avM-YF-SH7" firstAttribute="leading" secondItem="6Eb-NR-xV7" secondAttribute="leading" id="L8b-WE-9rs"/>
+                                <constraint firstAttribute="bottom" secondItem="tNF-7L-xWf" secondAttribute="bottom" constant="10" id="T0I-qz-QUh"/>
+                                <constraint firstAttribute="bottom" secondItem="avM-YF-SH7" secondAttribute="bottom" constant="10" id="Xxn-t3-qOL"/>
+                                <constraint firstItem="tNF-7L-xWf" firstAttribute="top" secondItem="6Eb-NR-xV7" secondAttribute="top" constant="10" id="cYJ-9L-Sa7"/>
+                                <constraint firstItem="tNF-7L-xWf" firstAttribute="leading" secondItem="avM-YF-SH7" secondAttribute="trailing" constant="10" id="eLh-DW-j59"/>
+                                <constraint firstItem="HCd-Bx-9NX" firstAttribute="leading" secondItem="tNF-7L-xWf" secondAttribute="trailing" constant="10" id="lFh-FT-NDk"/>
+                                <constraint firstItem="tNF-7L-xWf" firstAttribute="width" secondItem="avM-YF-SH7" secondAttribute="width" id="rFy-gW-zGe"/>
+                                <constraint firstAttribute="bottom" secondItem="HCd-Bx-9NX" secondAttribute="bottom" constant="10" id="sRm-11-p4S"/>
+                                <constraint firstAttribute="trailing" secondItem="HCd-Bx-9NX" secondAttribute="trailing" constant="12" id="y9G-HK-Ytn"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="6Eb-NR-xV7" secondAttribute="trailing" id="7VB-nb-g6H"/>
+                        <constraint firstAttribute="bottom" secondItem="PUc-rG-Ync" secondAttribute="bottom" id="AsQ-cz-TIo"/>
+                        <constraint firstAttribute="height" constant="60" id="OMR-TV-h0A"/>
+                        <constraint firstItem="PUc-rG-Ync" firstAttribute="top" secondItem="Jku-QJ-j5M" secondAttribute="top" id="T9B-KN-CW1"/>
+                        <constraint firstItem="PUc-rG-Ync" firstAttribute="leading" secondItem="Jku-QJ-j5M" secondAttribute="leading" id="aCd-cV-poC"/>
+                        <constraint firstItem="6Eb-NR-xV7" firstAttribute="leading" secondItem="PUc-rG-Ync" secondAttribute="trailing" id="bSq-Fw-f4D"/>
+                        <constraint firstAttribute="bottom" secondItem="6Eb-NR-xV7" secondAttribute="bottom" id="y70-pa-qpT"/>
+                        <constraint firstItem="6Eb-NR-xV7" firstAttribute="top" secondItem="Jku-QJ-j5M" secondAttribute="top" id="yHj-3s-S8P"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Jku-QJ-j5M" firstAttribute="top" secondItem="ALW-uy-hFt" secondAttribute="bottom" id="VMc-3p-3oT"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ALW-uy-hFt" secondAttribute="trailing" id="abg-Ir-FGh"/>
+                <constraint firstItem="Jku-QJ-j5M" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="bnK-HI-WJs"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Jku-QJ-j5M" secondAttribute="bottom" id="iZh-Y2-MWJ"/>
+                <constraint firstItem="ALW-uy-hFt" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="mjs-c2-o9v"/>
+                <constraint firstItem="ALW-uy-hFt" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="oCF-CA-v5e"/>
+                <constraint firstItem="Jku-QJ-j5M" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="sVe-1F-7dN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="139" y="119"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="跟进记录" width="13" height="14"/>
+    </resources>
+</document>

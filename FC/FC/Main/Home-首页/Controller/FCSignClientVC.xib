@@ -24,7 +24,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="758"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A7G-kk-bYw">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="937.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="740.5"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jup-ID-qvN">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="120"/>
@@ -57,7 +57,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zrd-7K-j4p">
-                                    <rect key="frame" x="12" y="70" width="390" height="274.5"/>
+                                    <rect key="frame" x="12" y="70" width="390" height="75"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9A-OT-Lsb">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -86,8 +86,8 @@
                                                 <constraint firstAttribute="height" constant="44" id="s2m-5x-jRw"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMb-gn-Zne">
-                                            <rect key="frame" x="12" y="44" width="53" height="218.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMb-gn-Zne">
+                                            <rect key="frame" x="12" y="44" width="53" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">客源编号
@@ -107,8 +107,8 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlD-Rf-YIE">
-                                            <rect key="frame" x="77" y="44" width="109" height="218.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DlD-Rf-YIE">
+                                            <rect key="frame" x="77" y="44" width="109" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">12314124215209
@@ -143,7 +143,7 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nt-0G-7FF">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nt-0G-7FF">
                                             <rect key="frame" x="198" y="44" width="53" height="190"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
@@ -164,7 +164,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="248" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HjA-RE-O5C">
-                                            <rect key="frame" x="263" y="44" width="115" height="190"/>
+                                            <rect key="frame" x="378" y="44" width="0.0" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">58同城
@@ -219,7 +219,7 @@
                                     </userDefinedRuntimeAttributes>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JmX-Cu-2PU">
-                                    <rect key="frame" x="12" y="356.5" width="390" height="334.5"/>
+                                    <rect key="frame" x="12" y="157" width="390" height="337"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XuP-nl-sfJ">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -336,12 +336,12 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sN-at-lOf">
-                                            <rect key="frame" x="12" y="217.5" width="366" height="37"/>
+                                            <rect key="frame" x="12" y="217.5" width="366" height="39.5"/>
                                             <attributedString key="attributedText">
                                                 <fragment content="容这里是备注内容这里是备注内容容这里是备注内容这里是备注内容容这里是备注内容这里是备注内容">
                                                     <attributes>
                                                         <color key="NSColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <font key="NSFont" size="13" name=".PingFangSC-Regular"/>
+                                                        <font key="NSFont" metaFont="system"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="5" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -349,7 +349,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K22-6E-uCF" customClass="SPButton">
-                                            <rect key="frame" x="12" y="254.5" width="116" height="80"/>
+                                            <rect key="frame" x="12" y="257" width="116" height="80"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="80" id="j1b-Tw-Jbd"/>
                                             </constraints>
@@ -367,7 +367,7 @@
                                             </userDefinedRuntimeAttributes>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ss6-he-AMU" customClass="SPButton">
-                                            <rect key="frame" x="128" y="254.5" width="79" height="80"/>
+                                            <rect key="frame" x="128" y="257" width="79" height="80"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="80" id="rjQ-QH-pRL"/>
                                             </constraints>
@@ -427,7 +427,7 @@
                                     </userDefinedRuntimeAttributes>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ScW-XP-4kb">
-                                    <rect key="frame" x="0.0" y="701" width="414" height="44"/>
+                                    <rect key="frame" x="0.0" y="504" width="414" height="44"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpy-Sx-X4I">
                                             <rect key="frame" x="12" y="15" width="4" height="15"/>
@@ -478,7 +478,7 @@
                                     </constraints>
                                 </view>
                                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xeX-Dg-Eus">
-                                    <rect key="frame" x="0.0" y="745" width="414" height="182.5"/>
+                                    <rect key="frame" x="0.0" y="548" width="414" height="182.5"/>
                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="182.5" id="Dfl-66-ilY"/>

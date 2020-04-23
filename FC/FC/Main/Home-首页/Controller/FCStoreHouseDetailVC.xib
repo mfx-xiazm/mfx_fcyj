@@ -26,7 +26,7 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="758"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nb1-M3-iM1">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="2569.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="2455.5"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="czu-UT-UsJ" customClass="TYCyclePagerView">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="309"/>
@@ -547,7 +547,7 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zhf-Hn-Vvg">
-                                    <rect key="frame" x="0.0" y="1656.5" width="414" height="189"/>
+                                    <rect key="frame" x="0.0" y="1656.5" width="414" height="75"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDM-DV-ekB">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -576,8 +576,8 @@
                                                 <constraint firstItem="bgF-67-Qii" firstAttribute="top" secondItem="jDM-DV-ekB" secondAttribute="top" constant="15" id="i4D-Wd-UOK"/>
                                             </constraints>
                                         </view>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wn-TV-uVV">
-                                            <rect key="frame" x="12" y="44" width="79.5" height="133"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wn-TV-uVV">
+                                            <rect key="frame" x="12" y="44" width="79.5" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">装修改造
@@ -594,8 +594,8 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXH-sc-J57">
-                                            <rect key="frame" x="101.5" y="44" width="57" height="133"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXH-sc-J57">
+                                            <rect key="frame" x="101.5" y="44" width="57" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">12万
@@ -627,7 +627,7 @@
                                             </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rze-Vc-HeT">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rze-Vc-HeT">
                                             <rect key="frame" x="168.5" y="44" width="53" height="104.5"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
@@ -645,7 +645,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV3-Nz-Akg">
-                                            <rect key="frame" x="231.5" y="44" width="170.5" height="104.5"/>
+                                            <rect key="frame" x="402" y="44" width="0.0" height="19"/>
                                             <attributedString key="attributedText">
                                                 <fragment>
                                                     <string key="content">2000元
@@ -695,14 +695,14 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rd0-8F-7Ks" userLabel="分割线">
-                                    <rect key="frame" x="0.0" y="1845.5" width="414" height="1"/>
+                                    <rect key="frame" x="0.0" y="1731.5" width="414" height="1"/>
                                     <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="Epm-Md-YWa"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KwL-JL-UkH">
-                                    <rect key="frame" x="0.0" y="1846.5" width="414" height="427"/>
+                                    <rect key="frame" x="0.0" y="1732.5" width="414" height="427"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eFk-jE-sux">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -834,14 +834,14 @@
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="36E-RG-aZK" userLabel="分割线">
-                                    <rect key="frame" x="0.0" y="2273.5" width="414" height="1"/>
+                                    <rect key="frame" x="0.0" y="2159.5" width="414" height="1"/>
                                     <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="gld-0P-NLp"/>
                                     </constraints>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cus-XF-9aj">
-                                    <rect key="frame" x="12" y="2286.5" width="390" height="160.5"/>
+                                    <rect key="frame" x="12" y="2172.5" width="390" height="160.5"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekd-4L-Tt4">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -974,7 +974,7 @@
                                     </userDefinedRuntimeAttributes>
                                 </view>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmm-dJ-evw">
-                                    <rect key="frame" x="12" y="2459" width="390" height="98.5"/>
+                                    <rect key="frame" x="12" y="2345" width="390" height="98.5"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="59u-N7-Ab9">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>

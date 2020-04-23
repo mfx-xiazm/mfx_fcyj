@@ -30,6 +30,15 @@
 		493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE8472449B0C900647BAD /* FCInContractDetailVC.xib */; };
 		493DE84D2449B0DD00647BAD /* FCOutContractDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */; };
 		493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */; };
+		493EF85724518D2300E4BB47 /* FCAppointPayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF85524518D2300E4BB47 /* FCAppointPayVC.m */; };
+		493EF85824518D2300E4BB47 /* FCAppointPayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF85624518D2300E4BB47 /* FCAppointPayVC.xib */; };
+		493EF85B24519A7A00E4BB47 /* FCBillInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF85A24519A7A00E4BB47 /* FCBillInfoView.m */; };
+		493EF85D24519A8100E4BB47 /* FCBillInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF85C24519A8100E4BB47 /* FCBillInfoView.xib */; };
+		493EF8632451A8E900E4BB47 /* FCPageMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF8622451A8E900E4BB47 /* FCPageMainTableView.m */; };
+		493EF8672451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */; };
+		493EF8682451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */; };
+		493EF86C2451AACF00E4BB47 /* FCHouseRenterDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */; };
+		493EF86D2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */; };
 		493FC85E244FD7A4009BE8CF /* FCEntireHouseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */; };
 		493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */; };
 		493FC863244FDC52009BE8CF /* FCEcontractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC861244FDC52009BE8CF /* FCEcontractVC.m */; };
@@ -72,6 +81,18 @@
 		493FC8C3244FF681009BE8CF /* FCFitNoteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8C1244FF681009BE8CF /* FCFitNoteVC.xib */; };
 		493FC8C7244FF692009BE8CF /* FCFitNoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC8C5244FF692009BE8CF /* FCFitNoteCell.m */; };
 		493FC8C8244FF692009BE8CF /* FCFitNoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC8C6244FF692009BE8CF /* FCFitNoteCell.xib */; };
+		49479A6F2451240500E90898 /* FCMallHomeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A6E2451240500E90898 /* FCMallHomeHeader.m */; };
+		49479A712451240D00E90898 /* FCMallHomeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A702451240D00E90898 /* FCMallHomeHeader.xib */; };
+		49479A752451243E00E90898 /* FCMallHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A732451243E00E90898 /* FCMallHomeCell.m */; };
+		49479A762451243E00E90898 /* FCMallHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A742451243E00E90898 /* FCMallHomeCell.xib */; };
+		49479A7A2451355400E90898 /* FCMallOrderChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A782451355400E90898 /* FCMallOrderChildVC.m */; };
+		49479A7B2451355400E90898 /* FCMallOrderChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A792451355400E90898 /* FCMallOrderChildVC.xib */; };
+		49479A7F24513B8D00E90898 /* FCMallOrderListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A7D24513B8D00E90898 /* FCMallOrderListVC.m */; };
+		49479A8024513B8D00E90898 /* FCMallOrderListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A7E24513B8D00E90898 /* FCMallOrderListVC.xib */; };
+		49479A852451432900E90898 /* FCMallOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A832451432900E90898 /* FCMallOrderCell.m */; };
+		49479A862451432900E90898 /* FCMallOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A842451432900E90898 /* FCMallOrderCell.xib */; };
+		49479A8A2451478B00E90898 /* FCMallOrderCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A882451478B00E90898 /* FCMallOrderCell2.m */; };
+		49479A8B2451478B00E90898 /* FCMallOrderCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A892451478B00E90898 /* FCMallOrderCell2.xib */; };
 		495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */; };
 		495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */; };
 		495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245C1244AF17800D2488C /* FCPerfectHouseVC.m */; };
@@ -337,6 +358,29 @@
 		49EEBC4F24504F4A00C7C197 /* FCMallHomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC4D24504F4A00C7C197 /* FCMallHomeVC.xib */; };
 		49EEBC5324504F5B00C7C197 /* FCMallOrderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */; };
 		49EEBC5424504F5B00C7C197 /* FCMallOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */; };
+		49F20ED22451617800CA0AE8 /* FCHotelOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20ED02451617800CA0AE8 /* FCHotelOrderDetailVC.m */; };
+		49F20ED32451617800CA0AE8 /* FCHotelOrderDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20ED12451617800CA0AE8 /* FCHotelOrderDetailVC.xib */; };
+		49F20ED7245161A500CA0AE8 /* FCUnlockOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20ED5245161A500CA0AE8 /* FCUnlockOrderDetailVC.m */; };
+		49F20ED8245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20ED6245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib */; };
+		49F20EDC2451620000CA0AE8 /* FCHousekeepOrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EDA2451620000CA0AE8 /* FCHousekeepOrderDetailVC.m */; };
+		49F20EDD2451620000CA0AE8 /* FCHousekeepOrderDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20EDB2451620000CA0AE8 /* FCHousekeepOrderDetailVC.xib */; };
+		49F20EE124516AF000CA0AE8 /* FCHotelOrderEvaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EDF24516AF000CA0AE8 /* FCHotelOrderEvaVC.m */; };
+		49F20EE224516AF000CA0AE8 /* FCHotelOrderEvaVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20EE024516AF000CA0AE8 /* FCHotelOrderEvaVC.xib */; };
+		49F20EE624516D4A00CA0AE8 /* FCUnlockDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EE424516D4A00CA0AE8 /* FCUnlockDetailVC.m */; };
+		49F20EE724516D4A00CA0AE8 /* FCUnlockDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20EE524516D4A00CA0AE8 /* FCUnlockDetailVC.xib */; };
+		49F20EEB2451747E00CA0AE8 /* FCHousekeepDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EE92451747E00CA0AE8 /* FCHousekeepDetailVC.m */; };
+		49F20EEC2451747E00CA0AE8 /* FCHousekeepDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20EEA2451747E00CA0AE8 /* FCHousekeepDetailVC.xib */; };
+		49F20EF0245176C000CA0AE8 /* FCHotelDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EEE245176C000CA0AE8 /* FCHotelDetailVC.m */; };
+		49F20EF1245176C000CA0AE8 /* FCHotelDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20EEF245176C000CA0AE8 /* FCHotelDetailVC.xib */; };
+		49F20EF424517B8B00CA0AE8 /* FCHotelCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EF324517B8B00CA0AE8 /* FCHotelCommentCell.m */; };
+		49F20EFB24517BE000CA0AE8 /* FCHotelComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EFA24517BE000CA0AE8 /* FCHotelComment.m */; };
+		49F20EFE24517BF500CA0AE8 /* FCHotelCommentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20EFD24517BF500CA0AE8 /* FCHotelCommentLayout.m */; };
+		49F20F0124517FBD00CA0AE8 /* FCHotelCommentHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20F0024517FBD00CA0AE8 /* FCHotelCommentHeader.m */; };
+		49F20F0324517FC600CA0AE8 /* FCHotelCommentHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20F0224517FC600CA0AE8 /* FCHotelCommentHeader.xib */; };
+		49F20F07245181F800CA0AE8 /* FCHotelCommentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20F05245181F800CA0AE8 /* FCHotelCommentVC.m */; };
+		49F20F08245181F800CA0AE8 /* FCHotelCommentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20F06245181F800CA0AE8 /* FCHotelCommentVC.xib */; };
+		49F20F0C2451845B00CA0AE8 /* FCAppointSerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F20F0A2451845B00CA0AE8 /* FCAppointSerVC.m */; };
+		49F20F0D2451845B00CA0AE8 /* FCAppointSerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F20F0B2451845B00CA0AE8 /* FCAppointSerVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -390,6 +434,20 @@
 		493DE84A2449B0DD00647BAD /* FCOutContractDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCOutContractDetailVC.h; sourceTree = "<group>"; };
 		493DE84B2449B0DD00647BAD /* FCOutContractDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCOutContractDetailVC.m; sourceTree = "<group>"; };
 		493DE84C2449B0DD00647BAD /* FCOutContractDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCOutContractDetailVC.xib; sourceTree = "<group>"; };
+		493EF85424518D2300E4BB47 /* FCAppointPayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppointPayVC.h; sourceTree = "<group>"; };
+		493EF85524518D2300E4BB47 /* FCAppointPayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppointPayVC.m; sourceTree = "<group>"; };
+		493EF85624518D2300E4BB47 /* FCAppointPayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAppointPayVC.xib; sourceTree = "<group>"; };
+		493EF85924519A7A00E4BB47 /* FCBillInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCBillInfoView.h; sourceTree = "<group>"; };
+		493EF85A24519A7A00E4BB47 /* FCBillInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCBillInfoView.m; sourceTree = "<group>"; };
+		493EF85C24519A8100E4BB47 /* FCBillInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCBillInfoView.xib; sourceTree = "<group>"; };
+		493EF8612451A8E900E4BB47 /* FCPageMainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPageMainTableView.h; sourceTree = "<group>"; };
+		493EF8622451A8E900E4BB47 /* FCPageMainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPageMainTableView.m; sourceTree = "<group>"; };
+		493EF8642451AAAD00E4BB47 /* FCHouseLandlordDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseLandlordDetailVC.h; sourceTree = "<group>"; };
+		493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseLandlordDetailVC.m; sourceTree = "<group>"; };
+		493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseLandlordDetailVC.xib; sourceTree = "<group>"; };
+		493EF8692451AACF00E4BB47 /* FCHouseRenterDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRenterDetailVC.h; sourceTree = "<group>"; };
+		493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRenterDetailVC.m; sourceTree = "<group>"; };
+		493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRenterDetailVC.xib; sourceTree = "<group>"; };
 		493FC85B244FD7A4009BE8CF /* FCEntireHouseDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEntireHouseDetailVC.h; sourceTree = "<group>"; };
 		493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEntireHouseDetailVC.m; sourceTree = "<group>"; };
 		493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEntireHouseDetailVC.xib; sourceTree = "<group>"; };
@@ -453,6 +511,24 @@
 		493FC8C4244FF692009BE8CF /* FCFitNoteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFitNoteCell.h; sourceTree = "<group>"; };
 		493FC8C5244FF692009BE8CF /* FCFitNoteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFitNoteCell.m; sourceTree = "<group>"; };
 		493FC8C6244FF692009BE8CF /* FCFitNoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFitNoteCell.xib; sourceTree = "<group>"; };
+		49479A6D2451240500E90898 /* FCMallHomeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallHomeHeader.h; sourceTree = "<group>"; };
+		49479A6E2451240500E90898 /* FCMallHomeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallHomeHeader.m; sourceTree = "<group>"; };
+		49479A702451240D00E90898 /* FCMallHomeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallHomeHeader.xib; sourceTree = "<group>"; };
+		49479A722451243E00E90898 /* FCMallHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallHomeCell.h; sourceTree = "<group>"; };
+		49479A732451243E00E90898 /* FCMallHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallHomeCell.m; sourceTree = "<group>"; };
+		49479A742451243E00E90898 /* FCMallHomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallHomeCell.xib; sourceTree = "<group>"; };
+		49479A772451355400E90898 /* FCMallOrderChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderChildVC.h; sourceTree = "<group>"; };
+		49479A782451355400E90898 /* FCMallOrderChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderChildVC.m; sourceTree = "<group>"; };
+		49479A792451355400E90898 /* FCMallOrderChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderChildVC.xib; sourceTree = "<group>"; };
+		49479A7C24513B8D00E90898 /* FCMallOrderListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderListVC.h; sourceTree = "<group>"; };
+		49479A7D24513B8D00E90898 /* FCMallOrderListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderListVC.m; sourceTree = "<group>"; };
+		49479A7E24513B8D00E90898 /* FCMallOrderListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderListVC.xib; sourceTree = "<group>"; };
+		49479A822451432900E90898 /* FCMallOrderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderCell.h; sourceTree = "<group>"; };
+		49479A832451432900E90898 /* FCMallOrderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderCell.m; sourceTree = "<group>"; };
+		49479A842451432900E90898 /* FCMallOrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderCell.xib; sourceTree = "<group>"; };
+		49479A872451478B00E90898 /* FCMallOrderCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderCell2.h; sourceTree = "<group>"; };
+		49479A882451478B00E90898 /* FCMallOrderCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderCell2.m; sourceTree = "<group>"; };
+		49479A892451478B00E90898 /* FCMallOrderCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderCell2.xib; sourceTree = "<group>"; };
 		495245BB244AECFF00D2488C /* FCHouseNearbyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseNearbyCell.h; sourceTree = "<group>"; };
 		495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseNearbyCell.m; sourceTree = "<group>"; };
 		495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseNearbyCell.xib; sourceTree = "<group>"; };
@@ -892,6 +968,42 @@
 		49EEBC5024504F5B00C7C197 /* FCMallOrderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderVC.h; sourceTree = "<group>"; };
 		49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderVC.m; sourceTree = "<group>"; };
 		49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderVC.xib; sourceTree = "<group>"; };
+		49F20ECF2451617800CA0AE8 /* FCHotelOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelOrderDetailVC.h; sourceTree = "<group>"; };
+		49F20ED02451617800CA0AE8 /* FCHotelOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelOrderDetailVC.m; sourceTree = "<group>"; };
+		49F20ED12451617800CA0AE8 /* FCHotelOrderDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHotelOrderDetailVC.xib; sourceTree = "<group>"; };
+		49F20ED4245161A500CA0AE8 /* FCUnlockOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCUnlockOrderDetailVC.h; sourceTree = "<group>"; };
+		49F20ED5245161A500CA0AE8 /* FCUnlockOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCUnlockOrderDetailVC.m; sourceTree = "<group>"; };
+		49F20ED6245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCUnlockOrderDetailVC.xib; sourceTree = "<group>"; };
+		49F20ED92451620000CA0AE8 /* FCHousekeepOrderDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHousekeepOrderDetailVC.h; sourceTree = "<group>"; };
+		49F20EDA2451620000CA0AE8 /* FCHousekeepOrderDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHousekeepOrderDetailVC.m; sourceTree = "<group>"; };
+		49F20EDB2451620000CA0AE8 /* FCHousekeepOrderDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHousekeepOrderDetailVC.xib; sourceTree = "<group>"; };
+		49F20EDE24516AF000CA0AE8 /* FCHotelOrderEvaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelOrderEvaVC.h; sourceTree = "<group>"; };
+		49F20EDF24516AF000CA0AE8 /* FCHotelOrderEvaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelOrderEvaVC.m; sourceTree = "<group>"; };
+		49F20EE024516AF000CA0AE8 /* FCHotelOrderEvaVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHotelOrderEvaVC.xib; sourceTree = "<group>"; };
+		49F20EE324516D4A00CA0AE8 /* FCUnlockDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCUnlockDetailVC.h; sourceTree = "<group>"; };
+		49F20EE424516D4A00CA0AE8 /* FCUnlockDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCUnlockDetailVC.m; sourceTree = "<group>"; };
+		49F20EE524516D4A00CA0AE8 /* FCUnlockDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCUnlockDetailVC.xib; sourceTree = "<group>"; };
+		49F20EE82451747E00CA0AE8 /* FCHousekeepDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHousekeepDetailVC.h; sourceTree = "<group>"; };
+		49F20EE92451747E00CA0AE8 /* FCHousekeepDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHousekeepDetailVC.m; sourceTree = "<group>"; };
+		49F20EEA2451747E00CA0AE8 /* FCHousekeepDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHousekeepDetailVC.xib; sourceTree = "<group>"; };
+		49F20EED245176BF00CA0AE8 /* FCHotelDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelDetailVC.h; sourceTree = "<group>"; };
+		49F20EEE245176C000CA0AE8 /* FCHotelDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelDetailVC.m; sourceTree = "<group>"; };
+		49F20EEF245176C000CA0AE8 /* FCHotelDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHotelDetailVC.xib; sourceTree = "<group>"; };
+		49F20EF224517B8B00CA0AE8 /* FCHotelCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelCommentCell.h; sourceTree = "<group>"; };
+		49F20EF324517B8B00CA0AE8 /* FCHotelCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelCommentCell.m; sourceTree = "<group>"; };
+		49F20EF924517BE000CA0AE8 /* FCHotelComment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelComment.h; sourceTree = "<group>"; };
+		49F20EFA24517BE000CA0AE8 /* FCHotelComment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelComment.m; sourceTree = "<group>"; };
+		49F20EFC24517BF500CA0AE8 /* FCHotelCommentLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelCommentLayout.h; sourceTree = "<group>"; };
+		49F20EFD24517BF500CA0AE8 /* FCHotelCommentLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelCommentLayout.m; sourceTree = "<group>"; };
+		49F20EFF24517FBD00CA0AE8 /* FCHotelCommentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelCommentHeader.h; sourceTree = "<group>"; };
+		49F20F0024517FBD00CA0AE8 /* FCHotelCommentHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelCommentHeader.m; sourceTree = "<group>"; };
+		49F20F0224517FC600CA0AE8 /* FCHotelCommentHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHotelCommentHeader.xib; sourceTree = "<group>"; };
+		49F20F04245181F800CA0AE8 /* FCHotelCommentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHotelCommentVC.h; sourceTree = "<group>"; };
+		49F20F05245181F800CA0AE8 /* FCHotelCommentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHotelCommentVC.m; sourceTree = "<group>"; };
+		49F20F06245181F800CA0AE8 /* FCHotelCommentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHotelCommentVC.xib; sourceTree = "<group>"; };
+		49F20F092451845B00CA0AE8 /* FCAppointSerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppointSerVC.h; sourceTree = "<group>"; };
+		49F20F0A2451845B00CA0AE8 /* FCAppointSerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppointSerVC.m; sourceTree = "<group>"; };
+		49F20F0B2451845B00CA0AE8 /* FCAppointSerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCAppointSerVC.xib; sourceTree = "<group>"; };
 		A937ABE21C0AAEFC587D5B93 /* Pods-FC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.debug.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.debug.xcconfig"; sourceTree = "<group>"; };
 		C8A330CD2F5886716026AE3A /* Pods-FC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FC.release.xcconfig"; path = "Target Support Files/Pods-FC/Pods-FC.release.xcconfig"; sourceTree = "<group>"; };
 		CA8784845D3A5F6D39464FA0 /* libPods-FC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -924,6 +1036,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49479A6C245123E900E90898 /* 商城首页 */ = {
+			isa = PBXGroup;
+			children = (
+				49479A6D2451240500E90898 /* FCMallHomeHeader.h */,
+				49479A6E2451240500E90898 /* FCMallHomeHeader.m */,
+				49479A702451240D00E90898 /* FCMallHomeHeader.xib */,
+				49479A722451243E00E90898 /* FCMallHomeCell.h */,
+				49479A732451243E00E90898 /* FCMallHomeCell.m */,
+				49479A742451243E00E90898 /* FCMallHomeCell.xib */,
+				49F20EF224517B8B00CA0AE8 /* FCHotelCommentCell.h */,
+				49F20EF324517B8B00CA0AE8 /* FCHotelCommentCell.m */,
+				49F20EFF24517FBD00CA0AE8 /* FCHotelCommentHeader.h */,
+				49F20F0024517FBD00CA0AE8 /* FCHotelCommentHeader.m */,
+				49F20F0224517FC600CA0AE8 /* FCHotelCommentHeader.xib */,
+				493EF85924519A7A00E4BB47 /* FCBillInfoView.h */,
+				493EF85A24519A7A00E4BB47 /* FCBillInfoView.m */,
+				493EF85C24519A8100E4BB47 /* FCBillInfoView.xib */,
+			);
+			name = "商城首页";
+			sourceTree = "<group>";
+		};
+		49479A812451431100E90898 /* 商城订单 */ = {
+			isa = PBXGroup;
+			children = (
+				49479A822451432900E90898 /* FCMallOrderCell.h */,
+				49479A832451432900E90898 /* FCMallOrderCell.m */,
+				49479A842451432900E90898 /* FCMallOrderCell.xib */,
+				49479A872451478B00E90898 /* FCMallOrderCell2.h */,
+				49479A882451478B00E90898 /* FCMallOrderCell2.m */,
+				49479A892451478B00E90898 /* FCMallOrderCell2.xib */,
+			);
+			name = "商城订单";
+			sourceTree = "<group>";
+		};
 		49608A73244434A400ED3284 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
@@ -1327,6 +1473,7 @@
 		49608AEE244434A500ED3284 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				49F20EF524517BAF00CA0AE8 /* 商城首页 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1334,6 +1481,8 @@
 		49608AEF244434A500ED3284 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				49479A812451431100E90898 /* 商城订单 */,
+				49479A6C245123E900E90898 /* 商城首页 */,
 				49EEBC072450257900C7C197 /* 个人操作 */,
 			);
 			path = View;
@@ -1958,6 +2107,12 @@
 				493FC85B244FD7A4009BE8CF /* FCEntireHouseDetailVC.h */,
 				493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */,
 				493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */,
+				493EF8642451AAAD00E4BB47 /* FCHouseLandlordDetailVC.h */,
+				493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */,
+				493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */,
+				493EF8692451AACF00E4BB47 /* FCHouseRenterDetailVC.h */,
+				493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */,
+				493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */,
 				493FC860244FDC52009BE8CF /* FCEcontractVC.h */,
 				493FC861244FDC52009BE8CF /* FCEcontractVC.m */,
 				493FC862244FDC52009BE8CF /* FCEcontractVC.xib */,
@@ -2050,6 +2205,8 @@
 				49EEBBED24501B0700C7C197 /* FCMemoNoteCell.h */,
 				49EEBBEE24501B0700C7C197 /* FCMemoNoteCell.m */,
 				49EEBBEF24501B0700C7C197 /* FCMemoNoteCell.xib */,
+				493EF8612451A8E900E4BB47 /* FCPageMainTableView.h */,
+				493EF8622451A8E900E4BB47 /* FCPageMainTableView.m */,
 			);
 			name = "整租房源";
 			sourceTree = "<group>";
@@ -2125,6 +2282,24 @@
 				49EEBC4B24504F4A00C7C197 /* FCMallHomeVC.h */,
 				49EEBC4C24504F4A00C7C197 /* FCMallHomeVC.m */,
 				49EEBC4D24504F4A00C7C197 /* FCMallHomeVC.xib */,
+				49F20EE324516D4A00CA0AE8 /* FCUnlockDetailVC.h */,
+				49F20EE424516D4A00CA0AE8 /* FCUnlockDetailVC.m */,
+				49F20EE524516D4A00CA0AE8 /* FCUnlockDetailVC.xib */,
+				49F20EE82451747E00CA0AE8 /* FCHousekeepDetailVC.h */,
+				49F20EE92451747E00CA0AE8 /* FCHousekeepDetailVC.m */,
+				49F20EEA2451747E00CA0AE8 /* FCHousekeepDetailVC.xib */,
+				49F20EED245176BF00CA0AE8 /* FCHotelDetailVC.h */,
+				49F20EEE245176C000CA0AE8 /* FCHotelDetailVC.m */,
+				49F20EEF245176C000CA0AE8 /* FCHotelDetailVC.xib */,
+				49F20F04245181F800CA0AE8 /* FCHotelCommentVC.h */,
+				49F20F05245181F800CA0AE8 /* FCHotelCommentVC.m */,
+				49F20F06245181F800CA0AE8 /* FCHotelCommentVC.xib */,
+				49F20F092451845B00CA0AE8 /* FCAppointSerVC.h */,
+				49F20F0A2451845B00CA0AE8 /* FCAppointSerVC.m */,
+				49F20F0B2451845B00CA0AE8 /* FCAppointSerVC.xib */,
+				493EF85424518D2300E4BB47 /* FCAppointPayVC.h */,
+				493EF85524518D2300E4BB47 /* FCAppointPayVC.m */,
+				493EF85624518D2300E4BB47 /* FCAppointPayVC.xib */,
 			);
 			name = "首页";
 			sourceTree = "<group>";
@@ -2135,8 +2310,37 @@
 				49EEBC5024504F5B00C7C197 /* FCMallOrderVC.h */,
 				49EEBC5124504F5B00C7C197 /* FCMallOrderVC.m */,
 				49EEBC5224504F5B00C7C197 /* FCMallOrderVC.xib */,
+				49479A772451355400E90898 /* FCMallOrderChildVC.h */,
+				49479A782451355400E90898 /* FCMallOrderChildVC.m */,
+				49479A792451355400E90898 /* FCMallOrderChildVC.xib */,
+				49479A7C24513B8D00E90898 /* FCMallOrderListVC.h */,
+				49479A7D24513B8D00E90898 /* FCMallOrderListVC.m */,
+				49479A7E24513B8D00E90898 /* FCMallOrderListVC.xib */,
+				49F20ECF2451617800CA0AE8 /* FCHotelOrderDetailVC.h */,
+				49F20ED02451617800CA0AE8 /* FCHotelOrderDetailVC.m */,
+				49F20ED12451617800CA0AE8 /* FCHotelOrderDetailVC.xib */,
+				49F20EDE24516AF000CA0AE8 /* FCHotelOrderEvaVC.h */,
+				49F20EDF24516AF000CA0AE8 /* FCHotelOrderEvaVC.m */,
+				49F20EE024516AF000CA0AE8 /* FCHotelOrderEvaVC.xib */,
+				49F20ED4245161A500CA0AE8 /* FCUnlockOrderDetailVC.h */,
+				49F20ED5245161A500CA0AE8 /* FCUnlockOrderDetailVC.m */,
+				49F20ED6245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib */,
+				49F20ED92451620000CA0AE8 /* FCHousekeepOrderDetailVC.h */,
+				49F20EDA2451620000CA0AE8 /* FCHousekeepOrderDetailVC.m */,
+				49F20EDB2451620000CA0AE8 /* FCHousekeepOrderDetailVC.xib */,
 			);
 			name = "订单";
+			sourceTree = "<group>";
+		};
+		49F20EF524517BAF00CA0AE8 /* 商城首页 */ = {
+			isa = PBXGroup;
+			children = (
+				49F20EF924517BE000CA0AE8 /* FCHotelComment.h */,
+				49F20EFA24517BE000CA0AE8 /* FCHotelComment.m */,
+				49F20EFC24517BF500CA0AE8 /* FCHotelCommentLayout.h */,
+				49F20EFD24517BF500CA0AE8 /* FCHotelCommentLayout.m */,
+			);
+			name = "商城首页";
 			sourceTree = "<group>";
 		};
 		83B18B59850D55AB7034B9D9 /* Frameworks */ = {
@@ -2265,28 +2469,37 @@
 				49B7CD83244A933000BDFDBB /* FCOutSaleRecordVC.xib in Resources */,
 				492DC671244EA330004B52F7 /* FCReserveClientVC.xib in Resources */,
 				49B7CD88244A936D00BDFDBB /* FCDepartmentSaleRecordVC.xib in Resources */,
+				49479A8B2451478B00E90898 /* FCMallOrderCell2.xib in Resources */,
 				49AF52622446BAA700598AAD /* FCCityHeader.xib in Resources */,
 				493DE8492449B0C900647BAD /* FCInContractDetailVC.xib in Resources */,
+				49F20ED32451617800CA0AE8 /* FCHotelOrderDetailVC.xib in Resources */,
 				497F15BB244939BC00075FDC /* FCRaiseRuleCell.xib in Resources */,
 				493FC8AF244FF10D009BE8CF /* FCCashCouponVC.xib in Resources */,
 				49EEBC202450325900C7C197 /* FCMyRecommendCell.xib in Resources */,
 				49AF52562446BA1E00598AAD /* FCCityVC.xib in Resources */,
 				49B7CD8D244A939100BDFDBB /* FCAreaSaleRecordVC.xib in Resources */,
 				49B1EDB5244ECD1E009B2449 /* FCAddVisitVC.xib in Resources */,
+				493EF85D24519A8100E4BB47 /* FCBillInfoView.xib in Resources */,
 				497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */,
 				493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */,
+				49479A862451432900E90898 /* FCMallOrderCell.xib in Resources */,
 				493FC864244FDC52009BE8CF /* FCEcontractVC.xib in Resources */,
 				49B1EDB0244EC6E5009B2449 /* FCClientFollowVC.xib in Resources */,
 				49CD6B7C2446D75400DD72DB /* FCMsgVC.xib in Resources */,
 				49CD6BA42446E20300DD72DB /* FCSearchTagCell.xib in Resources */,
+				493EF8682451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib in Resources */,
 				49608B9624443B3600ED3284 /* FCApproveVC.xib in Resources */,
 				493FC8B4244FF129009BE8CF /* FCCashCouponCell.xib in Resources */,
 				49812A6B2448628D00191C66 /* FCChooseClientVC.xib in Resources */,
+				49F20EEC2451747E00CA0AE8 /* FCHousekeepDetailVC.xib in Resources */,
 				49CD6B932446DEB300DD72DB /* FCNoticeCell.xib in Resources */,
 				49EEBBE22450196200C7C197 /* FCGoodsNoteVC.xib in Resources */,
 				49EEBC2A245035FF00C7C197 /* FCChannelDetailVC.xib in Resources */,
+				49F20EE724516D4A00CA0AE8 /* FCUnlockDetailVC.xib in Resources */,
 				49812A57244854E600191C66 /* FCAddInContractVC.xib in Resources */,
+				49479A762451243E00E90898 /* FCMallHomeCell.xib in Resources */,
 				491AD0D124458AE6003D9749 /* FCContactHeaderView.xib in Resources */,
+				49F20EF1245176C000CA0AE8 /* FCHotelDetailVC.xib in Resources */,
 				49EEBBEC24501AF500C7C197 /* FCMemoNoteVC.xib in Resources */,
 				49608B42244434A500ED3284 /* AlipaySDK.bundle in Resources */,
 				49EEBC0124501DE900C7C197 /* FCAddContactVC.xib in Resources */,
@@ -2299,6 +2512,7 @@
 				493FC887244FEA41009BE8CF /* FCFinanceNoteChildVC.xib in Resources */,
 				493FC882244FEA32009BE8CF /* FCFinanceNoteVC.xib in Resources */,
 				493FC88C244FEA6A009BE8CF /* FCFinanceNoteCell.xib in Resources */,
+				49F20F0324517FC600CA0AE8 /* FCHotelCommentHeader.xib in Resources */,
 				49B1EDDE244EE282009B2449 /* FCReserveBreakDetailVC.xib in Resources */,
 				49EEBC3E24503BEE00C7C197 /* FCChangePwdVC.xib in Resources */,
 				49EEBC4324503BFF00C7C197 /* FCChangePhoneVC.xib in Resources */,
@@ -2308,6 +2522,7 @@
 				49812A70244867E400191C66 /* FCFreeRuleVC.xib in Resources */,
 				49A01FB82440169700FDE60E /* LaunchScreen.storyboard in Resources */,
 				49B1EDE3244EF949009B2449 /* FCAddClientVC.xib in Resources */,
+				49F20F08245181F800CA0AE8 /* FCHotelCommentVC.xib in Resources */,
 				49608B9124443B2300ED3284 /* FCContactVC.xib in Resources */,
 				49EEBC16245030D500C7C197 /* FCMyRecommendVC.xib in Resources */,
 				49EEBC1B245030E800C7C197 /* FCAddRecommendVC.xib in Resources */,
@@ -2320,6 +2535,7 @@
 				493FC869244FDC81009BE8CF /* FCEcontractChildVC.xib in Resources */,
 				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
+				49479A712451240D00E90898 /* FCMallHomeHeader.xib in Resources */,
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
 				49B7CD78244A8C8700BDFDBB /* FCSignCodeVC.xib in Resources */,
 				493FC8AA244FEF39009BE8CF /* FCSubletRentNoteCell.xib in Resources */,
@@ -2330,12 +2546,14 @@
 				49812A6124485EBC00191C66 /* FCContractTemplateCell.xib in Resources */,
 				49CD6B8D2446DE8600DD72DB /* FCNoticeVC.xib in Resources */,
 				49B1EDCF244EE249009B2449 /* FCReserveRefundVC.xib in Resources */,
+				49F20F0D2451845B00CA0AE8 /* FCAppointSerVC.xib in Resources */,
 				49B7CD98244AA89800BDFDBB /* FCStoreHouseDetailVC.xib in Resources */,
 				495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */,
 				49608B3B244434A500ED3284 /* WSDatePickerView.xib in Resources */,
 				49EEBBDD2450189B00C7C197 /* FCVisitNoteVC.xib in Resources */,
 				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
 				49EEBC39245038E300C7C197 /* FCMyChannelHeader.xib in Resources */,
+				493EF86D2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
 				492DC676244EA343004B52F7 /* FCSignClientVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
@@ -2343,9 +2561,11 @@
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
 				4971CB7F244D493800C2DFD4 /* FCAddFollowVC.xib in Resources */,
 				493FC873244FE78C009BE8CF /* FCHouseRentCell.xib in Resources */,
+				49479A7B2451355400E90898 /* FCMallOrderChildVC.xib in Resources */,
 				49608BA424443C0600ED3284 /* FCLoginVC.xib in Resources */,
 				49AF525D2446BA8A00598AAD /* FCCityCell.xib in Resources */,
 				493FC8B9244FF4B7009BE8CF /* FCFollowNoteVC.xib in Resources */,
+				49F20ED8245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib in Resources */,
 				49EEBBE72450197D00C7C197 /* FCGoodsNoteCell.xib in Resources */,
 				49CD6BA92446E2A900DD72DB /* FCSearchTagHeader.xib in Resources */,
 				49CD6BB62446EA6F00DD72DB /* FCEntireRentHouseCell.xib in Resources */,
@@ -2356,10 +2576,12 @@
 				4971CB90244D7E4600C2DFD4 /* FCEndAgencyVC.xib in Resources */,
 				49A01FB52440169700FDE60E /* Assets.xcassets in Resources */,
 				493FC8C3244FF681009BE8CF /* FCFitNoteVC.xib in Resources */,
+				49F20EE224516AF000CA0AE8 /* FCHotelOrderEvaVC.xib in Resources */,
 				493FC86E244FDC9E009BE8CF /* FCEcontractCell.xib in Resources */,
 				493DE84E2449B0DD00647BAD /* FCOutContractDetailVC.xib in Resources */,
 				49CD6B822446D7C400DD72DB /* FCMsgCell.xib in Resources */,
 				493FC891244FEC90009BE8CF /* FCOutRentNoteVC.xib in Resources */,
+				49479A8024513B8D00E90898 /* FCMallOrderListVC.xib in Resources */,
 				49AF5250244696A900598AAD /* FCBannerCell.xib in Resources */,
 				493FC8BE244FF4C6009BE8CF /* FCFollowNoteChildVC.xib in Resources */,
 				49B7CD93244A9CED00BDFDBB /* FCSaleRecordCell.xib in Resources */,
@@ -2371,11 +2593,13 @@
 				49EEBC342450375E00C7C197 /* FCMyChannelSubCell.xib in Resources */,
 				49812A52244854D500191C66 /* FCAddOutContractVC.xib in Resources */,
 				493FC896244FECA1009BE8CF /* FCOutRentNoteChildVC.xib in Resources */,
+				49F20EDD2451620000CA0AE8 /* FCHousekeepOrderDetailVC.xib in Resources */,
 				493DE8352449873100647BAD /* FCGoodsJointHeader.xib in Resources */,
 				49B1EDD4244EE257009B2449 /* FCReserveBreakVC.xib in Resources */,
 				49812A202447F98A00191C66 /* FCStoreHouseCell.xib in Resources */,
 				49812A35244839EE00191C66 /* FCStoreClientVC.xib in Resources */,
 				49EEBBFC24501DB600C7C197 /* FCChangeMyMsgVC.xib in Resources */,
+				493EF85824518D2300E4BB47 /* FCAppointPayVC.xib in Resources */,
 				4971CB77244D486100C2DFD4 /* FCStoreFollowVC.xib in Resources */,
 				49B1EDD9244EE272009B2449 /* FCReserveRefundDetailVC.xib in Resources */,
 				49812A142447F58400191C66 /* FCSearchResultVC.xib in Resources */,
@@ -2464,13 +2688,16 @@
 				49812A5B24485E9900191C66 /* FCContractTemplateVC.m in Sources */,
 				49608B50244434A500ED3284 /* UIScrollView+Empty.m in Sources */,
 				49608B3E244434A500ED3284 /* UIView+Extension.m in Sources */,
+				493EF85724518D2300E4BB47 /* FCAppointPayVC.m in Sources */,
 				493DE8482449B0C900647BAD /* FCInContractDetailVC.m in Sources */,
 				49608B67244434A500ED3284 /* UIColor+DSGradient.m in Sources */,
 				49812A652448619B00191C66 /* FCChooseHouseVC.m in Sources */,
+				49479A6F2451240500E90898 /* FCMallHomeHeader.m in Sources */,
 				49EEBC5324504F5B00C7C197 /* FCMallOrderVC.m in Sources */,
 				493FC868244FDC81009BE8CF /* FCEcontractChildVC.m in Sources */,
 				49EEBC052450206E00C7C197 /* FCMyMsgVC.m in Sources */,
 				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
+				49F20EFB24517BE000CA0AE8 /* FCHotelComment.m in Sources */,
 				497F15BF24495BC300075FDC /* FCRaiseRuleVC.m in Sources */,
 				493FC88B244FEA6A009BE8CF /* FCFinanceNoteCell.m in Sources */,
 				49812A1F2447F98A00191C66 /* FCStoreHouseCell.m in Sources */,
@@ -2487,38 +2714,46 @@
 				49608B7F244434A500ED3284 /* HXCacheTool.m in Sources */,
 				4971CB8B244D52A900C2DFD4 /* FCHouseFollowLayout.m in Sources */,
 				49D1E1FB244D9BAC0055F6C0 /* FCAddHouseVC.m in Sources */,
+				49479A752451243E00E90898 /* FCMallHomeCell.m in Sources */,
 				49608B6B244434A500ED3284 /* UITextField+GYExpand.m in Sources */,
 				49608B3F244434A500ED3284 /* SPButton.m in Sources */,
+				49479A7F24513B8D00E90898 /* FCMallOrderListVC.m in Sources */,
 				49608B64244434A500ED3284 /* UIButton+HXCode.m in Sources */,
 				49608B65244434A500ED3284 /* NSURL+Expand.m in Sources */,
 				49EEBBFB24501DB600C7C197 /* FCChangeMyMsgVC.m in Sources */,
 				493FC8B3244FF129009BE8CF /* FCCashCouponCell.m in Sources */,
 				49B1EDE2244EF949009B2449 /* FCAddClientVC.m in Sources */,
+				49F20F07245181F800CA0AE8 /* FCHotelCommentVC.m in Sources */,
 				49A01FAA2440169300FDE60E /* AppDelegate.m in Sources */,
 				49812A0C2447EF8800191C66 /* FCDropMenuCollectionHeader.m in Sources */,
 				49B7CD7D244A931500BDFDBB /* FCInSaleRecordVC.m in Sources */,
 				49A01FBB2440169700FDE60E /* main.m in Sources */,
 				49608BAD2444572D00ED3284 /* DVFoodPieModel.m in Sources */,
+				49479A8A2451478B00E90898 /* FCMallOrderCell2.m in Sources */,
 				49AF525C2446BA8A00598AAD /* FCCityCell.m in Sources */,
 				49EEBBE62450197D00C7C197 /* FCGoodsNoteCell.m in Sources */,
 				49CD6BAF2446EA4300DD72DB /* FCEntireRentHouseVC.m in Sources */,
 				49B1EDDD244EE282009B2449 /* FCReserveBreakDetailVC.m in Sources */,
+				49479A852451432900E90898 /* FCMallOrderCell.m in Sources */,
 				49608B6D244434A500ED3284 /* NSDate+HXNExtension.m in Sources */,
 				49608B55244434A500ED3284 /* UIView+ForLMJVerticalScrollText.m in Sources */,
 				49608B9A24443B4300ED3284 /* FCMyVC.m in Sources */,
 				49CD6B9D2446E1E200DD72DB /* FCSearchVC.m in Sources */,
 				49608B56244434A500ED3284 /* LMJVerticalScrollText.m in Sources */,
+				49F20EEB2451747E00CA0AE8 /* FCHousekeepDetailVC.m in Sources */,
 				49812A7824486D7A00191C66 /* FCFreeRuleHeader.m in Sources */,
 				49608B9524443B3600ED3284 /* FCApproveVC.m in Sources */,
 				49CD6BA32446E20300DD72DB /* FCSearchTagCell.m in Sources */,
 				49EEBBDC2450189B00C7C197 /* FCVisitNoteVC.m in Sources */,
 				49EEBC3D24503BEE00C7C197 /* FCChangePwdVC.m in Sources */,
 				49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */,
+				49F20EFE24517BF500CA0AE8 /* FCHotelCommentLayout.m in Sources */,
 				49EEBC4624504B8700C7C197 /* HXMallTabBarController.m in Sources */,
 				493FC8B8244FF4B7009BE8CF /* FCFollowNoteVC.m in Sources */,
 				49D1E1F6244D8C4A0055F6C0 /* FCEndAgencyDetailVC.m in Sources */,
 				49608B4E244434A500ED3284 /* SGQRCodeScanView.m in Sources */,
 				49608B74244434A500ED3284 /* HXNetworkTool.m in Sources */,
+				49F20EE124516AF000CA0AE8 /* FCHotelOrderEvaVC.m in Sources */,
 				491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */,
 				493FC872244FE78C009BE8CF /* FCHouseRentCell.m in Sources */,
 				49AF52552446BA1E00598AAD /* FCCityVC.m in Sources */,
@@ -2556,6 +2791,7 @@
 				49608B60244434A500ED3284 /* HXBaseViewController.m in Sources */,
 				49EEBBE12450196200C7C197 /* FCGoodsNoteVC.m in Sources */,
 				49EEBC15245030D500C7C197 /* FCMyRecommendVC.m in Sources */,
+				49F20F0124517FBD00CA0AE8 /* FCHotelCommentHeader.m in Sources */,
 				49B7CD8C244A939100BDFDBB /* FCAreaSaleRecordVC.m in Sources */,
 				493FC863244FDC52009BE8CF /* FCEcontractVC.m in Sources */,
 				49812A51244854D500191C66 /* FCAddOutContractVC.m in Sources */,
@@ -2565,10 +2801,12 @@
 				49812A3A24483A1A00191C66 /* FCStoreClientCell.m in Sources */,
 				49608B4F244434A500ED3284 /* LYEmptyBaseView.m in Sources */,
 				49EEBC1F2450325900C7C197 /* FCMyRecommendCell.m in Sources */,
+				49F20EF424517B8B00CA0AE8 /* FCHotelCommentCell.m in Sources */,
 				49608B49244434A500ED3284 /* FSActionSheetCell.m in Sources */,
 				49608B51244434A500ED3284 /* UIView+LYExtension.m in Sources */,
 				49B1EDC8244EDF69009B2449 /* YBPopupMenu.m in Sources */,
 				49812A0F2447F15B00191C66 /* FCDropMenuCollectionCell.m in Sources */,
+				49F20EF0245176C000CA0AE8 /* FCHotelDetailVC.m in Sources */,
 				49608B58244434A500ED3284 /* LMJHorizontalScrollText.m in Sources */,
 				49608B862444372200ED3284 /* AppDelegate+MSPushService.m in Sources */,
 				4971CB7E244D493800C2DFD4 /* FCAddFollowVC.m in Sources */,
@@ -2589,7 +2827,10 @@
 				49608B6F244434A500ED3284 /* ContactDataHelper.m in Sources */,
 				493FC877244FE7AA009BE8CF /* FCHouseRentVC.m in Sources */,
 				49EEBC37245038DD00C7C197 /* FCMyChannelHeader.m in Sources */,
+				493EF8632451A8E900E4BB47 /* FCPageMainTableView.m in Sources */,
+				49F20EDC2451620000CA0AE8 /* FCHousekeepOrderDetailVC.m in Sources */,
 				493DE8332449872B00647BAD /* FCGoodsJointHeader.m in Sources */,
+				49479A7A2451355400E90898 /* FCMallOrderChildVC.m in Sources */,
 				49608B38244434A500ED3284 /* RCFilterCell.m in Sources */,
 				49608B44244434A500ED3284 /* HXPlaceholderTextView.m in Sources */,
 				49AF524F244696A900598AAD /* FCBannerCell.m in Sources */,
@@ -2605,9 +2846,11 @@
 				49B7CD82244A933000BDFDBB /* FCOutSaleRecordVC.m in Sources */,
 				49608B4D244434A500ED3284 /* SGQRCodeObtain.m in Sources */,
 				49608B48244434A500ED3284 /* FSActionSheet.m in Sources */,
+				493EF85B24519A7A00E4BB47 /* FCBillInfoView.m in Sources */,
 				49B1EDD3244EE257009B2449 /* FCReserveBreakVC.m in Sources */,
 				49608B872444372200ED3284 /* AppDelegate+MSAppService.m in Sources */,
 				49608B8B24443B1300ED3284 /* FCHomeVC.m in Sources */,
+				493EF8672451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m in Sources */,
 				49CD6BA82446E2A900DD72DB /* FCSearchTagHeader.m in Sources */,
 				497F15BA244939BC00075FDC /* FCRaiseRuleCell.m in Sources */,
 				492DC675244EA343004B52F7 /* FCSignClientVC.m in Sources */,
@@ -2622,11 +2865,13 @@
 				49608B68244434A500ED3284 /* UIImage+HXNExtension.m in Sources */,
 				49608B66244434A500ED3284 /* XTimer.m in Sources */,
 				49EEBC332450375E00C7C197 /* FCMyChannelSubCell.m in Sources */,
+				49F20ED7245161A500CA0AE8 /* FCUnlockOrderDetailVC.m in Sources */,
 				49B1EDCA244EDF69009B2449 /* YBPopupMenuAnimationManager.m in Sources */,
 				4971CB82244D51B200C2DFD4 /* FCHouseFollowCell.m in Sources */,
 				49608B3C244434A500ED3284 /* WSDatePickerView.m in Sources */,
 				497F15B4244939A500075FDC /* FCRaiseRuleHeader.m in Sources */,
 				49812A232447F9A200191C66 /* FCStoreHouseHeader.m in Sources */,
+				49F20F0C2451845B00CA0AE8 /* FCAppointSerVC.m in Sources */,
 				49608B47244434A500ED3284 /* FSActionSheetConfig.m in Sources */,
 				49EEBBF024501B0700C7C197 /* FCMemoNoteCell.m in Sources */,
 				495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */,
@@ -2638,6 +2883,7 @@
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,
 				493FC86D244FDC9E009BE8CF /* FCEcontractCell.m in Sources */,
 				49608B3D244434A500ED3284 /* NSDate+Extension.m in Sources */,
+				49F20EE624516D4A00CA0AE8 /* FCUnlockDetailVC.m in Sources */,
 				49608B7C244434A500ED3284 /* HXTopWindow.m in Sources */,
 				49CD6B922446DEB300DD72DB /* FCNoticeCell.m in Sources */,
 				493FC89A244FECB1009BE8CF /* FCOutRentNoteCell.m in Sources */,
@@ -2649,10 +2895,12 @@
 				49B1EDB9244ED13B009B2449 /* FCPerfectClientVC.m in Sources */,
 				491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */,
 				49608B70244434A500ED3284 /* UIBarButtonItem+HXNExtension.m in Sources */,
+				493EF86C2451AACF00E4BB47 /* FCHouseRenterDetailVC.m in Sources */,
 				49608B5F244434A500ED3284 /* UINavigation+SXFixSpace.m in Sources */,
 				49608B62244434A500ED3284 /* HXGuideViewController.m in Sources */,
 				49608B5E244434A500ED3284 /* NSObject+LMRuntime.m in Sources */,
 				49608B4A244434A500ED3284 /* FSActionSheetItem.m in Sources */,
+				49F20ED22451617800CA0AE8 /* FCHotelOrderDetailVC.m in Sources */,
 				49CD6BB52446EA6F00DD72DB /* FCEntireRentHouseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

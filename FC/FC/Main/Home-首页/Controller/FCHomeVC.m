@@ -26,6 +26,7 @@
 #import "FCOutSaleRecordVC.h"
 #import "FCDepartmentSaleRecordVC.h"
 #import "FCAreaSaleRecordVC.h"
+#import "HXMallTabBarController.h"
 
 @interface FCHomeVC ()<TYCyclePagerViewDataSource, TYCyclePagerViewDelegate, UITextFieldDelegate>
 /* 轮播图 */
@@ -173,17 +174,15 @@
         FCEntireRentHouseVC *rvc = [FCEntireRentHouseVC new];
         [self.navigationController pushViewController:rvc animated:YES];
     }else if (sender.tag == 2) {
-//        if (arc4random_uniform(2)%2) {
-            FCStoreClientVC *cvc = [FCStoreClientVC new];
-            [self.navigationController pushViewController:cvc animated:YES];
-//        }else{
-//            FCStoreHouseVC *hvc = [FCStoreHouseVC new];
-//            [self.navigationController pushViewController:hvc animated:YES];
-//        }
+        FCStoreHouseVC *hvc = [FCStoreHouseVC new];
+        [self.navigationController pushViewController:hvc animated:YES];
     }else if (sender.tag == 3) {
+        FCStoreClientVC *cvc = [FCStoreClientVC new];
+        [self.navigationController pushViewController:cvc animated:YES];
+    }else if (sender.tag == 4) {
         FCContractManageVC *mvc = [FCContractManageVC new];
         [self.navigationController pushViewController:mvc animated:YES];
-    }else if (sender.tag == 4) {
+    }else if (sender.tag == 5) {
         NSInteger type = arc4random_uniform(4)%4;
         if (type == 0) {
             FCInSaleRecordVC *rvc = [FCInSaleRecordVC new];
@@ -198,6 +197,15 @@
             FCAreaSaleRecordVC *rvc = [FCAreaSaleRecordVC new];
             [self.navigationController pushViewController:rvc animated:YES];
         }
+    }else if (sender.tag == 6) {
+       
+    }else if (sender.tag == 7) {
+        FCContractManageVC *mvc = [FCContractManageVC new];
+        [self.navigationController pushViewController:mvc animated:YES];
+    }else{
+        HXMallTabBarController *mallTabBarController = [[HXMallTabBarController alloc] init];
+        mallTabBarController.backSelectedIndex = 0;
+        [UIApplication sharedApplication].keyWindow.rootViewController = mallTabBarController;
     }
 }
 

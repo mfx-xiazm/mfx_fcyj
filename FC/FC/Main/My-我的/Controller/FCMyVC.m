@@ -33,6 +33,7 @@
 }
 - (IBAction)mallClicked:(UIButton *)sender {
     HXMallTabBarController *mallTabBarController = [[HXMallTabBarController alloc] init];
+    mallTabBarController.backSelectedIndex = 3;
     [UIApplication sharedApplication].keyWindow.rootViewController = mallTabBarController;
 }
 - (IBAction)myMsgClicked:(SPButton *)sender {
