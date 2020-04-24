@@ -10,6 +10,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FCEntireHouseDetailVC">
             <connections>
+                <outlet property="landlordToolView" destination="Zie-8R-6lT" id="24b-kx-dT5"/>
+                <outlet property="renterToolView" destination="pJ0-D2-GXc" id="GWA-xY-11Y"/>
                 <outlet property="tableView" destination="AEK-xN-mfK" id="lSO-Ed-3Dr"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -20,19 +22,203 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AEK-xN-mfK" customClass="FCPageMainTableView">
-                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <rect key="frame" x="0.0" y="44" width="414" height="758"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2bb-Yu-KPf">
+                    <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJ0-D2-GXc">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KmQ-tU-LQo" customClass="SPButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="95.5" height="60"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="房屋交割单" image="房屋交割单">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="renterToolClicked:" destination="-1" eventType="touchUpInside" id="TZ3-nP-PWj"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h1X-za-NtO" customClass="SPButton">
+                                    <rect key="frame" x="95.5" y="0.0" width="95.5" height="60"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="带看记录" image="房屋带看记录">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="renterToolClicked:" destination="-1" eventType="touchUpInside" id="taF-Ad-VmO"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGX-Ux-4KH">
+                                    <rect key="frame" x="201" y="10" width="95.5" height="40"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <state key="normal" title="租客签约">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="boderColor">
+                                            <color key="value" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="renterToolClicked:" destination="-1" eventType="touchUpInside" id="t7L-jW-3l6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2DS-DF-0hX">
+                                    <rect key="frame" x="306.5" y="10" width="95.5" height="40"/>
+                                    <color key="backgroundColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <state key="normal" title="租客签订"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="renterToolClicked:" destination="-1" eventType="touchUpInside" id="RCC-rA-Gu3"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="KmQ-tU-LQo" secondAttribute="bottom" id="1oH-5p-7Z0"/>
+                                <constraint firstAttribute="bottom" secondItem="h1X-za-NtO" secondAttribute="bottom" id="5ke-Rb-HUO"/>
+                                <constraint firstItem="2DS-DF-0hX" firstAttribute="width" secondItem="KmQ-tU-LQo" secondAttribute="width" id="A2f-In-ZFq"/>
+                                <constraint firstAttribute="bottom" secondItem="KmQ-tU-LQo" secondAttribute="bottom" id="BHH-p7-8Vq"/>
+                                <constraint firstItem="2DS-DF-0hX" firstAttribute="leading" secondItem="aGX-Ux-4KH" secondAttribute="trailing" constant="10" id="FEf-nr-tvk"/>
+                                <constraint firstAttribute="trailing" secondItem="2DS-DF-0hX" secondAttribute="trailing" constant="12" id="KNt-wQ-dxb"/>
+                                <constraint firstItem="aGX-Ux-4KH" firstAttribute="width" secondItem="KmQ-tU-LQo" secondAttribute="width" id="Pol-dr-mgK"/>
+                                <constraint firstItem="KmQ-tU-LQo" firstAttribute="leading" secondItem="pJ0-D2-GXc" secondAttribute="leading" id="QJh-E6-ApR"/>
+                                <constraint firstItem="h1X-za-NtO" firstAttribute="leading" secondItem="KmQ-tU-LQo" secondAttribute="trailing" id="RsP-aC-dkb"/>
+                                <constraint firstAttribute="bottom" secondItem="2DS-DF-0hX" secondAttribute="bottom" constant="10" id="SWb-iH-lYt"/>
+                                <constraint firstAttribute="bottom" secondItem="aGX-Ux-4KH" secondAttribute="bottom" constant="10" id="Yqv-5d-uR6"/>
+                                <constraint firstItem="KmQ-tU-LQo" firstAttribute="top" secondItem="pJ0-D2-GXc" secondAttribute="top" id="c7w-07-vuu"/>
+                                <constraint firstItem="2DS-DF-0hX" firstAttribute="top" secondItem="pJ0-D2-GXc" secondAttribute="top" constant="10" id="fFa-ic-Ytn"/>
+                                <constraint firstItem="aGX-Ux-4KH" firstAttribute="leading" secondItem="h1X-za-NtO" secondAttribute="trailing" constant="10" id="i6U-PN-xCJ"/>
+                                <constraint firstItem="KmQ-tU-LQo" firstAttribute="top" secondItem="pJ0-D2-GXc" secondAttribute="top" id="klx-wj-qvd"/>
+                                <constraint firstItem="h1X-za-NtO" firstAttribute="top" secondItem="pJ0-D2-GXc" secondAttribute="top" id="t8e-EP-C0w"/>
+                                <constraint firstItem="aGX-Ux-4KH" firstAttribute="top" secondItem="pJ0-D2-GXc" secondAttribute="top" constant="10" id="uFn-iY-ByG"/>
+                                <constraint firstItem="h1X-za-NtO" firstAttribute="width" secondItem="KmQ-tU-LQo" secondAttribute="width" id="wEz-dY-Dr5"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zie-8R-6lT">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2R3-hq-iDT" customClass="SPButton">
+                                    <rect key="frame" x="0.0" y="0.0" width="90" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="90" id="3j9-Go-6kX"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="房屋交割单" image="房屋交割单">
+                                        <color key="titleColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imagePosition">
+                                            <integer key="value" value="2"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="imageTitleSpace">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="landlordToolClicked:" destination="-1" eventType="touchUpInside" id="lk1-r1-lwJ"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6a9-xh-Y5D">
+                                    <rect key="frame" x="90" y="0.0" width="324" height="60"/>
+                                    <subviews>
+                                        <button opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8l-2Z-cYO">
+                                            <rect key="frame" x="0.0" y="10" width="312" height="40"/>
+                                            <color key="backgroundColor" red="0.51764705879999995" green="0.36470588240000001" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <state key="normal" title="联系房东"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layerBoderCorner">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="landlordToolClicked:" destination="-1" eventType="touchUpInside" id="ZLU-1L-WLQ"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="y8l-2Z-cYO" firstAttribute="top" secondItem="6a9-xh-Y5D" secondAttribute="top" constant="10" id="6eV-xi-oeo"/>
+                                        <constraint firstItem="y8l-2Z-cYO" firstAttribute="leading" secondItem="6a9-xh-Y5D" secondAttribute="leading" id="Jjs-Nc-YdQ"/>
+                                        <constraint firstAttribute="bottom" secondItem="y8l-2Z-cYO" secondAttribute="bottom" constant="10" id="Ouu-vz-hE6"/>
+                                        <constraint firstAttribute="trailing" secondItem="y8l-2Z-cYO" secondAttribute="trailing" constant="12" id="yTd-jk-MC1"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="6a9-xh-Y5D" secondAttribute="bottom" id="3MZ-G8-2KV"/>
+                                <constraint firstItem="2R3-hq-iDT" firstAttribute="leading" secondItem="Zie-8R-6lT" secondAttribute="leading" id="JMW-iQ-6jd"/>
+                                <constraint firstAttribute="trailing" secondItem="6a9-xh-Y5D" secondAttribute="trailing" id="KWe-bL-Hsr"/>
+                                <constraint firstItem="6a9-xh-Y5D" firstAttribute="top" secondItem="Zie-8R-6lT" secondAttribute="top" id="Ptu-fW-jM2"/>
+                                <constraint firstAttribute="bottom" secondItem="2R3-hq-iDT" secondAttribute="bottom" id="VnP-9q-WGs"/>
+                                <constraint firstItem="2R3-hq-iDT" firstAttribute="top" secondItem="Zie-8R-6lT" secondAttribute="top" id="oLa-Fp-oDQ"/>
+                                <constraint firstItem="6a9-xh-Y5D" firstAttribute="leading" secondItem="2R3-hq-iDT" secondAttribute="trailing" id="zwf-wd-TYD"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="Zie-8R-6lT" firstAttribute="leading" secondItem="2bb-Yu-KPf" secondAttribute="leading" id="CVY-f9-Mg1"/>
+                        <constraint firstAttribute="bottom" secondItem="pJ0-D2-GXc" secondAttribute="bottom" id="Me5-Dv-JGC"/>
+                        <constraint firstItem="Zie-8R-6lT" firstAttribute="top" secondItem="2bb-Yu-KPf" secondAttribute="top" id="P7W-YU-82j"/>
+                        <constraint firstAttribute="height" constant="60" id="TNj-xJ-CH1"/>
+                        <constraint firstItem="pJ0-D2-GXc" firstAttribute="leading" secondItem="2bb-Yu-KPf" secondAttribute="leading" id="WOo-fI-AYz"/>
+                        <constraint firstAttribute="trailing" secondItem="Zie-8R-6lT" secondAttribute="trailing" id="b0d-RN-K2A"/>
+                        <constraint firstAttribute="bottom" secondItem="Zie-8R-6lT" secondAttribute="bottom" id="j1d-2X-RTl"/>
+                        <constraint firstAttribute="trailing" secondItem="pJ0-D2-GXc" secondAttribute="trailing" id="qfx-tp-4Eo"/>
+                        <constraint firstItem="pJ0-D2-GXc" firstAttribute="top" secondItem="2bb-Yu-KPf" secondAttribute="top" id="xWb-T5-neL"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
-                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="AEK-xN-mfK" secondAttribute="bottom" id="Hng-Ms-8pn"/>
+                <constraint firstItem="2bb-Yu-KPf" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="4lF-zr-j8O"/>
+                <constraint firstItem="2bb-Yu-KPf" firstAttribute="top" secondItem="AEK-xN-mfK" secondAttribute="bottom" id="ExK-A5-qm7"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="AEK-xN-mfK" secondAttribute="trailing" id="Iiw-Vk-PFe"/>
                 <constraint firstItem="AEK-xN-mfK" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="OEc-Hs-tkE"/>
                 <constraint firstItem="AEK-xN-mfK" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="TTm-pX-41C"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="2bb-Yu-KPf" secondAttribute="bottom" id="fFm-Aa-2xh"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="2bb-Yu-KPf" secondAttribute="trailing" id="njc-fu-Crj"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <point key="canvasLocation" x="139" y="119"/>
         </view>
     </objects>
+    <resources>
+        <image name="房屋交割单" width="11" height="14"/>
+        <image name="房屋带看记录" width="14" height="15"/>
+    </resources>
 </document>

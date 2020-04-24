@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FCGoodsJointCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIView *jiChuView;
 @property (weak, nonatomic) IBOutlet UIView *dianQiView;
+@property (weak, nonatomic) IBOutlet UIView *jiChuShowView;
+@property (weak, nonatomic) IBOutlet UIView *dianQiShowView;
 
 @end
 

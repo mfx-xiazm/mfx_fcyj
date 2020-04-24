@@ -2,17 +2,22 @@
 //  FCHouseRenterDetailVC.m
 //  FC
 //
-//  Created by huaxin-01 on 2020/4/23.
+//  Created by huaxin-01 on 2020/4/24.
 //  Copyright © 2020 huaxin-01. All rights reserved.
 //
 
 #import "FCHouseRenterDetailVC.h"
-#import "FCFitNoteCell.h"
+#import "FCUrgencyContactCell.h"
+#import "FCAddVisitVC.h"
+#import "FCPriceRuleShowView.h"
+#import <zhPopupController.h>
 
-static NSString *const FitNoteCell = @"FitNoteCell";
-
-@interface FCHouseRenterDetailVC ()<UITableViewDelegate,UITableViewDataSource>
+static NSString *const UrgencyContactCell = @"UrgencyContactCell";
+@interface FCHouseRenterDetailVC ()<UITableViewDelegate,UITableViewDataSource,UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *jinjiViewHeight;
+@property (weak, nonatomic) IBOutlet UILabel *houseTitle;
 /** 是否滑动 */
 @property(nonatomic,assign)BOOL isCanScroll;
 @end
@@ -21,23 +26,60 @@ static NSString *const FitNoteCell = @"FitNoteCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setUpTableView];
-    [self setUpRefresh];
-    [self setUpEmptyView];
+    [self.houseTitle addFlagLabelWithName:@"二次出租" lineSpace:5.f titleString:@"三湘花园5栋1单元1002" withFont:[UIFont systemFontOfSize:14 weight:UIFontWeightMedium]];
+    
+    self.scrollView.contentInset = UIEdgeInsetsMake(0, 0, 60.f, 0);
+    self.scrollView.delegate = self;
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(childScrollHandle:) name:@"childScrollCan" object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(childScrollHandle:) name:@"MainTableScroll" object:nil];
+    [self setUpTableView];
 }
--(void)viewDidLayoutSubviews
+-(void)setUpTableView
 {
-    [super viewDidLayoutSubviews];
+    self.tableView.estimatedRowHeight = 0.f;
+    self.tableView.estimatedSectionHeaderHeight = 0;
+    self.tableView.estimatedSectionFooterHeight = 0;
+    
+    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    
+    self.tableView.showsVerticalScrollIndicator = NO;
+    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    // 设置背景色为clear
+    self.tableView.backgroundColor = [UIColor whiteColor];
+    
+    // 注册cell
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FCUrgencyContactCell class]) bundle:nil] forCellReuseIdentifier:UrgencyContactCell];
+    
+    hx_weakify(self);
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.05 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        hx_strongify(weakSelf);
+        strongSelf.jinjiViewHeight.constant = strongSelf.tableView.contentSize.height + 44.f;
+    });
 }
+#pragma mark -- 点击事件
+- (IBAction)addVisitClicked:(UIButton *)sender {
+    FCAddVisitVC *vvc = [FCAddVisitVC new];
+    [self.navigationController pushViewController:vvc animated:YES];
+}
+- (IBAction)priceRuleClicked:(UIButton *)sender {
+    FCPriceRuleShowView *show = [FCPriceRuleShowView loadXibView];
+    show.hxn_size = CGSizeMake(HX_SCREEN_WIDTH - 15.f*2, 40.f*3 + 120.f);
+    zhPopupController *popupController = [[zhPopupController alloc] initWithView:show size:show.hxn_size];
+    popupController.layoutType = zhPopupLayoutTypeCenter;
+    popupController.dismissOnMaskTouched = YES;
+    [popupController show];
+}
+
 #pragma mark -- 通知处理
 -(void)childScrollHandle:(NSNotification *)user{
     if ([user.name isEqualToString:@"childScrollCan"]){
         self.isCanScroll = YES;
     }else if ([user.name isEqualToString:@"MainTableScroll"]){
         self.isCanScroll = NO;
-        [self.tableView setContentOffset:CGPointZero];
+        [self.scrollView setContentOffset:CGPointZero];
     }
 }
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
@@ -52,60 +94,21 @@ static NSString *const FitNoteCell = @"FitNoteCell";
 -(void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
--(void)setUpTableView
-{
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.tableView.estimatedRowHeight = 150.f;
-    self.tableView.estimatedSectionHeaderHeight = 0;
-    self.tableView.estimatedSectionFooterHeight = 0;
-    
-    self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
-    self.tableView.dataSource = self;
-    self.tableView.delegate = self;
-    
-    self.tableView.showsVerticalScrollIndicator = NO;
-    
-    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    // 设置背景色为clear
-    self.tableView.backgroundColor = HXGlobalBg;
-    
-    // 注册cell
-    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([FCFitNoteCell class]) bundle:nil] forCellReuseIdentifier:FitNoteCell];
-}
-/** 添加刷新控件 */
--(void)setUpRefresh
-{
-    hx_weakify(self);
-    self.tableView.mj_header.automaticallyChangeAlpha = YES;
-    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
-        hx_strongify(weakSelf);
-        [strongSelf.tableView.mj_footer resetNoMoreData];
-    }];
-    //追加尾部刷新
-    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
-        //hx_strongify(weakSelf);
-    }];
-}
--(void)setUpEmptyView
-{
-    LYEmptyView *emptyView = [LYEmptyView emptyViewWithImageStr:@"no_data" titleStr:nil detailStr:@"暂无内容"];
-    emptyView.contentViewOffset = -(self.HXNavBarHeight);
-    emptyView.subViewMargin = 20.f;
-    emptyView.detailLabTextColor = UIColorFromRGB(0x909090);
-    emptyView.detailLabFont = [UIFont fontWithName:@"PingFangSC-Semibold" size: 16];
-    emptyView.autoShowEmptyView = NO;
-    self.tableView.ly_emptyView = emptyView;
-}
 #pragma mark -- UITableView数据源和代理
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 3;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    FCFitNoteCell *cell = [tableView dequeueReusableCellWithIdentifier:FitNoteCell forIndexPath:indexPath];
+    FCUrgencyContactCell *cell = [tableView dequeueReusableCellWithIdentifier:UrgencyContactCell forIndexPath:indexPath];
     //无色
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.contentView.backgroundColor = [UIColor whiteColor];
     return cell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 80.f;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

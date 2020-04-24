@@ -1,5 +1,5 @@
 //
-//  FCHouseRenterDetailVC.h
+//  FCSignRenterVC.h
 //  FC
 //
 //  Created by huaxin-01 on 2020/4/24.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FCHouseRenterDetailVC : HXBaseViewController
+@interface FCSignRenterVC : HXBaseViewController
 
 @end
 

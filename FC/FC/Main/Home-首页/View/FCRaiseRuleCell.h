@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FCRaiseRuleCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIView *bgView;
 @property (weak, nonatomic) IBOutlet UIView *bgView1;
+@property (weak, nonatomic) IBOutlet UIView *bgView2;
 
 @end
 

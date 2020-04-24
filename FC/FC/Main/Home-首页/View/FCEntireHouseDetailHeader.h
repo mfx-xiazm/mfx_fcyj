@@ -1,16 +1,16 @@
 //
-//  FCHouseRenterDetailVC.h
+//  FCEntireHouseDetailHeader.h
 //  FC
 //
 //  Created by huaxin-01 on 2020/4/24.
 //  Copyright © 2020 huaxin-01. All rights reserved.
 //
 
-#import "HXBaseViewController.h"
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FCHouseRenterDetailVC : HXBaseViewController
+@interface FCEntireHouseDetailHeader : UIView
 
 @end
 

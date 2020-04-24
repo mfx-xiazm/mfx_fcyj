@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3B40BB8888A90F7BCF320BB6 /* libPods-FC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8784845D3A5F6D39464FA0 /* libPods-FC.a */; };
+		490BE2D9245296380047C239 /* FCEntireHouseDetailHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2D8245296380047C239 /* FCEntireHouseDetailHeader.m */; };
+		490BE2DB2452963F0047C239 /* FCEntireHouseDetailHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2DA2452963F0047C239 /* FCEntireHouseDetailHeader.xib */; };
+		490BE2DF2452BA920047C239 /* FCReserveRenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2DD2452BA920047C239 /* FCReserveRenterVC.m */; };
+		490BE2E02452BA920047C239 /* FCReserveRenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2DE2452BA920047C239 /* FCReserveRenterVC.xib */; };
+		490BE2E42452BAC80047C239 /* FCSignRenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2E22452BAC80047C239 /* FCSignRenterVC.m */; };
+		490BE2E52452BAC80047C239 /* FCSignRenterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2E32452BAC80047C239 /* FCSignRenterVC.xib */; };
+		490BE2E92452C9FE0047C239 /* FCGoodsJointShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2E72452C9FE0047C239 /* FCGoodsJointShowVC.m */; };
+		490BE2EA2452C9FE0047C239 /* FCGoodsJointShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2E82452C9FE0047C239 /* FCGoodsJointShowVC.xib */; };
+		490BE2ED2452D7830047C239 /* FCFreeRuleShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2EC2452D7830047C239 /* FCFreeRuleShowView.m */; };
+		490BE2EF2452D78C0047C239 /* FCFreeRuleShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2EE2452D78C0047C239 /* FCFreeRuleShowView.xib */; };
+		490BE2F22452D7BE0047C239 /* FCRaiseRuleShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2F12452D7BE0047C239 /* FCRaiseRuleShowView.m */; };
+		490BE2F42452D7CA0047C239 /* FCRaiseRuleShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2F32452D7CA0047C239 /* FCRaiseRuleShowView.xib */; };
+		490BE2F72452D8070047C239 /* FCPriceRuleShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BE2F62452D8070047C239 /* FCPriceRuleShowView.m */; };
+		490BE2F92452D8140047C239 /* FCPriceRuleShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BE2F82452D8140047C239 /* FCPriceRuleShowView.xib */; };
 		491AD0C6244589D2003D9749 /* FCContactChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 491AD0C4244589D2003D9749 /* FCContactChildVC.m */; };
 		491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491AD0C5244589D2003D9749 /* FCContactChildVC.xib */; };
 		491AD0CB24458AB0003D9749 /* FCContacterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 491AD0C924458AB0003D9749 /* FCContacterCell.m */; };
@@ -37,8 +51,6 @@
 		493EF8632451A8E900E4BB47 /* FCPageMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF8622451A8E900E4BB47 /* FCPageMainTableView.m */; };
 		493EF8672451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */; };
 		493EF8682451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */; };
-		493EF86C2451AACF00E4BB47 /* FCHouseRenterDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */; };
-		493EF86D2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */; };
 		493FC85E244FD7A4009BE8CF /* FCEntireHouseDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */; };
 		493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */; };
 		493FC863244FDC52009BE8CF /* FCEcontractVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 493FC861244FDC52009BE8CF /* FCEcontractVC.m */; };
@@ -93,6 +105,8 @@
 		49479A862451432900E90898 /* FCMallOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A842451432900E90898 /* FCMallOrderCell.xib */; };
 		49479A8A2451478B00E90898 /* FCMallOrderCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 49479A882451478B00E90898 /* FCMallOrderCell2.m */; };
 		49479A8B2451478B00E90898 /* FCMallOrderCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49479A892451478B00E90898 /* FCMallOrderCell2.xib */; };
+		494DF4C424528F49008192F7 /* FCHouseRenterDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 494DF4C224528F49008192F7 /* FCHouseRenterDetailVC.m */; };
+		494DF4C524528F49008192F7 /* FCHouseRenterDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494DF4C324528F49008192F7 /* FCHouseRenterDetailVC.xib */; };
 		495245BE244AECFF00D2488C /* FCHouseNearbyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */; };
 		495245BF244AECFF00D2488C /* FCHouseNearbyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */; };
 		495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 495245C1244AF17800D2488C /* FCPerfectHouseVC.m */; };
@@ -401,6 +415,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490BE2D7245296380047C239 /* FCEntireHouseDetailHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEntireHouseDetailHeader.h; sourceTree = "<group>"; };
+		490BE2D8245296380047C239 /* FCEntireHouseDetailHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEntireHouseDetailHeader.m; sourceTree = "<group>"; };
+		490BE2DA2452963F0047C239 /* FCEntireHouseDetailHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEntireHouseDetailHeader.xib; sourceTree = "<group>"; };
+		490BE2DC2452BA920047C239 /* FCReserveRenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCReserveRenterVC.h; sourceTree = "<group>"; };
+		490BE2DD2452BA920047C239 /* FCReserveRenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCReserveRenterVC.m; sourceTree = "<group>"; };
+		490BE2DE2452BA920047C239 /* FCReserveRenterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCReserveRenterVC.xib; sourceTree = "<group>"; };
+		490BE2E12452BAC80047C239 /* FCSignRenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCSignRenterVC.h; sourceTree = "<group>"; };
+		490BE2E22452BAC80047C239 /* FCSignRenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCSignRenterVC.m; sourceTree = "<group>"; };
+		490BE2E32452BAC80047C239 /* FCSignRenterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCSignRenterVC.xib; sourceTree = "<group>"; };
+		490BE2E62452C9FE0047C239 /* FCGoodsJointShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCGoodsJointShowVC.h; sourceTree = "<group>"; };
+		490BE2E72452C9FE0047C239 /* FCGoodsJointShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCGoodsJointShowVC.m; sourceTree = "<group>"; };
+		490BE2E82452C9FE0047C239 /* FCGoodsJointShowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCGoodsJointShowVC.xib; sourceTree = "<group>"; };
+		490BE2EB2452D7830047C239 /* FCFreeRuleShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCFreeRuleShowView.h; sourceTree = "<group>"; };
+		490BE2EC2452D7830047C239 /* FCFreeRuleShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCFreeRuleShowView.m; sourceTree = "<group>"; };
+		490BE2EE2452D78C0047C239 /* FCFreeRuleShowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCFreeRuleShowView.xib; sourceTree = "<group>"; };
+		490BE2F02452D7BE0047C239 /* FCRaiseRuleShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCRaiseRuleShowView.h; sourceTree = "<group>"; };
+		490BE2F12452D7BE0047C239 /* FCRaiseRuleShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCRaiseRuleShowView.m; sourceTree = "<group>"; };
+		490BE2F32452D7CA0047C239 /* FCRaiseRuleShowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCRaiseRuleShowView.xib; sourceTree = "<group>"; };
+		490BE2F52452D8070047C239 /* FCPriceRuleShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCPriceRuleShowView.h; sourceTree = "<group>"; };
+		490BE2F62452D8070047C239 /* FCPriceRuleShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCPriceRuleShowView.m; sourceTree = "<group>"; };
+		490BE2F82452D8140047C239 /* FCPriceRuleShowView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCPriceRuleShowView.xib; sourceTree = "<group>"; };
 		491AD0C3244589D2003D9749 /* FCContactChildVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCContactChildVC.h; sourceTree = "<group>"; };
 		491AD0C4244589D2003D9749 /* FCContactChildVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCContactChildVC.m; sourceTree = "<group>"; };
 		491AD0C5244589D2003D9749 /* FCContactChildVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCContactChildVC.xib; sourceTree = "<group>"; };
@@ -445,9 +480,6 @@
 		493EF8642451AAAD00E4BB47 /* FCHouseLandlordDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseLandlordDetailVC.h; sourceTree = "<group>"; };
 		493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseLandlordDetailVC.m; sourceTree = "<group>"; };
 		493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseLandlordDetailVC.xib; sourceTree = "<group>"; };
-		493EF8692451AACF00E4BB47 /* FCHouseRenterDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRenterDetailVC.h; sourceTree = "<group>"; };
-		493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRenterDetailVC.m; sourceTree = "<group>"; };
-		493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRenterDetailVC.xib; sourceTree = "<group>"; };
 		493FC85B244FD7A4009BE8CF /* FCEntireHouseDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCEntireHouseDetailVC.h; sourceTree = "<group>"; };
 		493FC85C244FD7A4009BE8CF /* FCEntireHouseDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCEntireHouseDetailVC.m; sourceTree = "<group>"; };
 		493FC85D244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCEntireHouseDetailVC.xib; sourceTree = "<group>"; };
@@ -529,6 +561,9 @@
 		49479A872451478B00E90898 /* FCMallOrderCell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCMallOrderCell2.h; sourceTree = "<group>"; };
 		49479A882451478B00E90898 /* FCMallOrderCell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCMallOrderCell2.m; sourceTree = "<group>"; };
 		49479A892451478B00E90898 /* FCMallOrderCell2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCMallOrderCell2.xib; sourceTree = "<group>"; };
+		494DF4C124528F49008192F7 /* FCHouseRenterDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseRenterDetailVC.h; sourceTree = "<group>"; };
+		494DF4C224528F49008192F7 /* FCHouseRenterDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseRenterDetailVC.m; sourceTree = "<group>"; };
+		494DF4C324528F49008192F7 /* FCHouseRenterDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseRenterDetailVC.xib; sourceTree = "<group>"; };
 		495245BB244AECFF00D2488C /* FCHouseNearbyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCHouseNearbyCell.h; sourceTree = "<group>"; };
 		495245BC244AECFF00D2488C /* FCHouseNearbyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCHouseNearbyCell.m; sourceTree = "<group>"; };
 		495245BD244AECFF00D2488C /* FCHouseNearbyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FCHouseNearbyCell.xib; sourceTree = "<group>"; };
@@ -2110,9 +2145,18 @@
 				493EF8642451AAAD00E4BB47 /* FCHouseLandlordDetailVC.h */,
 				493EF8652451AAAD00E4BB47 /* FCHouseLandlordDetailVC.m */,
 				493EF8662451AAAD00E4BB47 /* FCHouseLandlordDetailVC.xib */,
-				493EF8692451AACF00E4BB47 /* FCHouseRenterDetailVC.h */,
-				493EF86A2451AACF00E4BB47 /* FCHouseRenterDetailVC.m */,
-				493EF86B2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib */,
+				494DF4C124528F49008192F7 /* FCHouseRenterDetailVC.h */,
+				494DF4C224528F49008192F7 /* FCHouseRenterDetailVC.m */,
+				494DF4C324528F49008192F7 /* FCHouseRenterDetailVC.xib */,
+				490BE2E62452C9FE0047C239 /* FCGoodsJointShowVC.h */,
+				490BE2E72452C9FE0047C239 /* FCGoodsJointShowVC.m */,
+				490BE2E82452C9FE0047C239 /* FCGoodsJointShowVC.xib */,
+				490BE2DC2452BA920047C239 /* FCReserveRenterVC.h */,
+				490BE2DD2452BA920047C239 /* FCReserveRenterVC.m */,
+				490BE2DE2452BA920047C239 /* FCReserveRenterVC.xib */,
+				490BE2E12452BAC80047C239 /* FCSignRenterVC.h */,
+				490BE2E22452BAC80047C239 /* FCSignRenterVC.m */,
+				490BE2E32452BAC80047C239 /* FCSignRenterVC.xib */,
 				493FC860244FDC52009BE8CF /* FCEcontractVC.h */,
 				493FC861244FDC52009BE8CF /* FCEcontractVC.m */,
 				493FC862244FDC52009BE8CF /* FCEcontractVC.xib */,
@@ -2207,6 +2251,18 @@
 				49EEBBEF24501B0700C7C197 /* FCMemoNoteCell.xib */,
 				493EF8612451A8E900E4BB47 /* FCPageMainTableView.h */,
 				493EF8622451A8E900E4BB47 /* FCPageMainTableView.m */,
+				490BE2D7245296380047C239 /* FCEntireHouseDetailHeader.h */,
+				490BE2D8245296380047C239 /* FCEntireHouseDetailHeader.m */,
+				490BE2DA2452963F0047C239 /* FCEntireHouseDetailHeader.xib */,
+				490BE2EB2452D7830047C239 /* FCFreeRuleShowView.h */,
+				490BE2EC2452D7830047C239 /* FCFreeRuleShowView.m */,
+				490BE2EE2452D78C0047C239 /* FCFreeRuleShowView.xib */,
+				490BE2F02452D7BE0047C239 /* FCRaiseRuleShowView.h */,
+				490BE2F12452D7BE0047C239 /* FCRaiseRuleShowView.m */,
+				490BE2F32452D7CA0047C239 /* FCRaiseRuleShowView.xib */,
+				490BE2F52452D8070047C239 /* FCPriceRuleShowView.h */,
+				490BE2F62452D8070047C239 /* FCPriceRuleShowView.m */,
+				490BE2F82452D8140047C239 /* FCPriceRuleShowView.xib */,
 			);
 			name = "整租房源";
 			sourceTree = "<group>";
@@ -2482,6 +2538,7 @@
 				493EF85D24519A8100E4BB47 /* FCBillInfoView.xib in Resources */,
 				497F15C52449799E00075FDC /* FCGoodsJointVC.xib in Resources */,
 				493FC85F244FD7A4009BE8CF /* FCEntireHouseDetailVC.xib in Resources */,
+				490BE2F42452D7CA0047C239 /* FCRaiseRuleShowView.xib in Resources */,
 				49479A862451432900E90898 /* FCMallOrderCell.xib in Resources */,
 				493FC864244FDC52009BE8CF /* FCEcontractVC.xib in Resources */,
 				49B1EDB0244EC6E5009B2449 /* FCClientFollowVC.xib in Resources */,
@@ -2503,12 +2560,14 @@
 				49EEBBEC24501AF500C7C197 /* FCMemoNoteVC.xib in Resources */,
 				49608B42244434A500ED3284 /* AlipaySDK.bundle in Resources */,
 				49EEBC0124501DE900C7C197 /* FCAddContactVC.xib in Resources */,
+				490BE2E02452BA920047C239 /* FCReserveRenterVC.xib in Resources */,
 				49B7CD7E244A931500BDFDBB /* FCInSaleRecordVC.xib in Resources */,
 				49812A41244848AC00191C66 /* FCContractManageVC.xib in Resources */,
 				4971CB6F244D2C5B00C2DFD4 /* FCHouseMoreCell.xib in Resources */,
 				49B1EDBA244ED13B009B2449 /* FCPerfectClientVC.xib in Resources */,
 				493FC8A0244FEF10009BE8CF /* FCSubletRentNoteVC.xib in Resources */,
 				49EEBC5424504F5B00C7C197 /* FCMallOrderVC.xib in Resources */,
+				490BE2EF2452D78C0047C239 /* FCFreeRuleShowView.xib in Resources */,
 				493FC887244FEA41009BE8CF /* FCFinanceNoteChildVC.xib in Resources */,
 				493FC882244FEA32009BE8CF /* FCFinanceNoteVC.xib in Resources */,
 				493FC88C244FEA6A009BE8CF /* FCFinanceNoteCell.xib in Resources */,
@@ -2534,6 +2593,7 @@
 				493FC87D244FE7B8009BE8CF /* FCHouseRentChildVC.xib in Resources */,
 				493FC869244FDC81009BE8CF /* FCEcontractChildVC.xib in Resources */,
 				49812A1A2447F95600191C66 /* FCStoreHouseVC.xib in Resources */,
+				490BE2EA2452C9FE0047C239 /* FCGoodsJointShowVC.xib in Resources */,
 				49CD6B9E2446E1E200DD72DB /* FCSearchVC.xib in Resources */,
 				49479A712451240D00E90898 /* FCMallHomeHeader.xib in Resources */,
 				49812A282447F9BF00191C66 /* FCStoreHouseHeader.xib in Resources */,
@@ -2553,11 +2613,12 @@
 				49EEBBDD2450189B00C7C197 /* FCVisitNoteVC.xib in Resources */,
 				49812A3B24483A1A00191C66 /* FCStoreClientCell.xib in Resources */,
 				49EEBC39245038E300C7C197 /* FCMyChannelHeader.xib in Resources */,
-				493EF86D2451AACF00E4BB47 /* FCHouseRenterDetailVC.xib in Resources */,
+				494DF4C524528F49008192F7 /* FCHouseRenterDetailVC.xib in Resources */,
 				49CD6B982446DFD900DD72DB /* FCNoticeDetailVC.xib in Resources */,
 				492DC676244EA343004B52F7 /* FCSignClientVC.xib in Resources */,
 				491AD0C7244589D2003D9749 /* FCContactChildVC.xib in Resources */,
 				497F15B6244939AD00075FDC /* FCRaiseRuleHeader.xib in Resources */,
+				490BE2F92452D8140047C239 /* FCPriceRuleShowView.xib in Resources */,
 				49812A752448690400191C66 /* FCFreeRuleCell.xib in Resources */,
 				4971CB7F244D493800C2DFD4 /* FCAddFollowVC.xib in Resources */,
 				493FC873244FE78C009BE8CF /* FCHouseRentCell.xib in Resources */,
@@ -2567,6 +2628,7 @@
 				493FC8B9244FF4B7009BE8CF /* FCFollowNoteVC.xib in Resources */,
 				49F20ED8245161A500CA0AE8 /* FCUnlockOrderDetailVC.xib in Resources */,
 				49EEBBE72450197D00C7C197 /* FCGoodsNoteCell.xib in Resources */,
+				490BE2E52452BAC80047C239 /* FCSignRenterVC.xib in Resources */,
 				49CD6BA92446E2A900DD72DB /* FCSearchTagHeader.xib in Resources */,
 				49CD6BB62446EA6F00DD72DB /* FCEntireRentHouseCell.xib in Resources */,
 				49608B9B24443B4300ED3284 /* FCMyVC.xib in Resources */,
@@ -2612,6 +2674,7 @@
 				49812A662448619B00191C66 /* FCChooseHouseVC.xib in Resources */,
 				495245C4244AF17800D2488C /* FCPerfectHouseVC.xib in Resources */,
 				4971CB6A244D2C2100C2DFD4 /* FCHouseMoreView.xib in Resources */,
+				490BE2DB2452963F0047C239 /* FCEntireHouseDetailHeader.xib in Resources */,
 				493DE83A244989ED00647BAD /* FCGoodsJointCell.xib in Resources */,
 				49812A7A24486D8500191C66 /* FCFreeRuleHeader.xib in Resources */,
 				493DE83F24499A1700647BAD /* FCSubmitPicCell.xib in Resources */,
@@ -2695,6 +2758,7 @@
 				49479A6F2451240500E90898 /* FCMallHomeHeader.m in Sources */,
 				49EEBC5324504F5B00C7C197 /* FCMallOrderVC.m in Sources */,
 				493FC868244FDC81009BE8CF /* FCEcontractChildVC.m in Sources */,
+				490BE2E42452BAC80047C239 /* FCSignRenterVC.m in Sources */,
 				49EEBC052450206E00C7C197 /* FCMyMsgVC.m in Sources */,
 				49812A6024485EBC00191C66 /* FCContractTemplateCell.m in Sources */,
 				49F20EFB24517BE000CA0AE8 /* FCHotelComment.m in Sources */,
@@ -2704,6 +2768,7 @@
 				4971CB86244D520900C2DFD4 /* FCHouseFollow.m in Sources */,
 				49608B57244434A500ED3284 /* UILabel+ForLMJVerticalScrollText.m in Sources */,
 				49812A262447F9B000191C66 /* FCStoreHouseFooter.m in Sources */,
+				490BE2DF2452BA920047C239 /* FCReserveRenterVC.m in Sources */,
 				49CD6B862446D98400DD72DB /* FCMsgDetailVC.m in Sources */,
 				49AF52602446BA9C00598AAD /* FCCityHeader.m in Sources */,
 				49608B52244434A500ED3284 /* LYEmptyView.m in Sources */,
@@ -2747,6 +2812,8 @@
 				49EEBBDC2450189B00C7C197 /* FCVisitNoteVC.m in Sources */,
 				49EEBC3D24503BEE00C7C197 /* FCChangePwdVC.m in Sources */,
 				49812A40244848AC00191C66 /* FCContractManageVC.m in Sources */,
+				490BE2F72452D8070047C239 /* FCPriceRuleShowView.m in Sources */,
+				490BE2E92452C9FE0047C239 /* FCGoodsJointShowVC.m in Sources */,
 				49F20EFE24517BF500CA0AE8 /* FCHotelCommentLayout.m in Sources */,
 				49EEBC4624504B8700C7C197 /* HXMallTabBarController.m in Sources */,
 				493FC8B8244FF4B7009BE8CF /* FCFollowNoteVC.m in Sources */,
@@ -2778,6 +2845,7 @@
 				49608B9024443B2300ED3284 /* FCContactVC.m in Sources */,
 				49608B40244434A500ED3284 /* FBShimmeringLayer.m in Sources */,
 				49608B4C244434A500ED3284 /* SGQRCodeObtainConfigure.m in Sources */,
+				490BE2ED2452D7830047C239 /* FCFreeRuleShowView.m in Sources */,
 				49608B63244434A500ED3284 /* HXNavigationController.m in Sources */,
 				49812A742448690400191C66 /* FCFreeRuleCell.m in Sources */,
 				49CD6B812446D7C400DD72DB /* FCMsgCell.m in Sources */,
@@ -2879,6 +2947,7 @@
 				495245C3244AF17800D2488C /* FCPerfectHouseVC.m in Sources */,
 				493FC890244FEC90009BE8CF /* FCOutRentNoteVC.m in Sources */,
 				49B1EDD8244EE272009B2449 /* FCReserveRefundDetailVC.m in Sources */,
+				490BE2F22452D7BE0047C239 /* FCRaiseRuleShowView.m in Sources */,
 				493FC881244FEA32009BE8CF /* FCFinanceNoteVC.m in Sources */,
 				49608B3A244434A500ED3284 /* HXDropMenuView.m in Sources */,
 				493FC86D244FDC9E009BE8CF /* FCEcontractCell.m in Sources */,
@@ -2895,10 +2964,11 @@
 				49B1EDB9244ED13B009B2449 /* FCPerfectClientVC.m in Sources */,
 				491AD0CF24458ADC003D9749 /* FCContactHeaderView.m in Sources */,
 				49608B70244434A500ED3284 /* UIBarButtonItem+HXNExtension.m in Sources */,
-				493EF86C2451AACF00E4BB47 /* FCHouseRenterDetailVC.m in Sources */,
+				494DF4C424528F49008192F7 /* FCHouseRenterDetailVC.m in Sources */,
 				49608B5F244434A500ED3284 /* UINavigation+SXFixSpace.m in Sources */,
 				49608B62244434A500ED3284 /* HXGuideViewController.m in Sources */,
 				49608B5E244434A500ED3284 /* NSObject+LMRuntime.m in Sources */,
+				490BE2D9245296380047C239 /* FCEntireHouseDetailHeader.m in Sources */,
 				49608B4A244434A500ED3284 /* FSActionSheetItem.m in Sources */,
 				49F20ED22451617800CA0AE8 /* FCHotelOrderDetailVC.m in Sources */,
 				49CD6BB52446EA6F00DD72DB /* FCEntireRentHouseCell.m in Sources */,

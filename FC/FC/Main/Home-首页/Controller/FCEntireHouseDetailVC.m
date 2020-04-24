@@ -26,14 +26,24 @@
 #import <JXCategoryIndicatorLineView.h>
 #import "FCHouseLandlordDetailVC.h"
 #import "FCHouseRenterDetailVC.h"
+#import "FCEntireHouseDetailHeader.h"
+#import "FCGoodsJointVC.h"
+#import "FCReserveRenterVC.h"
+#import "FCSignRenterVC.h"
+#import "zhAlertView.h"
+#import "FCGoodsJointShowVC.h"
 
 @interface FCEntireHouseDetailVC ()<FCHouseMoreViewDelegate,FCHouseMoreViewDataSource,UITableViewDelegate,UITableViewDataSource,JXCategoryViewDelegate>
 @property (weak, nonatomic) IBOutlet FCPageMainTableView *tableView;
+@property (weak, nonatomic) IBOutlet UIView *landlordToolView;
+@property (weak, nonatomic) IBOutlet UIView *renterToolView;
+
 @property (nonatomic, strong) FCHouseMoreView *moreView;
 @property (nonatomic, strong) NSMutableArray *moreObjects;
 @property (nonatomic, strong) zhPopupController *popupController;
+@property (nonatomic, strong) zhPopupController *popupController1;
 /* 头视图 */
-@property(nonatomic,strong) UIView *header;
+@property(nonatomic,strong) FCEntireHouseDetailHeader *header;
 /** 子控制器承载scr */
 @property (nonatomic,strong) UIScrollView *scrollView;
 /** 子控制器数组 */
@@ -52,6 +62,11 @@
     self.isCanScroll = YES;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(MainTableScroll:) name:@"MainTableScroll" object:nil];
     [self setUpMainTable];
+}
+-(void)viewDidLayoutSubviews
+{
+    [super viewDidLayoutSubviews];
+    self.header.frame = CGRectMake(0, -(HX_SCREEN_WIDTH*280.f/375.f), HX_SCREEN_WIDTH, HX_SCREEN_WIDTH*280.f/375.f);
 }
 #pragma mark -- 懒加载
 -(FCHouseMoreView *)moreView
@@ -79,12 +94,12 @@
     }
     return _moreObjects;
 }
--(UIView *)header
+-(FCEntireHouseDetailHeader *)header
 {
     if (_header == nil) {
-        _header = [[UIView alloc] init];
-        _header.backgroundColor = [UIColor redColor];
-        _header.frame = CGRectMake(0, -(205.f), HX_SCREEN_WIDTH, 205.f);
+        _header = [FCEntireHouseDetailHeader loadXibView];
+        _header.backgroundColor = [UIColor whiteColor];
+        _header.frame = CGRectMake(0, -(HX_SCREEN_WIDTH*280.f/375.f), HX_SCREEN_WIDTH, HX_SCREEN_WIDTH*280.f/375.f);
     }
     return _header;
 }
@@ -94,7 +109,7 @@
         _categoryView = [[JXCategoryTitleView alloc] init];
         _categoryView.frame = CGRectMake(0, 0, HX_SCREEN_WIDTH, 44);
         _categoryView.backgroundColor = [UIColor whiteColor];
-        _categoryView.titles = @[@"基本信息", @"客户轨迹"];
+        _categoryView.titles = @[@"房东信息", @"租客信息"];
         _categoryView.titleFont = [UIFont systemFontOfSize:15 weight:UIFontWeightMedium];
         _categoryView.titleColor = UIColorFromRGB(0x666666);
         _categoryView.titleSelectedColor = HXControlBg;
@@ -164,7 +179,7 @@
     self.tableView.estimatedSectionHeaderHeight = 0;
     self.tableView.estimatedSectionFooterHeight = 0;
     
-    self.tableView.contentInset = UIEdgeInsetsMake(205.f,0, 0, 0);
+    self.tableView.contentInset = UIEdgeInsetsMake(HX_SCREEN_WIDTH*280.f/375.f,0, 0, 0);
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
@@ -190,6 +205,48 @@
 {
     
 }
+- (IBAction)renterToolClicked:(UIButton *)sender {
+    if (sender.tag == 1) {
+        FCGoodsJointVC *jvc = [FCGoodsJointVC new];
+        [self.navigationController pushViewController:jvc animated:YES];
+    }else if (sender.tag == 2){
+        FCVisitNoteVC *vvc = [FCVisitNoteVC new];
+        [self.navigationController pushViewController:vvc animated:YES];
+    }else if (sender.tag == 3){
+        FCSignRenterVC *svc = [FCSignRenterVC new];
+        [self.navigationController pushViewController:svc animated:YES];
+    }else{
+        FCReserveRenterVC *rvc = [FCReserveRenterVC new];
+        [self.navigationController pushViewController:rvc animated:YES];
+    }
+}
+- (IBAction)landlordToolClicked:(UIButton *)sender {
+    if (sender.tag == 1) {
+        FCGoodsJointShowVC *jvc = [FCGoodsJointShowVC new];
+        [self.navigationController pushViewController:jvc animated:YES];
+    }else{
+        hx_weakify(self);
+        zhAlertView *alert = [[zhAlertView alloc] initWithTitle:@"联系房东" message:@"13878728367" constantWidth:HX_SCREEN_WIDTH - 50*2];
+        zhAlertButton *cancelButton = [zhAlertButton buttonWithTitle:@"取消" handler:^(zhAlertButton * _Nonnull button) {
+            [weakSelf.popupController1 dismiss];
+        }];
+        cancelButton.lineColor = UIColorFromRGB(0xDDDDDD);
+        [cancelButton setTitleColor:[UIColor colorWithHexString:@"#999999"] forState:UIControlStateNormal];
+        zhAlertButton *okButton = [zhAlertButton buttonWithTitle:@"呼叫" handler:^(zhAlertButton * _Nonnull button) {
+            [weakSelf.popupController1 dismiss];
+        }];
+        okButton.lineColor = UIColorFromRGB(0xDDDDDD);
+        [okButton setTitleColor:HXControlBg forState:UIControlStateNormal];
+        [alert adjoinWithLeftAction:cancelButton rightAction:okButton];
+
+        _popupController1 = [[zhPopupController alloc] initWithView:alert size:alert.bounds.size];
+        _popupController1.layoutType = zhPopupLayoutTypeCenter;
+        _popupController1.dismissOnMaskTouched = NO;
+        [_popupController1 show];
+    }
+}
+
+
 #pragma mark -- FCHouseMoreViewDelegate
 // 返回元素个数
 - (NSInteger)houseMoreView:(FCHouseMoreView *)houseMoreView numberOfItemsInSection:(NSInteger)section
@@ -276,6 +333,13 @@
 {
     if (self.childVCs.count <= index) {return;}
     
+    if (index == 0) {
+        self.landlordToolView.hidden = NO;
+        self.renterToolView.hidden = YES;
+    }else{
+        self.landlordToolView.hidden = YES;
+        self.renterToolView.hidden = NO;
+    }
     UIViewController *targetViewController = self.childVCs[index];
     // 如果已经加载过，就不再加载
     if ([targetViewController isViewLoaded]) return;
@@ -301,26 +365,5 @@
     
     return cell;
 }
-/**
- // 录入带看
- FCAddVisitVC *vvc = [FCAddVisitVC new];
- [self.navigationController pushViewController:vvc animated:YES];
- // 带看记录
- FCVisitNoteVC *vvc = [FCVisitNoteVC new];
- [self.navigationController pushViewController:vvc animated:YES];
- // 房东电子签约？ 免租期设定 递增设定  签约二维码
- FCFreeRuleVC *rvc = [FCFreeRuleVC new];
- [self.navigationController pushViewController:rvc animated:YES];
- 
- FCRaiseRuleVC *rvc = [FCRaiseRuleVC new];
- [self.navigationController pushViewController:rvc animated:YES];
- 
- FCSignCodeVC *svc = [FCSignCodeVC new];
- [self.navigationController pushViewController:svc animated:YES];
- // 房东/租客交割单
- FCGoodsJointVC *jvc = [FCGoodsJointVC new];
- [self.navigationController pushViewController:jvc animated:YES];
- // 租客签订？租客电子签约？
-  
- */
+
 @end

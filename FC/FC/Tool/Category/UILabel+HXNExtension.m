@@ -133,6 +133,7 @@
     paraStyle.lineSpacing = lineSpace; //设置行间距
     
     [maTitleString addAttribute:NSParagraphStyleAttributeName value:paraStyle range:NSMakeRange(0, maTitleString.length)];
+    [maTitleString addAttribute:NSFontAttributeName value:font range:NSMakeRange(0, maTitleString.length)];
 
     //注意 ：创建这个Label的时候，frame，font，cornerRadius要设置成所生成的图片的3倍，也就是说要生成一个三倍图，否则生成的图片会虚，同学们可以试一试。
     self.attributedText = maTitleString;
