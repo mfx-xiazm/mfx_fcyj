@@ -24,6 +24,16 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+## AMap3DMap-NO-IDFA
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
+## AMapFoundation-NO-IDFA
+
+Copyright © 2014 AutoNavi. All Rights Reserved.
+
+
 ## HBDNavigationBar
 
 Copyright (c) 2019 listen <listenzz@163.com>

@@ -174,7 +174,6 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
         [self.view addSubview:self.menu];
     }
     [self.menu selectDefaltExpand];
-    HXLog(@"选中的索引-%@",self.menu.selectTitleBtn);
 }
 #pragma mark -- WMZDropMenuDelegate必须实现的代理
 /*

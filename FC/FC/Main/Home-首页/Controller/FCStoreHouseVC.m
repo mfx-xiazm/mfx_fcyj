@@ -18,6 +18,7 @@
 #import "FCDropMenuCollectionCell.h"
 #import "FCStoreHouseDetailVC.h"
 #import "FCAddHouseVC.h"
+#import "FCDropMenuRangeCollectionCell.h"
 
 static NSString *const StoreHouseCell = @"StoreHouseCell";
 static NSString *const StoreHouseHeader = @"StoreHouseHeader";
@@ -56,7 +57,7 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
         //注册自定义的collectionViewHeadView  如果使用了自定义collectionViewHeadView 必填否则会崩溃
         .wReginerCollectionHeadViewsSet(@[@"FCDropMenuCollectionHeader"])
         //注册自定义collectionViewCell 类名 如果使用了自定义collectionView 必填否则会崩溃
-        .wReginerCollectionCellsSet(@[@"FCDropMenuCollectionCell"]);
+        .wReginerCollectionCellsSet(@[@"FCDropMenuCollectionCell",@"FCDropMenuRangeCollectionCell"]);
         
         _menu = [[WMZDropDownMenu alloc] initWithFrame:CGRectMake(0, 0, HX_SCREEN_WIDTH, 44.f) withParam:param];
         _menu.delegate = self;
@@ -170,7 +171,6 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
         [self.view addSubview:self.menu];
     }
     [self.menu selectDefaltExpand];
-    HXLog(@"选中的索引-%@",self.menu.selectTitleBtn);
 }
 #pragma mark -- WMZDropMenuDelegate必须实现的代理
 /*
@@ -305,9 +305,6 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
 */
 - (MenuUIStyle)menu:(WMZDropDownMenu *)menu uiStyleForRowIndexPath:(WMZDropIndexPath *)dropIndexPath{
     if (dropIndexPath.section == 3) {
-        if (dropIndexPath.row == 7) {
-            return MenuUICollectionRangeTextField;
-        }
         return MenuUICollectionView;
     }
     return MenuUITableView;
@@ -394,12 +391,11 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
             cell.textLa.backgroundColor = model.isSelected?HXControlBg:HXGlobalBg;
             return cell;
         }else{
-            WMZMenuTextFieldCell *cell = (WMZMenuTextFieldCell *)[collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([WMZMenuTextFieldCell class]) forIndexPath:indexpath];
+            FCDropMenuRangeCollectionCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([FCDropMenuRangeCollectionCell class]) forIndexPath:indexpath];
             if ([model isKindOfClass:[WMZDropTree class]]) {
                 WMZDropTree *tree = model;
                 tree.lowPlaceholder = tree.config[@"lowPlaceholder"]?:tree.lowPlaceholder;
                 tree.highPlaceholder = tree.config[@"highPlaceholder"]?:tree.highPlaceholder;
-                tree.lowPlaceholder =
                 cell.lowText.placeholder =  tree.lowPlaceholder;
                 cell.highText.placeholder = tree.highPlaceholder;
                 
@@ -411,7 +407,7 @@ static NSString *const StoreHouseFooter = @"StoreHouseFooter";
                     }
                 }
                 MenuWeakSelf(cell)
-                cell.myBlock = ^(UITextField * _Nonnull textField, NSString * _Nonnull string) {
+                cell.fieldBlock = ^(UITextField * _Nonnull textField, NSString * _Nonnull string) {
                     MenuStrongSelf(weakObject)
                     if (textField == cell.lowText) {
                         strongObject.lowT = string;

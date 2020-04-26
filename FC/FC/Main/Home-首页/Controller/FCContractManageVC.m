@@ -262,7 +262,7 @@ static NSString *const ContractManageCell = @"ContractManageCell";
  注:最后一个默认是筛选 消失动画为 MenuHideAnimalLeft
 */
 - (MenuHideAnimalStyle)menu:(WMZDropDownMenu *)menu hideAnimalStyleForRowInSection:(NSInteger)section{
-    return MenuHideAnimalTop;
+    return MenuHideAnimalNone;
 }
 /*
 *返回WMZDropIndexPath每行 每列的编辑类型 单选|多选  默认单选

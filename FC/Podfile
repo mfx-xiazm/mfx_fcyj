@@ -2,6 +2,7 @@ platform :ios, "9.0"
 inhibit_all_warnings!
 
 target 'FC' do
+    pod 'AMap3DMap-NO-IDFA'
     pod "AFNetworking"
     pod "ZLPhotoBrowser"
     pod "MJRefresh"

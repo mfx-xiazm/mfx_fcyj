@@ -27,6 +27,7 @@
 #import "FCDepartmentSaleRecordVC.h"
 #import "FCAreaSaleRecordVC.h"
 #import "HXMallTabBarController.h"
+#import "FCMapToHouseVC.h"
 
 @interface FCHomeVC ()<TYCyclePagerViewDataSource, TYCyclePagerViewDelegate, UITextFieldDelegate>
 /* 轮播图 */
@@ -198,7 +199,8 @@
             [self.navigationController pushViewController:rvc animated:YES];
         }
     }else if (sender.tag == 6) {
-       
+        FCMapToHouseVC *mvc = [FCMapToHouseVC new];
+        [self.navigationController pushViewController:mvc animated:YES];
     }else if (sender.tag == 7) {
         FCContractManageVC *mvc = [FCContractManageVC new];
         [self.navigationController pushViewController:mvc animated:YES];

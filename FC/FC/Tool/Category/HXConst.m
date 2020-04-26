@@ -7,8 +7,8 @@ NSString * const HXDeviceTokens = @"HXDeviceTokens";
 
 NSString * const HXPayPushNotification = @"HXPayPushNotification";
 
-// 腾讯地图key
-NSString * const HXQMapKey = @"3KNBZ-JY46U-PJIVU-2CNIF-YX3RJ-OYFYZ";
+// 高德地图key
+NSString * const HXAMapKey = @"262eee15390f6b3e4929b9800bfbafc3";
 
 // 微信分享/微信支付的key
 NSString * const HXWXKey = @"wxc1a03952e7141f00";

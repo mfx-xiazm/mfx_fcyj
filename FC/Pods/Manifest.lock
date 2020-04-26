@@ -14,6 +14,9 @@ PODS:
   - AFNetworking/Serialization (4.0.0)
   - AFNetworking/UIKit (4.0.0):
     - AFNetworking/NSURLSession
+  - AMap3DMap-NO-IDFA (7.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.6.3)
+  - AMapFoundation-NO-IDFA (1.6.3)
   - HBDNavigationBar (1.7.5)
   - IQKeyboardManager (6.5.5)
   - JJFontFit (1.0.1)
@@ -45,6 +48,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - AMap3DMap-NO-IDFA
   - HBDNavigationBar
   - IQKeyboardManager
   - JJFontFit
@@ -67,6 +71,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - AMap3DMap-NO-IDFA
+    - AMapFoundation-NO-IDFA
     - HBDNavigationBar
     - IQKeyboardManager
     - JJFontFit
@@ -90,6 +96,8 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
+  AMap3DMap-NO-IDFA: 0ee61a2c66d35ff03b5c51c0fdd347c304408353
+  AMapFoundation-NO-IDFA: cf241b2f4832fe6c9e121af381e34791be49ad0d
   HBDNavigationBar: e802e7abf53c835abe7325aca9e6cff73ebe931d
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   JJFontFit: 1332e4bf5b5d55d335ec1d6dd585d7f4da21c348
@@ -111,6 +119,6 @@ SPEC CHECKSUMS:
   ZLCollectionViewFlowLayout: be1c74853577964cb806572807dd9b983945b825
   ZLPhotoBrowser: 638189d99c51f78013c9a0369e385db4a4b9673f
 
-PODFILE CHECKSUM: e0e6994ad315f2a711d25300c305b3f03dc1cf93
+PODFILE CHECKSUM: c7f1db955ad9516335ab0eedbf1590df876b1284
 
 COCOAPODS: 1.9.1

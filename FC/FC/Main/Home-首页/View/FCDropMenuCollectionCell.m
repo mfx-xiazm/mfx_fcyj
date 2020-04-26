@@ -15,6 +15,7 @@
         _textLa.font = [UIFont systemFontOfSize:13];
         _textLa.textAlignment = NSTextAlignmentCenter;
         _textLa.layer.masksToBounds = YES;
+        _textLa.numberOfLines = 2;
         [self.contentView addSubview:_textLa];
     }
     return _textLa;

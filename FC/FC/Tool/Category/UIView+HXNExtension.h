@@ -42,7 +42,7 @@
 -(void)setShadowWithCornerRadius:(CGFloat)cornerRadius shadowColor:(UIColor *)shadowColor shadowOffset:(CGSize)shadowOffset shadowOpacity:(CGFloat)shadowOpacity shadowRadius:(CGFloat)shadowRadius;
 
 //view转成image
-- (UIImage*) imageWithUIView;
+- (UIImage*)imageWithUIView;
 
 //- (CGFloat)x;
 //- (void)setX:(CGFloat)x;

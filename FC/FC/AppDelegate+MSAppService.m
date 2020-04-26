@@ -14,6 +14,7 @@
 #import <UMShare/UMShare.h>
 #import <UMCommon/UMCommon.h>
 #import <AlipaySDK/AlipaySDK.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @implementation AppDelegate (MSAppService)
 
@@ -24,6 +25,11 @@
     [UMConfigure initWithAppkey:HXUMengKey channel:@"App Store"];
     
     [self configUSharePlatforms];
+    
+    /* 高德地图 初始化 */
+    [AMapServices sharedServices].apiKey = HXAMapKey;
+    //[AMapServices sharedServices].crashReportEnabled = NO;
+    [[AMapServices sharedServices] setEnableHTTPS:YES];
     
     //->微信支付相关//
     [WXApi registerApp:HXWXKey];
